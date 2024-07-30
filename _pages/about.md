@@ -17,16 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am a researcher in Xi'an Jiaotong-Liverpool University. My research interests include:
-
-Mobile Device Human-Computer Interaction and Visualization
-Multi-Device Interaction and Visualization
-Narrative Visualization
-Data Physicalization.
+Hello, I am a researcher in Xi'an Jiaotong-Liverpool University. My research interests include: Mobile Device Human-Computer Interaction and Visualization; Multi-Device Interaction and Visualization; Narrative Visualization; Data Physicalization.
 
 
 # 🔥 News
-- *2024.07*: &nbsp;🎉🎉 Our paper titled MapCraft: Dissecting and Designing Custom Geo-Infographics received an honorable mention at ChinaVis 2024. 
+- *2024.07*: &nbsp;🎉🎉 Our paper titled MapCraft: Dissecting and Designing Custom Geo-Infographics received an honorable mention at ChinaVis 2024.
+- *2024.06*: &nbsp;🎉🎉 Our project Totem Tales（图腾说) won the second price in the Data Challenge Contest at ChinaVis 2024.
 
 
 # 📝 Publications 
