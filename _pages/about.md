@@ -34,17 +34,17 @@ Hello, I am a researcher in Xi'an Jiaotong-Liverpool University. My research int
 
 Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, **Yu Liu**
 
-
+</div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/Physicalization.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-text' markdown="2">
 
 [A Comparative Study of Table-Sized Physicalization and Digital Visualization](https://chinavis.org/2024/english/paper_en.html)
 
 Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 </div>
-
+</div>
 
 
 # 🎖 Honors and Awards
