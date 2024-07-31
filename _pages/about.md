@@ -51,7 +51,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 - *2024.06* ChinaVis Data Challenge Contest, Merit Prize (优秀奖). 
 - *2023.06* ChinaVis Data Challenge Contest, Second Prize.
 - *2022.06* ChinaVis Data Challenge Contest, First Prize.
-- *2021.06* ChinaVis Data Challenge Contest, Second Prize.. 
+- *2021.06* ChinaVis Data Challenge Contest, Second Prize.
 
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
