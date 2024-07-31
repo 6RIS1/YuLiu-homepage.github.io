@@ -58,7 +58,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 - *2016.09 - 2017.12*, MSc. Design for Informatics, University of Edinburgh.
 - *2016.06 - 2012.09*, BSc. Computer Science and Software Engineering. Taiyuan University of Technology.
 
-# 💬 Invited Talks
+# ![teacher_1115729](https://github.com/user-attachments/assets/1152abf1-9e5a-467b-9a7a-9686709e4427) Invited Talks
 - *2023.04*, 2023 China-Japan-South Korea Visualization Forum, Seul, Korea. 
 
 # 💻 Internships
