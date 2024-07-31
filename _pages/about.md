@@ -27,7 +27,7 @@ Hello, I am a researcher in Xi'an Jiaotong-Liverpool University. My research int
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/MapCraft.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MapCraft: Dissecting and Designing Custom Geo-Infographics](https://chinavis.org/2024/english/paper_en.html)
