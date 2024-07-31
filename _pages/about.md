@@ -37,7 +37,7 @@ Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, **Yu Liu**
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BigVis 2024</div><img src='images/Physicalization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/Physicalization.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Comparative Study of Table-Sized Physicalization and Digital Visualization](https://chinavis.org/2024/english/paper_en.html)
@@ -46,7 +46,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/Projectedmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BigVis 2024</div><img src='images/Projectedmap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps](https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html).
