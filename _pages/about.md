@@ -54,7 +54,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 - *2021.06* ChinaVis Data Challenge Contest, Second Prize.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2019.06 - 2022.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💬 Invited Talks
@@ -62,4 +62,4 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2021.12 - 2022.06*, Visualization Designer, [Bytedance](https://www.bytedance.com/en/), Beijing, China.
