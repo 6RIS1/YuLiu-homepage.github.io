@@ -46,6 +46,15 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/Physicalization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps].
+
+Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, **Yu Liu**
+</div>
+</div>
+
 
 # ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Honors and Awards
 - *2024.06* ChinaVis Data Challenge Contest, Second Prize.
