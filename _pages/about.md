@@ -48,10 +48,13 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 
 
 # ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Honors and Awards
-- *2024.06* ChinaVis Data Challenge Contest, Merit Prize (优秀奖). 
-- *2023.06* ChinaVis Data Challenge Contest, Second Prize.
-- *2022.06* ChinaVis Data Challenge Contest, First Prize.
-- *2021.06* ChinaVis Data Challenge Contest, Second Prize.
+- *2024.06* ChinaVis Data Challenge Contest, Second Prize.
+- *2023.06* ChinaVis Data Challenge Contest, First Prize.
+- *2022.06* ChinaVis Data Challenge Contest, Second Prize.
+- *2021.06* ChinaVis Data Challenge Contest, Merit Prize (优秀奖). 
+
+
+
 
 # ![global-education_3379870](https://github.com/user-attachments/assets/1ffecb0d-2ef9-4507-9815-6d66c19d6726) Educations
 - *2018.02 - 2022.06*, Ph.D. Computer Science, University of Liverpool. 
