@@ -27,6 +27,26 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 <span class='anchor' id='-publications'></span>
 # ![paper_420287](https://github.com/user-attachments/assets/457296da-93ad-4669-bf3c-bfbe831df244) Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2024</div><img src='images/Projectedmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing Mobile Interaction: Practical Insights from
+Smartphone and Smartwatch Integration](https://mobilehci.acm.org/2024/).
+
+Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, **Yu Liu**
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BigVis 2024</div><img src='images/Projectedmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps](https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html).
+
+Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, **Yu Liu**
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -46,14 +66,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BigVis 2024</div><img src='images/Projectedmap.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps](https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html).
-
-Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, **Yu Liu**
-</div>
-</div>
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 <span class='anchor' id='-honors-and-awards'></span>
 # ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Honors and Awards
