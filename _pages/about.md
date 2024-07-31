@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am a researcher in Xi'an Jiaotong-Liverpool University. My research interests include: Mobile Device Human-Computer Interaction and Visualization; Multi-Device Interaction and Visualization; Narrative Visualization; Data Physicalization.
+Hello, I am a researcher in Xi'an Jiaotong-Liverpool University. My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
 
 
 # 🔥 News
@@ -36,6 +36,17 @@ Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, **Yu Liu**
 
 
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Comparative Study of Table-Sized Physicalization and Digital Visualization](https://chinavis.org/2024/english/paper_en.html)
+
+Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
+
+
+</div>
+
 </div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
