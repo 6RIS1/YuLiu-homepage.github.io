@@ -20,7 +20,7 @@ redirect_from:
 Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/en). My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
 
 
-# ![news_7108158](https://github.com/user-attachments/assets/844133c4-ab6c-41be-b9da-cbd20296d3f4) News
+# ![world-news_2644746](https://github.com/user-attachments/assets/f25c2d8f-46b8-4880-9473-4280fb48cc65) News
 - *2024.07*: &nbsp; Our paper titled MapCraft: Dissecting and Designing Custom Geo-Infographics received an honorable mention at ChinaVis 2024.
 - *2024.06*: &nbsp; Our project Totem Tales（图腾说), won the second prize in the Data Challenge Contest at ChinaVis 2024.
 
@@ -53,7 +53,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 - *2022.06* ChinaVis Data Challenge Contest, First Prize.
 - *2021.06* ChinaVis Data Challenge Contest, Second Prize.
 
-# 📖 Educations
+# ![global-education_3379870](https://github.com/user-attachments/assets/1ffecb0d-2ef9-4507-9815-6d66c19d6726) Educations
 - *2018.02 - 2022.06*, Ph.D. Computer Science, University of Liverpool. 
 - *2016.09 - 2017.12*, MSc. Design for Informatics, University of Edinburgh.
 - *2016.06 - 2012.09*, BSc. Computer Science and Software Engineering. Taiyuan University of Technology.
