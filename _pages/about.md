@@ -19,11 +19,12 @@ redirect_from:
 
 Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/en). My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
 
-# ![world-news_2644746](https://github.com/user-attachments/assets/f25c2d8f-46b8-4880-9473-4280fb48cc65) <h1 id="-news">News</h1>
+<span class='anchor' id='-news'></span>
+# ![world-news_2644746](https://github.com/user-attachments/assets/f25c2d8f-46b8-4880-9473-4280fb48cc65) News
 - *2024.07*: &nbsp; Our paper titled MapCraft: Dissecting and Designing Custom Geo-Infographics received an honorable mention at ChinaVis 2024.
 - *2024.06*: &nbsp; Our project Totem Tales（图腾说), won the second prize in the Data Challenge Contest at ChinaVis 2024.
 
-
+<span class='anchor' id='-publications'></span>
 # ![paper_420287](https://github.com/user-attachments/assets/457296da-93ad-4669-bf3c-bfbe831df244) Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="sym" width="100%"></div></div>
@@ -54,7 +55,7 @@ Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, **Yu Liu**
 </div>
 </div>
 
-
+<span class='anchor' id='-honors-and-awards'></span>
 # ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Honors and Awards
 - *2024.06* ChinaVis Data Challenge Contest, Second Prize.
 - *2023.06* ChinaVis Data Challenge Contest, First Prize.
@@ -63,7 +64,7 @@ Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, **Yu Liu**
 
 
 
-
+<span class='anchor' id='-educations'></span>
 # ![global-education_3379870](https://github.com/user-attachments/assets/1ffecb0d-2ef9-4507-9815-6d66c19d6726) Educations
 - *2018.02 - 2022.06*, Ph.D. Computer Science, University of Liverpool (UoL). 
 - *2016.09 - 2017.12*, MSc. Design for Informatics, University of Edinburgh (UoE).
