@@ -70,7 +70,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 - Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach, Fabiola Polidoro, **Yu Liu** and Paul Craig, **ACM CHI 2024**
 
 <span class='anchor' id='-teaching'></span>
-# ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Teaching
+# ![mobiles](https://github.com/user-attachments/assets/1ebab8c8-ad3d-48b8-982f-87e3d3a2e02f) Teaching
 - CPT001 Professional Skills in Computer Science
 - CPT003 Introduction to Database
 
