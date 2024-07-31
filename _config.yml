@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yu Liu's Homepage"
-description              : "Welcome and thank you for visiting my site!"
+description              : "Welcome and thank you for visiting me!"
 repository               : "6ris1/YuLiu-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,8 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yu Liu"
-  avatar           : "images/Yu Liu.png"
+  name             : "Dr.Yu Liu"
+  avatar           : "images/yLIU.jpg"
   bio              : "Researcher"
   location         : "Suzhou, China"
   employer         :
