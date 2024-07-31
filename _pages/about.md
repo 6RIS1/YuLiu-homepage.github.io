@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am a researcher at Xi'an Jiaotong-Liverpool University. My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
+Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/en). My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
 
 
 # 🔥 News
