@@ -70,8 +70,10 @@ Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, **Yu Liu**
 - *2016.09 - 2017.12*, MSc. Design for Informatics, University of Edinburgh (UoE).
 - *2016.06 - 2012.09*, BSc. Computer Science and Software Engineering. Taiyuan University of Technology (TYUT).
 
+<span class='anchor' id='-invited-talks'></span>
 # ![teacher_1115729](https://github.com/user-attachments/assets/1152abf1-9e5a-467b-9a7a-9686709e4427) Invited Talks
 - *2023.04*, 2023 China-Japan-South Korea Visualization Forum, Seul, Korea. 
 
+<span class='anchor' id='-internships'></span>
 # ![identification_16269807](https://github.com/user-attachments/assets/17932ed8-0177-4e37-ab5a-070e73a9e0e4) Internships
 - *2021.12 - 2022.06*, Visualization Designer, [Bytedance](https://www.bytedance.com/en/), Beijing, China.
