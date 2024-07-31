@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/en). My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
+Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02). My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
 
 <span class='anchor' id='-news'></span>
 # ![world-news_2644746](https://github.com/user-attachments/assets/f25c2d8f-46b8-4880-9473-4280fb48cc65) News
@@ -68,6 +68,10 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 
 - Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration, Haonan Yao, Lixiang Zhao, Hai-Ning Liang, **Yu Liu**, Yue Li and Lingyun Yu, **ACM CHI 2024**
 - Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach, Fabiola Polidoro, **Yu Liu** and Paul Craig, **ACM CHI 2024**
+
+<span class='anchor' id='-teaching'></span> ![teaching](https://github.com/user-attachments/assets/1256d20b-1608-4f32-a024-0d654c48597c) Teaching
+- CPT001 Professional Skills in Computer Science
+- CPT003 Introduction to Database
 
 <span class='anchor' id='-honors-and-awards'></span>
 # ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Honors and Awards
