@@ -57,9 +57,9 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 
 
 # ![global-education_3379870](https://github.com/user-attachments/assets/1ffecb0d-2ef9-4507-9815-6d66c19d6726) Educations
-- *2018.02 - 2022.06*, Ph.D. Computer Science, University of Liverpool. 
-- *2016.09 - 2017.12*, MSc. Design for Informatics, University of Edinburgh.
-- *2016.06 - 2012.09*, BSc. Computer Science and Software Engineering. Taiyuan University of Technology.
+- *2018.02 - 2022.06*, Ph.D. Computer Science, University of Liverpool (UoL). 
+- *2016.09 - 2017.12*, MSc. Design for Informatics, University of Edinburgh (UoE).
+- *2016.06 - 2012.09*, BSc. Computer Science and Software Engineering. Taiyuan University of Technology (TYUT).
 
 # ![teacher_1115729](https://github.com/user-attachments/assets/1152abf1-9e5a-467b-9a7a-9686709e4427) Invited Talks
 - *2023.04*, 2023 China-Japan-South Korea Visualization Forum, Seul, Korea. 
