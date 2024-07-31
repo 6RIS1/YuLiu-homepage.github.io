@@ -94,7 +94,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 - *2023.04*, 2023 China-Japan-South Korea Visualization Forum, Seul, Korea.
 
 <span class='anchor' id='-service'></span>
-# ![teacher_1115729](https://github.com/user-attachments/assets/1152abf1-9e5a-467b-9a7a-9686709e4427) Service
+# ![studying_16493824](https://github.com/user-attachments/assets/d3738a87-6ca4-45eb-af0f-32482cfbf07d) Service
 Reviewer of ACM MobileHCI, ISS, IEEE VR, ISMAR, PacificVis, ChinaVis etc.
 
 <span class='anchor' id='-internships'></span>
