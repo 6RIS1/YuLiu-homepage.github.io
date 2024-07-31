@@ -38,7 +38,7 @@ Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, **Yu Liu**
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/Physicalization.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="2">
+<div class='paper-box-text' markdown="1">
 
 [A Comparative Study of Table-Sized Physicalization and Digital Visualization](https://chinavis.org/2024/english/paper_en.html)
 
