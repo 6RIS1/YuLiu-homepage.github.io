@@ -20,7 +20,8 @@ redirect_from:
 Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/en). My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
 
 
-# 🎉 News
+# ![news](https://github.com/user-attachments/assets/2e377837-3fae-4b6b-b9f1-40590af13c08)
+ News
 - *2024.07*: &nbsp; Our paper titled MapCraft: Dissecting and Designing Custom Geo-Infographics received an honorable mention at ChinaVis 2024.
 - *2024.06*: &nbsp; Our project Totem Tales（图腾说), won the second prize in the Data Challenge Contest at ChinaVis 2024.
 
