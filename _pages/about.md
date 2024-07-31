@@ -27,7 +27,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 <span class='anchor' id='-publications'></span>
 # ![paper_420287](https://github.com/user-attachments/assets/457296da-93ad-4669-bf3c-bfbe831df244) Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2024</div><img src='images/Projectedmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2024</div><img src='images/mobiles.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enhancing Mobile Interaction: Practical Insights from
