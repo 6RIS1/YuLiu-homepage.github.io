@@ -25,7 +25,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 - *2024.06*: &nbsp; Our project Totem Tales（图腾说), won the second prize in the Data Challenge Contest at ChinaVis 2024.
 
 
-# ![content-marketing_8980624 (2)](https://github.com/user-attachments/assets/a43c8fcd-4b9f-4bb0-bdd9-e302f363d519) Publications 
+# ![paper_420287](https://github.com/user-attachments/assets/457296da-93ad-4669-bf3c-bfbe831df244) Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
