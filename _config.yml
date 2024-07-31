@@ -25,7 +25,7 @@ author:
   avatar           : "images/yLIU.jpg"
   bio              : "Visualization Researcher"
   location         : "Suzhou, China"
-  employer         : "Xi'an Jiaotong-Liverpool University"
+  employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=K_oqjRAAAAAJ&hl=en"
   email            : "Yu.Liu02@xjtlu.edu.cn"
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0000-0003-0226-1311"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
