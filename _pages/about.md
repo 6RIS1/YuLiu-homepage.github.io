@@ -69,10 +69,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 - Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration, Haonan Yao, Lixiang Zhao, Hai-Ning Liang, **Yu Liu**, Yue Li and Lingyun Yu, **ACM CHI 2024**
 - Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach, Fabiola Polidoro, **Yu Liu** and Paul Craig, **ACM CHI 2024**
 
-<span class='anchor' id='-teaching'></span>
-# ![teaching](https://github.com/user-attachments/assets/20e43195-f4c2-4b65-95a2-2c57a358de63) Teaching
-- CPT001 Professional Skills in Computer Science
-- CPT003 Introduction to Database
+
 
 <span class='anchor' id='-honors-and-awards'></span>
 # ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Honors and Awards
