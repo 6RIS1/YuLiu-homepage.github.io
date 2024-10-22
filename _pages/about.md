@@ -31,7 +31,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 <div class='paper-box-text' markdown="1">
 
 [Enhancing Mobile Interaction: Practical Insights from
-Smartphone and Smartwatch Integration](https://mobilehci.acm.org/2024/).
+Smartphone and Smartwatch Integration](https://dl.acm.org/doi/10.1145/3640471.3680451).
 
 Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, **Yu Liu**
 </div>
@@ -50,7 +50,7 @@ Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, **Yu Liu**
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MapCraft: Dissecting and Designing Custom Geo-Infographics](https://chinavis.org/2024/english/paper_en.html)
+[MapCraft: Dissecting and Designing Custom Geo-Infographics](https://arxiv.org/abs/2409.13424)
 
 Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, **Yu Liu**
 
@@ -60,7 +60,7 @@ Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, **Yu Liu**
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/Physicalization.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A Comparative Study of Table-Sized Physicalization and Digital Visualization](https://chinavis.org/2024/english/paper_en.html)
+[A Comparative Study of Table-Sized Physicalization and Digital Visualization](https://arxiv.org/abs/2409.06951)
 
 Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 </div>
