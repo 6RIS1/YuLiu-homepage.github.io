@@ -77,7 +77,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 
 
 <span class='anchor' id='-honors-and-awards'></span>
-# ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Honors and Awards
+# ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Student Competitions
 - *2024.06* ChinaVis Data Challenge Contest, Second Prize.
 - *2023.06* ChinaVis Data Challenge Contest, First Prize.
 - *2022.06* ChinaVis Data Challenge Contest, Second Prize.
@@ -97,7 +97,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 
 <span class='anchor' id='-service'></span>
 # ![studying_16493824](https://github.com/user-attachments/assets/d3738a87-6ca4-45eb-af0f-32482cfbf07d) Service
-Reviewer of ACM MobileHCI, ISS, IEEE VR, ISMAR, PacificVis, ChinaVis etc.
+Reviewer of IEEE VIS, ACM MobileHCI, CSCW, IJHCI, ISS, IEEE VR, ISMAR, PacificVis, ChinaVis, VINCI etc.
 
 <span class='anchor' id='-internships'></span>
 # ![identification_16269807](https://github.com/user-attachments/assets/17932ed8-0177-4e37-ab5a-070e73a9e0e4) Internships
