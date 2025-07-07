@@ -17,10 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02). My research interests include Mobile Device Human-Computer Interaction and Visualization, Multi-Device Interaction and Visualization, Narrative Visualization, and Data Physicalization.
+Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02). My research interests lie primarily in Human-Computer Interaction (HCI) and Visualization. More specifically, my work focuses on mobile device interaction and visualization, multi-device interaction and visualization, narrative visualization for digital cultural heritage, and data physicalization.
 
 <span class='anchor' id='-news'></span>
 # ![world-news_2644746](https://github.com/user-attachments/assets/f25c2d8f-46b8-4880-9473-4280fb48cc65) News
+- *2025.06": &nbsp; Our project title ARthroMap (画游姑苏), received the Third Prize in the 2025 “Huihu Youth Innovation” Suzhou Dushu Lake University Student Cultural and Creative Competition, along with an entrepreneurial seed fund of 50,000 RMB.
 - *2024.07*: &nbsp; Our paper titled MapCraft: Dissecting and Designing Custom Geo-Infographics received an honorable mention at ChinaVis 2024.
 - *2024.06*: &nbsp; Our project Totem Tales（图腾说), won the second prize in the Data Challenge Contest at ChinaVis 2024.
 
