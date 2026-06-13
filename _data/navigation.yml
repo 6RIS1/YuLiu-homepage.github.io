@@ -10,16 +10,16 @@ main:
     url: "#publications"
 
   - title: "Honors and Awards"
-    url: "/YuLiu-homepage.github.io/#honors-and-awards"
+    url: "#honors-and-awards"
 
   - title: "Educations"
-    url: "/YuLiu-homepage.github.io/#educations"
+    url: "#educations"
 
   - title: "Invited Talks"
-    url: "/YuLiu-homepage.github.io/#invited-talks"
+    url: "#invited-talks"
 
   - title: "Service"
-    url: "/YuLiu-homepage.github.io/#service"   
+    url: "#service"   
 
   - title: "Internships"
-    url: "/YuLiu-homepage.github.io/#internships"
+    url: "#internships"
