@@ -4,10 +4,10 @@ main:
     url: "#about-me"
 
   - title: "News"
-    url: "/YuLiu-homepage.github.io/#news"
+    url: "#news"
 
   - title: "Publications"
-    url: "/YuLiu-homepage.github.io/#publications"
+    url: "#publications"
 
   - title: "Honors and Awards"
     url: "/YuLiu-homepage.github.io/#honors-and-awards"
