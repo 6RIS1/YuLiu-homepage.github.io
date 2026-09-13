@@ -653,18 +653,19 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <!-- 2023 Year Section -->
   <div class="timeline-year-section" data-year="2023">
     <div class="timeline-content-col">
-      <div class="paper-row" data-tags="immersive">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
-        </div>
-        <div class="paper-title">MEinVR: Multimodal Interaction Techniques in Immersive Exploration</div>
-        <div class="paper-authors">Ziyue Yuan, Shuqi He, <b>Yu Liu</b>, Lingyun Yu</div>
-        <div class="paper-venue"><em>Visual Informatics</em>, 2023.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://doi.org/10.1016/j.visinf.2023.06.001" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@article{yuan2023meinvr,
+      <div class="paper-row has-teaser" data-tags="immersive">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
+          </div>
+          <div class="paper-title">MEinVR: Multimodal Interaction Techniques in Immersive Exploration</div>
+          <div class="paper-authors">Ziyue Yuan, Shuqi He, <b>Yu Liu</b>, Lingyun Yu</div>
+          <div class="paper-venue"><em>Visual Informatics</em>, 2023.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://doi.org/10.1016/j.visinf.2023.06.001" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@article{yuan2023meinvr,
   title={MEinVR: Multimodal Interaction Techniques in Immersive Exploration},
   author={Yuan, Ziyue and He, Shuqi and Liu, Yu and Yu, Lingyun},
   journal={Visual Informatics},
@@ -675,7 +676,11 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={Elsevier},
   doi={10.1016/j.visinf.2023.06.001}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/meinvr.jpg" class="image-popup" title="Click to enlarge"><img src="images/meinvr.jpg" alt="Teaser"></a>
         </div>
       </div>
 
