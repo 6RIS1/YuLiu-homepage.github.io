@@ -626,18 +626,19 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="smartwatch">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-        </div>
-        <div class="paper-title">Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach</div>
-        <div class="paper-authors">Fabiola Polidoro, <b>Yu Liu</b>, Paul Craig</div>
-        <div class="paper-venue"><em>Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA)</em>, 2024.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3613905.3650994" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{polidoro2024enhancing,
+      <div class="paper-row has-teaser" data-tags="smartwatch">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+          </div>
+          <div class="paper-title">Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach</div>
+          <div class="paper-authors">Fabiola Polidoro, <b>Yu Liu</b>, Paul Craig</div>
+          <div class="paper-venue"><em>Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA)</em>, 2024.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3613905.3650994" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{polidoro2024enhancing,
   title={Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach},
   author={Polidoro, Fabiola and Liu, Yu and Craig, Paul},
   booktitle={Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '24)},
@@ -645,7 +646,11 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3613905.3650994}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/sketch_a_touch.jpg" class="image-popup" title="Click to enlarge"><img src="images/sketch_a_touch.jpg" alt="Teaser"></a>
         </div>
       </div>
     </div>
