@@ -262,7 +262,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/visualizing_wrist.jpg" class="image-popup" title="Click to enlarge"><img src="images/visualizing_wrist.jpg" alt="Teaser"></a>
+          <a href="images/visualizing_wrist.png" class="image-popup" title="Click to enlarge"><img src="images/visualizing_wrist.png" alt="Teaser"></a>
         </div>
       </div>
 
