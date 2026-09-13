@@ -82,16 +82,17 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box' data-tags="immersive cultural">
   <div class='paper-box-image'>
-    <div class="paper-tags-overlay">
-      <span class="tag-device-overlay" onclick="toggleFilter('immersive', '🥽 Immersive XR')" style="pointer-events:auto; cursor:pointer;">🥽 Immersive XR</span>
-      <span class="tag-theme-overlay" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')" style="pointer-events:auto; cursor:pointer;">🏛️ Cultural Heritage</span>
-    </div>
     <img src='images/scroll_vr.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
+    <div class="paper-row-tags">
+      <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
+      <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
+      <span class="badge-award">🏆 Honorable Mention</span>
+    </div>
     <div class="paper-title">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
     <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026. <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -110,13 +111,13 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box' data-tags="smartwatch sports">
   <div class='paper-box-image'>
-    <div class="paper-tags-overlay">
-      <span class="tag-device-overlay" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')" style="pointer-events:auto; cursor:pointer;">⌚ Smartwatch & Mobile</span>
-      <span class="tag-theme-overlay" onclick="toggleFilter('sports', '🏃 Sports & Fitness')" style="pointer-events:auto; cursor:pointer;">🏃 Sports & Fitness</span>
-    </div>
     <img src='images/movemate.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
+    <div class="paper-row-tags">
+      <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+      <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
+    </div>
     <div class="paper-title">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
     <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
     <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
