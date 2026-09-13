@@ -79,116 +79,65 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <button class="clear-filter-btn" onclick="resetFilter()">Show All Papers ✕</button>
 </div>
 
-<div class="pub-subheading"><span class="subheading-icon-badge">🌟</span> Featured Highlights</div>
-
-<div class='paper-box' data-tags="immersive cultural">
-  <div class='paper-box-image'>
-    <img src='images/scroll_vr.png' alt="Teaser">
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
-      <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
-      <span class="badge-award">🏆 Honorable Mention</span>
-    </div>
-    <div class="paper-title">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
-    <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{peng2026exploring,
-  title={Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings},
-  author={Peng, Yuanyuan and Guo, Yuhan and Zhou, Yutong and Liu, Suxuan and Wang, Jiayu and Cai, Jiawen and Fu, Yihan and Chen, Xiaojiao and Liu, Yu},
-  booktitle={Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)},
-  year={2026},
-  publisher={ACM}
-}</code></pre>
-      </details>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box' data-tags="smartwatch sports">
-  <div class='paper-box-image'>
-    <img src='images/movemate.png' alt="Teaser">
-  </div>
-  <div class='paper-box-text'>
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-      <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
-    </div>
-    <div class="paper-title">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
-    <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263573" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{liu2026movemate,
-  title={MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance},
-  author={Liu, Yihan and Xie, Anqi and Hu, Shuheng and Yue, Yong and Liu, Yu},
-  booktitle={Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)},
-  year={2026},
-  publisher={ACM}
-}</code></pre>
-      </details>
-    </div>
-  </div>
-</div>
-
-<div class="pub-subheading"><span class="subheading-icon-badge">📚</span> All Publications</div>
-
 <div class="pub-timeline-container">
 
   <!-- 2026 Year Section -->
   <div class="timeline-year-section" data-year="2026">
     <div class="timeline-content-col">
-      <div class="paper-row" data-tags="immersive cultural">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
-          <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
-          <span class="badge-award">🏆 Honorable Mention</span>
-        </div>
-        <div class="paper-title">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
-        <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{peng2026exploring,
+      <div class="paper-row has-teaser" data-tags="immersive cultural">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
+            <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
+            <span class="badge-award">🏆 Honorable Mention</span>
+          </div>
+          <div class="paper-title"><span class="badge-new">NEW</span> Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
+          <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{peng2026exploring,
   title={Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings},
   author={Peng, Yuanyuan and Guo, Yuhan and Zhou, Yutong and Liu, Suxuan and Wang, Jiayu and Cai, Jiawen and Fu, Yihan and Chen, Xiaojiao and Liu, Yu},
   booktitle={Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)},
   year={2026},
   publisher={ACM}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <img src="images/scroll_vr.png" alt="Teaser">
         </div>
       </div>
 
-      <div class="paper-row" data-tags="smartwatch sports">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
-        </div>
-        <div class="paper-title">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
-        <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{liu2026movemate,
+      <div class="paper-row has-teaser" data-tags="smartwatch sports">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+            <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
+          </div>
+          <div class="paper-title"><span class="badge-new">NEW</span> MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
+          <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263573" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{liu2026movemate,
   title={MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance},
   author={Liu, Yihan and Xie, Anqi and Hu, Shuheng and Yue, Yong and Liu, Yu},
   booktitle={Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)},
   year={2026},
   publisher={ACM}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <img src="images/movemate.png" alt="Teaser">
         </div>
       </div>
 
@@ -1088,17 +1037,10 @@ function filterPubs(tag, label) {
 
   var matchCount = 0;
 
-  document.querySelectorAll('.paper-box').forEach(function(card) {
-    var tags = (card.getAttribute('data-tags') || '').split(' ');
-    var match = tags.indexOf(tag) !== -1;
-    card.style.display = match ? 'flex' : 'none';
-    if (match) matchCount++;
-  });
-
   document.querySelectorAll('.paper-row').forEach(function(row) {
     var tags = (row.getAttribute('data-tags') || '').split(' ');
     var match = tags.indexOf(tag) !== -1;
-    row.style.display = match ? 'block' : 'none';
+    row.style.display = match ? '' : 'none';
     if (match) matchCount++;
   });
 
@@ -1145,11 +1087,8 @@ function resetFilter() {
   var statusBar = document.getElementById('filterStatusBar');
   if (statusBar) statusBar.style.display = 'none';
 
-  document.querySelectorAll('.paper-box').forEach(function(card) {
-    card.style.display = 'flex';
-  });
   document.querySelectorAll('.paper-row').forEach(function(row) {
-    row.style.display = 'block';
+    row.style.display = '';
   });
   document.querySelectorAll('.timeline-year-section').forEach(function(section) {
     section.style.display = 'grid';
