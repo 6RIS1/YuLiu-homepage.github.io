@@ -19,47 +19,72 @@ redirect_from:
 
 Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02). My research interests lie primarily in Human-Computer Interaction (HCI) and Visualization. More specifically, my work focuses on mobile device interaction and visualization, multi-device interaction and visualization, narrative visualization for digital cultural heritage, and data physicalization.
 
-<div class="research-pillars">
-  <div class="pillar-card pillar-device">
-    <div class="pillar-header">📱 Interaction & Modality (Device)</div>
-    <div class="pillar-tags">
-      <span class="tag-device">🥽 Immersive XR</span>
-      <span class="tag-device">⌚ Smartwatch & Mobile</span>
-      <span class="tag-device">🖥️ Multi-Device & Display</span>
-      <span class="tag-device">🧱 Data Physicalization</span>
-    </div>
-  </div>
-  <div class="pillar-card pillar-theme">
-    <div class="pillar-header">🎯 Application Domains (Theme)</div>
-    <div class="pillar-tags">
-      <span class="tag-theme">🏃 Sports & Fitness</span>
-      <span class="tag-theme">🏛️ Cultural Heritage</span>
-      <span class="tag-theme">📊 Visual Analytics & Design</span>
-    </div>
-  </div>
-</div>
-
 <span class='anchor' id='news'></span>
 <span class='anchor' id='-news'></span>
 # ![world-news_2644746](https://github.com/user-attachments/assets/f25c2d8f-46b8-4880-9473-4280fb48cc65) News
 - *2026.08*: &nbsp; Two papers were accepted to **ACM MobileHCI 2026**! Notably, *"Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings"* received the **Honorable Mention** award. The second paper is *"MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance"*.
 - *2025.12*: &nbsp; Two papers were accepted to **ACM VINCI 2025**! Notably, *"Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies"* received the **Honorable Mention** award. The second paper is *"From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West"*.
-- *2025.06*: &nbsp; Our project *"ARthroMap (画游姑苏)"* received the **Third Prize** in the **2025 "Huihu Youth Innovation" Suzhou Dushu Lake University Student Cultural and Creative Competition**, along with an entrepreneurial seed fund of 50,000 RMB. I received the title of **Excellent Instructor**.
-- *2025.05*: &nbsp; I received the **Student-Voted Best Teacher Award** for the academic year 2023-2024! Thanks to all for your wonderful support!
-- *2024.07*: &nbsp; Our paper *"MapCraft: Dissecting and Designing Custom Geo-Infographics"* received the **Honorable Mention** award at **ChinaVis 2024**.
-- *2024.06*: &nbsp; Our project *"Totem Tales (图腾说)"* won the **Second Prize** in the **ChinaVis 2024 Data Challenge Contest**.
+
+<details class="news-archive">
+  <summary class="news-toggle-btn"><span>View More News (4)</span> ▾</summary>
+  <ul class="news-archive-list">
+    <li><em>2025.06</em>: &nbsp; Our project <em>"ARthroMap (画游姑苏)"</em> received the <strong>Third Prize</strong> in the <strong>2025 "Huihu Youth Innovation" Suzhou Dushu Lake University Student Cultural and Creative Competition</strong>, along with an entrepreneurial seed fund of 50,000 RMB. I received the title of <strong>Excellent Instructor</strong>.</li>
+    <li><em>2025.05</em>: &nbsp; I received the <strong>Student-Voted Best Teacher Award</strong> for the academic year 2023-2024! Thanks to all for your wonderful support!</li>
+    <li><em>2024.07</em>: &nbsp; Our paper <em>"MapCraft: Dissecting and Designing Custom Geo-Infographics"</em> received the <strong>Honorable Mention</strong> award at <strong>ChinaVis 2024</strong>.</li>
+    <li><em>2024.06</em>: &nbsp; Our project <em>"Totem Tales (图腾说)"</em> won the <strong>Second Prize</strong> in the <strong>ChinaVis 2024 Data Challenge Contest</strong>.</li>
+  </ul>
+</details>
 
 <span class='anchor' id='publications'></span>
 <span class='anchor' id='-publications'></span>
 # ![paper_420287](https://github.com/user-attachments/assets/457296da-93ad-4669-bf3c-bfbe831df244) Publications 
 
+<div class="tag-cloud-container">
+  <div class="tag-cloud-blob blob-device">
+    <div class="blob-header">
+      <span class="blob-title">📱 Interaction & Devices</span>
+      <span class="blob-hint">Filter Modality</span>
+    </div>
+    <div class="blob-desc">Focusing on interactive modalities, form factors, and novel display setups</div>
+    <div class="blob-tags">
+      <button class="filter-btn filter-btn-device" data-filter="immersive" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</button>
+      <button class="filter-btn filter-btn-device" data-filter="smartwatch" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</button>
+      <button class="filter-btn filter-btn-device" data-filter="multi-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</button>
+      <button class="filter-btn filter-btn-device" data-filter="physicalization" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</button>
+      <button class="filter-btn filter-btn-device" data-filter="projection" onclick="toggleFilter('projection', '📽️ Projection Augmented')">📽️ Projection Augmented</button>
+    </div>
+  </div>
+
+  <div class="tag-cloud-blob blob-theme">
+    <div class="blob-header">
+      <span class="blob-title">🎯 Application Domains</span>
+      <span class="blob-hint">Filter Theme</span>
+    </div>
+    <div class="blob-desc">Focusing on application verticals, cultural heritage, and human activities</div>
+    <div class="blob-tags">
+      <button class="filter-btn filter-btn-theme" data-filter="sports" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</button>
+      <button class="filter-btn filter-btn-theme" data-filter="cultural" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</button>
+      <button class="filter-btn filter-btn-theme" data-filter="vis-analytics" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Visual Analytics & Design</button>
+    </div>
+  </div>
+</div>
+
+<div class="filter-status-bar" id="filterStatusBar" style="display:none;">
+  <div class="filter-info">
+    <span>Active Filter:</span>
+    <strong id="currentFilterName" style="color:#111827;"></strong>
+    <span style="color:#6b7280;">(<span id="filterCount">0</span> papers found)</span>
+  </div>
+  <button class="clear-filter-btn" onclick="resetFilter()">Show All Papers ✕</button>
+</div>
+
 <div class="pub-subheading">🌟 Featured Highlights</div>
 
-<div class='paper-box'>
+<div class='paper-box' data-tags="immersive cultural">
   <div class='paper-box-image'>
     <div class="paper-tags-overlay">
-      <span class="tag-device-overlay">🥽 Immersive XR</span>
-      <span class="tag-theme-overlay">🏛️ Cultural Heritage</span>
+      <span class="tag-device-overlay" onclick="toggleFilter('immersive', '🥽 Immersive XR')" style="pointer-events:auto; cursor:pointer;">🥽 Immersive XR</span>
+      <span class="tag-theme-overlay" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')" style="pointer-events:auto; cursor:pointer;">🏛️ Cultural Heritage</span>
     </div>
     <img src='images/scroll_vr.png' alt="Teaser">
   </div>
@@ -83,11 +108,11 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box' data-tags="smartwatch sports">
   <div class='paper-box-image'>
     <div class="paper-tags-overlay">
-      <span class="tag-device-overlay">⌚ Smartwatch & Mobile</span>
-      <span class="tag-theme-overlay">🏃 Sports & Fitness</span>
+      <span class="tag-device-overlay" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')" style="pointer-events:auto; cursor:pointer;">⌚ Smartwatch & Mobile</span>
+      <span class="tag-theme-overlay" onclick="toggleFilter('sports', '🏃 Sports & Fitness')" style="pointer-events:auto; cursor:pointer;">🏃 Sports & Fitness</span>
     </div>
     <img src='images/movemate.png' alt="Teaser">
   </div>
@@ -115,10 +140,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class="pub-year-divider">2026</div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="smartwatch multi-device">
   <div class="paper-row-tags">
-    <span class="tag-device">⌚ Smartwatch & Mobile</span>
-    <span class="tag-theme">📊 Multi-Device Systems</span>
+    <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+    <span class="tag-theme" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">📊 Multi-Device Systems</span>
   </div>
   <div class="paper-title">A Survey on Multi-Device Systems Involving Smartwatches</div>
   <div class="paper-authors">Yihan Liu, Jiazhe Huang, Yuchen Gu, Fabiola Polidoro, Lingyun Yu, <b>Yu Liu</b></div>
@@ -142,10 +167,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class="pub-year-divider">2025</div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="smartwatch sports">
   <div class="paper-row-tags">
-    <span class="tag-device">⌚ Smartwatch & Mobile</span>
-    <span class="tag-theme">🏃 Sports & Fitness</span>
+    <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+    <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
   </div>
   <div class="paper-title">Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches</div>
   <div class="paper-authors"><b>Yu Liu</b>, Zhouxuan Xia, Jinyuan Du</div>
@@ -168,10 +193,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="multi-device vis-analytics">
   <div class="paper-row-tags">
-    <span class="tag-device">🖥️ Multi-Device & Display</span>
-    <span class="tag-theme">📊 Collaborative Vis</span>
+    <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
+    <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Collaborative Vis</span>
   </div>
   <div class="paper-title">Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration</div>
   <div class="paper-authors">Qiuyao Cheng, Lingyun Yu, <b>Yu Liu</b></div>
@@ -190,10 +215,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="vis-analytics">
   <div class="paper-row-tags">
-    <span class="tag-device">🖥️ Display Interaction</span>
-    <span class="tag-theme">📊 Map Visualization</span>
+    <span class="tag-device" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">🖥️ Display Interaction</span>
+    <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Map Visualization</span>
     <span class="badge-award">🏆 Honorable Mention</span>
   </div>
   <div class="paper-title">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</div>
@@ -216,10 +241,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="cultural vis-analytics">
   <div class="paper-row-tags">
-    <span class="tag-device">🖥️ Interactive System</span>
-    <span class="tag-theme">🏛️ Cultural Heritage</span>
+    <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Interactive System</span>
+    <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
   </div>
   <div class="paper-title">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</div>
   <div class="paper-authors">Zeyu Chen, Anqi Xie, Lingyun Yu, <b>Yu Liu</b></div>
@@ -243,10 +268,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class="pub-year-divider">2024</div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="vis-analytics">
   <div class="paper-row-tags">
-    <span class="tag-device">🖥️ Visual Design</span>
-    <span class="tag-theme">📊 Geo-Infographics</span>
+    <span class="tag-device" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">🖥️ Visual Design</span>
+    <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Geo-Infographics</span>
     <span class="badge-award">🏆 Honorable Mention</span>
   </div>
   <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
@@ -267,10 +292,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="physicalization vis-analytics">
   <div class="paper-row-tags">
-    <span class="tag-device">🧱 Data Physicalization</span>
-    <span class="tag-theme">📊 Comparative Evaluation</span>
+    <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
+    <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Comparative Evaluation</span>
   </div>
   <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
   <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
@@ -290,10 +315,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="smartwatch multi-device">
   <div class="paper-row-tags">
-    <span class="tag-device">⌚ Smartwatch & Mobile</span>
-    <span class="tag-theme">📊 Cross-Device Interaction</span>
+    <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+    <span class="tag-theme" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">📊 Cross-Device Interaction</span>
   </div>
   <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
   <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, <b>Yu Liu</b></div>
@@ -314,10 +339,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="projection vis-analytics">
   <div class="paper-row-tags">
-    <span class="tag-device">📽️ Projection Augmented</span>
-    <span class="tag-theme">📊 Geographic Vis</span>
+    <span class="tag-device" onclick="toggleFilter('projection', '📽️ Projection Augmented')">📽️ Projection Augmented</span>
+    <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Geographic Vis</span>
   </div>
   <div class="paper-title">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</div>
   <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
@@ -336,10 +361,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="immersive vis-analytics">
   <div class="paper-row-tags">
-    <span class="tag-device">🥽 Immersive XR</span>
-    <span class="tag-theme">📊 Data Exploration</span>
+    <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
+    <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Data Exploration</span>
   </div>
   <div class="paper-title">Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration</div>
   <div class="paper-authors">Haonan Yao, Lixiang Zhao, Hai-Ning Liang, <b>Yu Liu</b>, Yue Li, Lingyun Yu</div>
@@ -360,10 +385,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="paper-row">
+<div class="paper-row" data-tags="smartwatch vis-analytics">
   <div class="paper-row-tags">
-    <span class="tag-device">⌚ Smartwatch & Mobile</span>
-    <span class="tag-theme">📊 Prototyping Approach</span>
+    <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+    <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Prototyping Approach</span>
   </div>
   <div class="paper-title">Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach</div>
   <div class="paper-authors">Fabiola Polidoro, <b>Yu Liu</b>, Paul Craig</div>
@@ -383,6 +408,87 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
     </details>
   </div>
 </div>
+
+<script>
+function toggleFilter(tag, label) {
+  var activeBtn = document.querySelector('.filter-btn[data-filter="' + tag + '"]');
+  var isAlreadyActive = activeBtn && activeBtn.classList.contains('active');
+  if (isAlreadyActive) {
+    resetFilter();
+  } else {
+    filterPubs(tag, label);
+  }
+}
+
+function filterPubs(tag, label) {
+  document.querySelectorAll('.filter-btn').forEach(function(btn) {
+    if (btn.getAttribute('data-filter') === tag) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+
+  var statusBar = document.getElementById('filterStatusBar');
+  var currentName = document.getElementById('currentFilterName');
+  var countSpan = document.getElementById('filterCount');
+  if (statusBar) statusBar.style.display = 'flex';
+  if (currentName) currentName.textContent = label;
+
+  var matchCount = 0;
+
+  document.querySelectorAll('.paper-box').forEach(function(card) {
+    var tags = (card.getAttribute('data-tags') || '').split(' ');
+    var match = tags.indexOf(tag) !== -1;
+    card.style.display = match ? 'flex' : 'none';
+    if (match) matchCount++;
+  });
+
+  document.querySelectorAll('.paper-row').forEach(function(row) {
+    var tags = (row.getAttribute('data-tags') || '').split(' ');
+    var match = tags.indexOf(tag) !== -1;
+    row.style.display = match ? 'block' : 'none';
+    if (match) matchCount++;
+  });
+
+  if (countSpan) countSpan.textContent = matchCount;
+
+  document.querySelectorAll('.pub-year-divider').forEach(function(div) {
+    var next = div.nextElementSibling;
+    var hasVisible = false;
+    while (next && !next.classList.contains('pub-year-divider') && !next.classList.contains('anchor') && !next.tagName.startsWith('H') && next.tagName !== 'SCRIPT') {
+      if (next.classList.contains('paper-row') && next.style.display !== 'none') {
+        hasVisible = true;
+        break;
+      }
+      next = next.nextElementSibling;
+    }
+    div.style.display = hasVisible ? 'inline-block' : 'none';
+  });
+
+  if (statusBar) {
+    statusBar.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+}
+
+function resetFilter() {
+  document.querySelectorAll('.filter-btn').forEach(function(btn) {
+    btn.classList.remove('active');
+  });
+  var statusBar = document.getElementById('filterStatusBar');
+  if (statusBar) statusBar.style.display = 'none';
+
+  document.querySelectorAll('.paper-box').forEach(function(card) {
+    card.style.display = 'flex';
+  });
+  document.querySelectorAll('.paper-row').forEach(function(row) {
+    row.style.display = 'block';
+  });
+  document.querySelectorAll('.pub-year-divider').forEach(function(div) {
+    div.style.display = 'inline-block';
+  });
+}
+</script>
 
 <span class='anchor' id='teaching'></span>
 <span class='anchor' id='-teaching'></span>

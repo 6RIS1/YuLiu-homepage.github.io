@@ -307,46 +307,239 @@ h1:before, .anchor:before {
 }
 
 /* Research Pillars Overview in About Me */
-.research-pillars {
-    display: flex;
-    gap: 14px;
-    margin: 1.2em 0 1.6em 0;
-    flex-wrap: wrap;
-
-    .pillar-card {
-        flex: 1 1 260px;
-        background: #fafbfb;
-        border: 1px solid #e5ebe7;
-        border-radius: 6px;
-        padding: 10px 14px;
-
-        .pillar-header {
-            font-size: 0.86em;
-            font-weight: 700;
-            margin-bottom: 7px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
+/* News Collapsible Archive */
+.news-archive {
+    margin-top: 0.6em;
+    summary {
+        display: inline-flex;
+        outline: none;
+        list-style: none;
+        cursor: pointer;
+        user-select: none;
+        &::-webkit-details-marker {
+            display: none;
         }
-
-        &.pillar-device {
-            border-left: 3px solid #7ea8c9;
-            .pillar-header {
-                color: #1e4b6e;
-            }
+    }
+    .news-toggle-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 3px 12px;
+        font-size: 0.82em;
+        font-weight: 600;
+        color: #44594c;
+        background-color: #f0f4f1;
+        border: 1px solid #c1d0c7;
+        border-radius: 4px;
+        transition: all 0.15s ease;
+        &:hover {
+            background-color: #728A7A;
+            color: #ffffff;
+            border-color: #728A7A;
         }
-
-        &.pillar-theme {
-            border-left: 3px solid #d4af66;
-            .pillar-header {
-                color: #7a5818;
-            }
+    }
+    &[open] {
+        .news-toggle-btn {
+            background-color: #e5ebe7;
+            color: #2e3b33;
+            margin-bottom: 0.5em;
         }
-
-        .pillar-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
+    }
+    ul.news-archive-list {
+        margin-top: 0.5em;
+        padding-left: 1.2em;
+        list-style-type: disc;
+        li {
+            margin-bottom: 0.4em;
+            line-height: 1.45;
+            font-size: 0.95em;
         }
     }
 }
+
+/* Organic Cloud / Blob Tag Explanation in Publications */
+.tag-cloud-container {
+    display: flex;
+    gap: 18px;
+    margin: 1.2em 0 1.6em 0;
+    flex-wrap: wrap;
+}
+
+.tag-cloud-blob {
+    flex: 1 1 300px;
+    padding: 20px 24px;
+    position: relative;
+    transition: all 0.4s ease;
+
+    .blob-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 4px;
+    }
+
+    .blob-title {
+        font-size: 0.96em;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+    }
+
+    .blob-hint {
+        font-size: 0.7em;
+        font-weight: 600;
+        opacity: 0.75;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .blob-desc {
+        font-size: 0.8em;
+        margin-bottom: 12px;
+        line-height: 1.4;
+        opacity: 0.9;
+    }
+
+    .blob-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+}
+
+/* Device Cloud (Soft Nordic Blue Blob) */
+.blob-device {
+    background: radial-gradient(ellipse at 25% 25%, #f4f8fb 0%, #e4eff8 100%);
+    border: 1.5px solid #a8cce4;
+    border-radius: 42% 58% 62% 38% / 46% 42% 58% 54%;
+    box-shadow: 0 4px 16px rgba(30, 75, 110, 0.06);
+
+    .blob-title {
+        color: #1e4b6e;
+    }
+    .blob-desc {
+        color: #2f597c;
+    }
+    .blob-hint {
+        color: #1e4b6e;
+    }
+
+    &:hover {
+        border-radius: 50% 50% 56% 44% / 44% 56% 44% 56%;
+        box-shadow: 0 6px 20px rgba(30, 75, 110, 0.1);
+    }
+}
+
+/* Theme Cloud (Warm Amber / Sand Blob) */
+.blob-theme {
+    background: radial-gradient(ellipse at 75% 25%, #fdf8ee 0%, #faebd0 100%);
+    border: 1.5px solid #e7cb95;
+    border-radius: 56% 44% 42% 58% / 48% 56% 44% 52%;
+    box-shadow: 0 4px 16px rgba(122, 88, 24, 0.06);
+
+    .blob-title {
+        color: #7a5818;
+    }
+    .blob-desc {
+        color: #8a6723;
+    }
+    .blob-hint {
+        color: #7a5818;
+    }
+
+    &:hover {
+        border-radius: 46% 54% 50% 50% / 54% 46% 54% 46%;
+        box-shadow: 0 6px 20px rgba(122, 88, 24, 0.1);
+    }
+}
+
+/* Interactive Filter Buttons inside the Blobs */
+.filter-btn {
+    border: none;
+    cursor: pointer;
+    font-size: 0.76em;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    outline: none;
+
+    &.filter-btn-device {
+        background-color: #ffffff;
+        color: #1e4b6e;
+        border: 1px solid #bfd6e8;
+        &:hover {
+            background-color: #1e4b6e;
+            color: #ffffff;
+            border-color: #1e4b6e;
+        }
+        &.active {
+            background-color: #1e4b6e;
+            color: #ffffff;
+            border-color: #1e4b6e;
+            box-shadow: 0 2px 6px rgba(30, 75, 110, 0.35);
+        }
+    }
+
+    &.filter-btn-theme {
+        background-color: #ffffff;
+        color: #7a5818;
+        border: 1px solid #ebd8ab;
+        &:hover {
+            background-color: #7a5818;
+            color: #ffffff;
+            border-color: #7a5818;
+        }
+        &.active {
+            background-color: #7a5818;
+            color: #ffffff;
+            border-color: #7a5818;
+            box-shadow: 0 2px 6px rgba(122, 88, 24, 0.35);
+        }
+    }
+}
+
+/* Filter Status & Reset Banner */
+.filter-status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f5f2;
+    border: 1px solid #c8d8ce;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin-bottom: 1.2em;
+    font-size: 0.85em;
+    color: #2e3b33;
+
+    .filter-info {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .clear-filter-btn {
+        background: #728A7A;
+        color: #ffffff;
+        border: none;
+        padding: 3px 12px;
+        border-radius: 4px;
+        font-size: 0.8em;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.15s ease;
+        &:hover {
+            background: #55675b;
+        }
+    }
+}
+
+/* Clickable Tag Badges on Paper Cards */
+.tag-device, .tag-theme {
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+    &:hover {
+        opacity: 0.85;
+        transform: translateY(-1px);
+    }
+}
+
