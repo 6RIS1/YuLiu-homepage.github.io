@@ -42,49 +42,46 @@
 
 .paper-box {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    border-bottom: 1px #f3f4f6 solid;
+    padding: 1.2em 0;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
+    .paper-box-image {
+        position: relative;
         width: 100%;
         order: 2;
         img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            display: block;
         }
     }
-    
-    .paper-box-text{
-        max-width: 100%;
+
+    .paper-box-text {
+        width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
+        flex-wrap: nowrap;
+        .paper-box-image {
+            flex: 0 0 32%;
+            max-width: 32%;
+            min-width: 160px;
             order: 1;
         }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
+
+        .paper-box-text {
+            flex: 1;
+            padding-left: 1.5em;
             order: 2;
         }
-
     }
-
-
 }
 
 $scroll_offset : 2em;
@@ -97,80 +94,78 @@ h1:before, .anchor:before {
     margin-top: -$scroll_offset;
 }
 
-.badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+/* Subtle Research Keyword Badge on Teaser */
+.paper-tag {
     position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #728A7A;
-    font-size: .8em;
+    top: 6px;
+    left: 6px;
+    background: rgba(17, 24, 39, 0.75);
+    color: #ffffff;
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    line-height: 1.3;
+    pointer-events: none;
+    z-index: 2;
 }
 
-/* Modern Publication Cards Enhancements */
+/* Minimalist Publication Info */
 .paper-title {
-    font-size: 1.05em;
+    font-size: 0.98em;
     font-weight: 700;
-    line-height: 1.4;
-    margin-bottom: 0.3em;
-    a {
-        color: #24292e;
-        text-decoration: none;
-        &:hover {
-            color: #0366d6;
-            text-decoration: underline;
-        }
-    }
+    color: #111827;
+    line-height: 1.35;
+    margin-bottom: 0.25em;
 }
 
 .paper-authors {
-    font-size: 0.9em;
-    color: #444;
-    margin-bottom: 0.3em;
-    line-height: 1.45;
-    strong, b {
-        color: #111;
-        font-weight: 700;
+    font-size: 0.88em;
+    color: #4b5563;
+    line-height: 1.4;
+    margin-bottom: 0.25em;
+    b, strong {
+        color: #111827;
     }
 }
 
 .paper-venue {
-    font-size: 0.88em;
-    color: #555;
-    margin-bottom: 0.4em;
-    line-height: 1.45;
+    font-size: 0.85em;
+    color: #6b7280;
+    line-height: 1.4;
+    margin-bottom: 0.35em;
     em {
-        color: #29527a;
+        color: #1f2937;
         font-style: italic;
     }
 }
 
-.paper-links {
-    display: flex;
-    flex-wrap: wrap;
+.paper-actions {
+    display: inline-flex;
     align-items: center;
-    gap: 8px;
-    margin-top: 0.5em;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-top: 0.2em;
 }
 
 .paper-btn {
     display: inline-flex;
     align-items: center;
-    padding: 3px 10px;
-    font-size: 0.82em;
+    padding: 2px 8px;
+    font-size: 0.78em;
     font-weight: 600;
-    color: #0366d6;
-    background-color: #f1f8ff;
-    border: 1px solid rgba(3, 102, 214, 0.25);
-    border-radius: 4px;
+    color: #2563eb;
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 3px;
     text-decoration: none;
     cursor: pointer;
-    line-height: 1.6;
-    transition: all 0.15s ease-in-out;
+    line-height: 1.5;
+    transition: all 0.15s ease;
 
     &:hover {
-        background-color: #0366d6;
+        background-color: #2563eb;
         color: #ffffff;
         text-decoration: none;
     }
@@ -179,20 +174,18 @@ h1:before, .anchor:before {
 .badge-award {
     display: inline-flex;
     align-items: center;
-    font-size: 0.82em;
+    font-size: 0.78em;
     font-weight: 700;
-    color: #b94a48;
-    background-color: #fdf2f2;
-    border: 1px solid #f8d7da;
-    padding: 1px 7px;
-    border-radius: 4px;
+    color: #dc2626;
+    background-color: #fef2f2;
+    border: 1px solid #fecaca;
+    padding: 1px 6px;
+    border-radius: 3px;
     margin-left: 6px;
 }
 
 .paper-bibtex {
-    display: block;
-    width: 100%;
-    margin-top: 4px;
+    display: inline-block;
     summary {
         display: inline-flex;
         outline: none;
@@ -203,47 +196,27 @@ h1:before, .anchor:before {
             display: none;
         }
     }
-    &[open] summary {
-        background-color: #0366d6;
-        color: #ffffff;
-    }
-    .bibtex-box {
-        position: relative;
-        margin-top: 8px;
-        margin-bottom: 4px;
-        background-color: #f6f8fa;
-        border: 1px solid #e1e4e8;
-        border-radius: 6px;
-        padding: 10px 12px;
+    &[open] {
+        display: block;
+        width: 100%;
+        margin-top: 4px;
+        summary {
+            background-color: #2563eb;
+            color: #ffffff;
+        }
     }
     pre {
-        margin: 0;
-        padding: 0;
-        background: transparent;
-        border: none;
-        font-size: 0.78em;
+        margin-top: 6px;
+        margin-bottom: 0;
+        padding: 8px 10px;
+        background-color: #f9fafb;
+        border: 1px solid #e5e7eb;
+        border-radius: 4px;
+        font-size: 0.75em;
         font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
         white-space: pre-wrap;
         word-break: break-all;
-        color: #24292e;
-        line-height: 1.45;
-    }
-    .copy-bib-btn {
-        position: absolute;
-        top: 8px;
-        right: 8px;
-        padding: 2px 8px;
-        font-size: 0.72em;
-        font-weight: 600;
-        background: #fff;
-        border: 1px solid #d1d5da;
-        border-radius: 3px;
-        cursor: pointer;
-        color: #444;
-        &:hover {
-            background: #f1f8ff;
-            color: #0366d6;
-            border-color: #0366d6;
-        }
+        color: #374151;
+        line-height: 1.4;
     }
 }

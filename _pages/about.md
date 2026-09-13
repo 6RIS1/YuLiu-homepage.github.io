@@ -33,26 +33,24 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">MobileHCI 2026</div><img src='images/scroll_vr.png' alt="Teaser" width="100%"></div>
+    <span class="paper-tag">Immersive VR</span>
+    <img src='images/scroll_vr.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title"><a href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</a></div>
+    <div class="paper-title">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
     <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)</em>, 2026. <span class="badge-award">🏆 Honorable Mention</span></div>
-    <div class="paper-links">
-      <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank"><i class="fas fa-file-alt"></i> Full Text</a>
+    <div class="paper-venue"><em>ACM MobileHCI 2026</em> <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-actions">
+      <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank">Full Text</a>
       <details class="paper-bibtex">
-        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <div class="bibtex-box">
-          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
-          <pre><code>@inproceedings{peng2026exploring,
+        <summary class="paper-btn">BibTeX</summary>
+        <pre><code>@inproceedings{peng2026exploring,
   title={Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings},
   author={Peng, Yuanyuan and Guo, Yuhan and Zhou, Yutong and Liu, Suxuan and Wang, Jiayu and Cai, Jiawen and Fu, Yihan and Chen, Xiaojiao and Liu, Yu},
   booktitle={Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)},
   year={2026},
   publisher={ACM}
 }</code></pre>
-        </div>
       </details>
     </div>
   </div>
@@ -60,26 +58,24 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">MobileHCI 2026</div><img src='images/movemate.png' alt="Teaser" width="100%"></div>
+    <span class="paper-tag">Multi-Device</span>
+    <img src='images/movemate.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title"><a href="https://programs.sigchi.org/mobilehci/2026/program/content/263573" target="_blank">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</a></div>
+    <div class="paper-title">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
     <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)</em>, 2026.</div>
-    <div class="paper-links">
-      <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263573" target="_blank"><i class="fas fa-file-alt"></i> Full Text</a>
+    <div class="paper-venue"><em>ACM MobileHCI 2026</em></div>
+    <div class="paper-actions">
+      <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263573" target="_blank">Full Text</a>
       <details class="paper-bibtex">
-        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <div class="bibtex-box">
-          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
-          <pre><code>@inproceedings{liu2026movemate,
+        <summary class="paper-btn">BibTeX</summary>
+        <pre><code>@inproceedings{liu2026movemate,
   title={MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance},
   author={Liu, Yihan and Xie, Anqi and Hu, Shuheng and Yue, Yong and Liu, Yu},
   booktitle={Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)},
   year={2026},
   publisher={ACM}
 }</code></pre>
-        </div>
       </details>
     </div>
   </div>
@@ -87,19 +83,18 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">VINCI 2025</div><img src='images/tagmap.png' alt="Teaser" width="100%"></div>
+    <span class="paper-tag">Map Visualization</span>
+    <img src='images/tagmap.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</a></div>
+    <div class="paper-title">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</div>
     <div class="paper-authors">Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)</em>, 2025. <span class="badge-award">🏆 Honorable Mention</span></div>
-    <div class="paper-links">
-      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank"><i class="fas fa-file-alt"></i> Full Text (DOI)</a>
+    <div class="paper-venue"><em>ACM VINCI 2025</em> <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-actions">
+      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank">Full Text</a>
       <details class="paper-bibtex">
-        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <div class="bibtex-box">
-          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
-          <pre><code>@inproceedings{chen2025textcolor,
+        <summary class="paper-btn">BibTeX</summary>
+        <pre><code>@inproceedings{chen2025textcolor,
   title={Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies},
   author={Chen, Xinyao and Zhang, Xinyuan and Ma, Teng and Yu, Lingyun and Liu, Yu},
   booktitle={Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)},
@@ -108,7 +103,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3769534.3769610}
 }</code></pre>
-        </div>
       </details>
     </div>
   </div>
@@ -116,19 +110,18 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">VINCI 2025</div><img src='images/journey_west.png' alt="Teaser" width="100%"></div>
+    <span class="paper-tag">Cultural Heritage</span>
+    <img src='images/journey_west.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</a></div>
+    <div class="paper-title">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</div>
     <div class="paper-authors">Zeyu Chen, Anqi Xie, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)</em>, 2025.</div>
-    <div class="paper-links">
-      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank"><i class="fas fa-file-alt"></i> Full Text (DOI)</a>
+    <div class="paper-venue"><em>ACM VINCI 2025</em></div>
+    <div class="paper-actions">
+      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank">Full Text</a>
       <details class="paper-bibtex">
-        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <div class="bibtex-box">
-          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
-          <pre><code>@inproceedings{chen2025myth,
+        <summary class="paper-btn">BibTeX</summary>
+        <pre><code>@inproceedings{chen2025myth,
   title={From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West},
   author={Chen, Zeyu and Xie, Anqi and Yu, Lingyun and Liu, Yu},
   booktitle={Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)},
@@ -137,7 +130,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3769534.3769615}
 }</code></pre>
-        </div>
       </details>
     </div>
   </div>
@@ -145,19 +137,18 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">MobileHCI 2024</div><img src='images/mobiles.png' alt="Teaser" width="100%"></div>
+    <span class="paper-tag">Wearable Interaction</span>
+    <img src='images/mobiles.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</a></div>
+    <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
     <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>Adjunct Proceedings of the 26th International Conference on Mobile Human-Computer Interaction (MobileHCI '24)</em>, 2024.</div>
-    <div class="paper-links">
-      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank"><i class="fas fa-file-alt"></i> Full Text (DOI)</a>
+    <div class="paper-venue"><em>ACM MobileHCI 2024</em></div>
+    <div class="paper-actions">
+      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Full Text</a>
       <details class="paper-bibtex">
-        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <div class="bibtex-box">
-          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
-          <pre><code>@inproceedings{cheng2024enhancing,
+        <summary class="paper-btn">BibTeX</summary>
+        <pre><code>@inproceedings{cheng2024enhancing,
   title={Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration},
   author={Cheng, Qiuyao and Tian, Xuanyao and Liao, Fengyuan and Chen, Tan and Chen, Xinyao and Wang, Zixuan and Dong, Yutong and Liu, Yu},
   booktitle={Adjunct Proceedings of the 26th International Conference on Mobile Human-Computer Interaction (MobileHCI '24)},
@@ -165,7 +156,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   year={2024},
   doi={10.1145/3640471.3680451}
 }</code></pre>
-        </div>
       </details>
     </div>
   </div>
@@ -173,25 +163,23 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">BigVis 2024</div><img src='images/Projectedmap.png' alt="Teaser" width="100%"></div>
+    <span class="paper-tag">Projection Augmented</span>
+    <img src='images/Projectedmap.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title"><a href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</a></div>
+    <div class="paper-title">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</div>
     <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>International Workshop on Big Spatial Data and Visualization (BigVis '24)</em>, 2024.</div>
-    <div class="paper-links">
-      <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank"><i class="fas fa-file-alt"></i> Full Text</a>
+    <div class="paper-venue"><em>BigVis 2024</em></div>
+    <div class="paper-actions">
+      <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank">Full Text</a>
       <details class="paper-bibtex">
-        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <div class="bibtex-box">
-          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
-          <pre><code>@inproceedings{teng2024enhancing,
+        <summary class="paper-btn">BibTeX</summary>
+        <pre><code>@inproceedings{teng2024enhancing,
   title={Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps},
   author={Teng, Changyuanlang and Shi, Zhiwei and Yu, Lingyun and Liu, Yu},
   booktitle={International Workshop on Big Spatial Data and Visualization (BigVis '24)},
   year={2024}
 }</code></pre>
-        </div>
       </details>
     </div>
   </div>
@@ -199,26 +187,24 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="Teaser" width="100%"></div>
+    <span class="paper-tag">Infographics</span>
+    <img src='images/MapCraft.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title"><a href="https://arxiv.org/abs/2409.13424" target="_blank">MapCraft: Dissecting and Designing Custom Geo-Infographics</a></div>
+    <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
     <div class="paper-authors">Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, <b>Yu Liu</b></div>
     <div class="paper-venue"><em>Journal of Visualization</em>, 2024. <span class="badge-award">🏆 Honorable Mention</span></div>
-    <div class="paper-links">
-      <a class="paper-btn" href="https://arxiv.org/abs/2409.13424" target="_blank"><i class="fas fa-file-alt"></i> arXiv (Full Text)</a>
+    <div class="paper-actions">
+      <a class="paper-btn" href="https://arxiv.org/abs/2409.13424" target="_blank">Full Text</a>
       <details class="paper-bibtex">
-        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <div class="bibtex-box">
-          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
-          <pre><code>@article{zhang2024mapcraft,
+        <summary class="paper-btn">BibTeX</summary>
+        <pre><code>@article{zhang2024mapcraft,
   title={MapCraft: Dissecting and Designing Custom Geo-Infographics},
   author={Zhang, Xinyuan and Xu, Yifan and Li, Kaiwen and Yu, Lingyun and Liu, Yu},
   journal={Journal of Visualization},
   year={2024},
   doi={10.1007/s12650-024-01048-w}
 }</code></pre>
-        </div>
       </details>
     </div>
   </div>
@@ -226,26 +212,24 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div><div class="badge">ChinaVis 2024</div><img src='images/Physicalization.png' alt="Teaser" width="100%"></div>
+    <span class="paper-tag">Data Physicalization</span>
+    <img src='images/Physicalization.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-title"><a href="https://arxiv.org/abs/2409.06951" target="_blank">A Comparative Study of Table-Sized Physicalization and Digital Visualization</a></div>
+    <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
     <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
     <div class="paper-venue"><em>Journal of Visualization</em>, 2024.</div>
-    <div class="paper-links">
-      <a class="paper-btn" href="https://arxiv.org/abs/2409.06951" target="_blank"><i class="fas fa-file-alt"></i> arXiv (Full Text)</a>
+    <div class="paper-actions">
+      <a class="paper-btn" href="https://arxiv.org/abs/2409.06951" target="_blank">Full Text</a>
       <details class="paper-bibtex">
-        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
-        <div class="bibtex-box">
-          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
-          <pre><code>@article{wang2024comparative,
+        <summary class="paper-btn">BibTeX</summary>
+        <pre><code>@article{wang2024comparative,
   title={A Comparative Study of Table-Sized Physicalization and Digital Visualization},
   author={Wang, Yanxin and Liu, Yihan and Yu, Lingyun and Ji, Chengtao and Liu, Yu},
   journal={Journal of Visualization},
   year={2024},
   doi={10.1007/s12650-024-01042-2}
 }</code></pre>
-        </div>
       </details>
     </div>
   </div>
