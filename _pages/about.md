@@ -117,6 +117,7 @@ Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
 
 <span class='anchor' id='-honors-and-awards'></span>
 # ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Student Competitions
+- *2026.06* ChinaVis Data Challenge Contest, Third Prize.
 - *2024.06* ChinaVis Data Challenge Contest, Second Prize.
 - *2023.06* ChinaVis Data Challenge Contest, First Prize.
 - *2022.06* ChinaVis Data Challenge Contest, Second Prize.
