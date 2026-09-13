@@ -26,12 +26,13 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 - *2025.12*: &nbsp; Two papers were accepted to **ACM VINCI 2025**! Notably, *"Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies"* received the **Honorable Mention** award. The second paper is *"From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West"*.
 
 <details class="news-archive">
-  <summary class="news-toggle-btn"><span>View More News (4)</span> <span class="toggle-arrow">▾</span></summary>
+  <summary class="news-toggle-btn"><span>View More News (5)</span> <span class="toggle-arrow">▾</span></summary>
   <ul class="news-archive-list">
     <li><em>2025.06</em>: &nbsp; Our project <em>"ARthroMap (画游姑苏)"</em> received the <strong>Third Prize</strong> in the <strong>2025 "Huihu Youth Innovation" Suzhou Dushu Lake University Student Cultural and Creative Competition</strong>, along with an entrepreneurial seed fund of 50,000 RMB. I received the title of <strong>Excellent Instructor</strong>.</li>
     <li><em>2025.05</em>: &nbsp; I received the <strong>Student-Voted Best Teacher Award</strong> for the academic year 2023-2024! Thanks to all for your wonderful support!</li>
     <li><em>2024.07</em>: &nbsp; Our paper <em>"MapCraft: Dissecting and Designing Custom Geo-Infographics"</em> received the <strong>Honorable Mention</strong> award at <strong>ChinaVis 2024</strong>.</li>
     <li><em>2024.06</em>: &nbsp; Our project <em>"Totem Tales (图腾说)"</em> won the <strong>Second Prize</strong> in the <strong>ChinaVis 2024 Data Challenge Contest</strong>.</li>
+    <li><em>2023.09</em>: &nbsp; Our paper <em>"EmotionVis: Affective Visualization with Physical Devices"</em> received the <strong>Best Short Paper</strong> award at <strong>ACM VINCI 2023</strong>.</li>
   </ul>
 </details>
 
@@ -370,7 +371,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
         <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
         <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>Journal of Visualization</em>, 2025.</div>
+        <div class="paper-venue"><em>Journal of Visualization (ChinaVis 2024)</em>, 2025.</div>
         <div class="paper-actions">
           <a class="paper-btn" href="https://doi.org/10.1007/s12650-025-01056-7" target="_blank">Full Text</a>
           <details class="paper-bibtex">
@@ -390,10 +391,11 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
       <div class="paper-row" data-tags="maps">
         <div class="paper-row-tags">
           <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</span>
+          <span class="badge-award">🏆 Honorable Mention</span>
         </div>
         <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
         <div class="paper-authors">Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>Journal of Visualization</em>, 2025.</div>
+        <div class="paper-venue"><em>Journal of Visualization (ChinaVis 2024)</em>, 2025.</div>
         <div class="paper-actions">
           <a class="paper-btn" href="https://doi.org/10.1007/s12650-025-01059-4" target="_blank">Full Text</a>
           <details class="paper-bibtex">
@@ -449,30 +451,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   booktitle={2025 IEEE Smart World Congress (SWC)},
   year={2025},
   publisher={IEEE}
-}</code></pre>
-          </details>
-        </div>
-      </div>
-
-      <div class="paper-row" data-tags="multi-device">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-        </div>
-        <div class="paper-title">AI-Marking Assistant: A Web-Based Application for Human-in-the-loop GAI Assisted Assessment Marking and Feedback</div>
-        <div class="paper-authors">Paul Craig, Thomas Selig, <b>Yu Liu</b>, Ling Wang, Erick Purwanto, Wan-Ting Shen</div>
-        <div class="paper-venue"><em>ASEAN Journal of Engineering Education</em>, 2025.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://ajee.utm.my/index.php/ajee/article/view/213" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@article{craig2025aimarking,
-  title={AI-Marking Assistant: A Web-Based Application for Human-in-the-loop GAI Assisted Assessment Marking and Feedback},
-  author={Craig, Paul and Selig, Thomas and Liu, Yu and Wang, Ling and Purwanto, Erick and Shen, Wan-Ting},
-  journal={ASEAN Journal of Engineering Education},
-  volume={9},
-  number={1},
-  pages={1--14},
-  year={2025}
 }</code></pre>
           </details>
         </div>
@@ -689,28 +667,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="physicalization">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
-        </div>
-        <div class="paper-title">TangibleChannel: An Innovative Data Physicalization System for Visual Channel Education</div>
-        <div class="paper-authors">Shuxin Xie, <b>Yu Liu</b>, Lingyun Yu</div>
-        <div class="paper-venue"><em>IEEE Visualization and Visual Analytics (VIS)</em>, 2023.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://ieeexplore.ieee.org/document/10322194/" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{xie2023tangiblechannel,
-  title={TangibleChannel: An Innovative Data Physicalization System for Visual Channel Education},
-  author={Xie, Shuxin and Liu, Yu and Yu, Lingyun},
-  booktitle={2023 IEEE Visualization and Visual Analytics (VIS)},
-  year={2023},
-  publisher={IEEE}
-}</code></pre>
-          </details>
-        </div>
-      </div>
-
       <div class="paper-row" data-tags="immersive cultural">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
@@ -762,6 +718,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
       <div class="paper-row" data-tags="physicalization">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
+          <span class="badge-award">🏆 Best Short Paper</span>
         </div>
         <div class="paper-title">EmotionVis: Affective Visualization with Physical Devices</div>
         <div class="paper-authors">Xinyi Huang, <b>Yu Liu</b>, Lingyun Yu</div>
@@ -832,32 +789,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   booktitle={Pacific Graphics Short Papers},
   year={2022},
   doi={10.2312/pg.20221239}
-}</code></pre>
-          </details>
-        </div>
-      </div>
-
-      <div class="paper-row" data-tags="multi-device">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-        </div>
-        <div class="paper-title">Information Visualisation for Antibiotic Detection Biochip Design and Testing</div>
-        <div class="paper-authors">Paul Craig, Ruben Ng, Boris Tefsen, Sam Linsen, <b>Yu Liu</b>, Joshua Hendel</div>
-        <div class="paper-venue"><em>Processes</em>, 2022.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://doi.org/10.3390/pr10122680" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@article{craig2022information,
-  title={Information Visualisation for Antibiotic Detection Biochip Design and Testing},
-  author={Craig, Paul and Ng, Ruben and Tefsen, Boris and Linsen, Sam and Liu, Yu and Hendel, Joshua},
-  journal={Processes},
-  volume={10},
-  number={12},
-  pages={2680},
-  year={2022},
-  publisher={MDPI},
-  doi={10.3390/pr10122680}
 }</code></pre>
           </details>
         </div>
