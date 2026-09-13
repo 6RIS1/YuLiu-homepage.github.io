@@ -525,7 +525,7 @@ function resetFilter() {
 - *2024.06* ChinaVis Data Challenge Contest, Second Prize.
 - *2023.06* ChinaVis Data Challenge Contest, First Prize.
 - *2022.06* ChinaVis Data Challenge Contest, Second Prize.
-- *2021.06* ChinaVis Data Challenge Contest, Merit Prize (优秀奖). 
+- *2021.06* ChinaVis Data Challenge Contest, Merit Prize. 
 
 
 
