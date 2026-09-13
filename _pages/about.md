@@ -39,14 +39,14 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 <span class='anchor' id='-publications'></span>
 # ![paper_420287](https://github.com/user-attachments/assets/457296da-93ad-4669-bf3c-bfbe831df244) Publications 
 
-<div class="tag-cloud-container">
-  <div class="tag-cloud-blob blob-device">
-    <div class="blob-header">
-      <span class="blob-title">📱 Interaction & Devices</span>
-      <span class="blob-hint">Filter Modality</span>
+<div class="filter-panel-container">
+  <div class="filter-card filter-card-device">
+    <div class="filter-card-header">
+      <span class="filter-card-title">📱 Interaction & Devices</span>
+      <span class="filter-card-hint">Device Modality</span>
     </div>
-    <div class="blob-desc">Focusing on interactive modalities, form factors, and novel display setups</div>
-    <div class="blob-tags">
+    <div class="filter-card-desc">Interactive modalities, wearable systems, and novel display setups</div>
+    <div class="filter-card-tags">
       <button class="filter-btn filter-btn-device" data-filter="immersive" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</button>
       <button class="filter-btn filter-btn-device" data-filter="smartwatch" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</button>
       <button class="filter-btn filter-btn-device" data-filter="multi-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</button>
@@ -55,13 +55,13 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
     </div>
   </div>
 
-  <div class="tag-cloud-blob blob-theme">
-    <div class="blob-header">
-      <span class="blob-title">🎯 Application Domains</span>
-      <span class="blob-hint">Filter Theme</span>
+  <div class="filter-card filter-card-theme">
+    <div class="filter-card-header">
+      <span class="filter-card-title">🎯 Application Domains</span>
+      <span class="filter-card-hint">Domain & Theme</span>
     </div>
-    <div class="blob-desc">Focusing on application verticals, cultural heritage, and human activities</div>
-    <div class="blob-tags">
+    <div class="filter-card-desc">Sports & health analytics, digital cultural heritage, and visual design</div>
+    <div class="filter-card-tags">
       <button class="filter-btn filter-btn-theme" data-filter="sports" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</button>
       <button class="filter-btn filter-btn-theme" data-filter="cultural" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</button>
       <button class="filter-btn filter-btn-theme" data-filter="vis-analytics" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Visual Analytics & Design</button>
