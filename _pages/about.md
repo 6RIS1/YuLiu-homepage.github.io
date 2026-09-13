@@ -238,26 +238,31 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="smartwatch sports">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
-        </div>
-        <div class="paper-title">Visualizing on the Wrist: Impact of Motion, Dial Shape and Visualization Type on Smartwatch</div>
-        <div class="paper-authors">Zhouxuan Xia, Fengyuan Liao, Jinyuan Du, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>2025 IEEE Visualization and Visual Analytics (VIS)</em>, 2025.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://ieeexplore.ieee.org/document/11298834/" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{xia2025visualizing,
+      <div class="paper-row has-teaser" data-tags="smartwatch sports">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+            <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
+          </div>
+          <div class="paper-title">Visualizing on the Wrist: Impact of Motion, Dial Shape and Visualization Type on Smartwatch</div>
+          <div class="paper-authors">Zhouxuan Xia, Fengyuan Liao, Jinyuan Du, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>2025 IEEE Visualization and Visual Analytics (VIS)</em>, 2025.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://ieeexplore.ieee.org/document/11298834/" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{xia2025visualizing,
   title={Visualizing on the Wrist: Impact of Motion, Dial Shape and Visualization Type on Smartwatch},
   author={Xia, Zhouxuan and Liao, Fengyuan and Du, Jinyuan and Liu, Yu},
   booktitle={2025 IEEE Visualization and Visual Analytics (VIS)},
   year={2025},
   publisher={IEEE}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/visualizing_wrist.jpg" class="image-popup" title="Click to enlarge"><img src="images/visualizing_wrist.jpg" alt="Teaser"></a>
         </div>
       </div>
 
