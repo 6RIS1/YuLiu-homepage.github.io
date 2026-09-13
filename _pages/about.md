@@ -82,9 +82,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box' data-tags="immersive cultural">
   <div class='paper-box-image'>
-    <div class="teaser-award-top-right">
-      <span class="badge-award-overlay">🏆 Honorable Mention</span>
-    </div>
     <img src='images/scroll_vr.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>

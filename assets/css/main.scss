@@ -903,6 +903,33 @@ h1:before, .anchor:before {
             margin: 0 0 12px 0;
         }
 
+        .widget-contest-link-box {
+            margin: 0 0 10px 0;
+
+            .widget-contest-link {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                padding: 7px 10px;
+                font-size: 0.77em;
+                font-weight: 600;
+                color: #244b38;
+                background-color: #ecf3ef;
+                border: 1px solid #b6cec1;
+                border-radius: 4px;
+                text-decoration: none;
+                transition: all 0.15s ease;
+
+                &:hover {
+                    background-color: #dcebe1;
+                    border-color: #728A7A;
+                    color: #163325;
+                    text-decoration: none;
+                }
+            }
+        }
+
         .widget-card-actions {
             display: flex;
             gap: 8px;

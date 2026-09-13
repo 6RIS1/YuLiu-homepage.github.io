@@ -29,6 +29,11 @@
       <p class="widget-card-desc" id="widgetCardDesc">
         Interested in any publication, joint research, or student inquiries? Feel free to reach out!
       </p>
+      <div class="widget-contest-link-box" id="widgetContestBox" style="display:none;">
+        <a class="widget-contest-link" id="widgetContestLink" href="https://pacificvis2027.github.io/contribute/storytelling/" target="_blank" rel="noopener noreferrer">
+          <span>🌐 PacificVis Storytelling Contest Page ↗</span>
+        </a>
+      </div>
       <div class="widget-card-actions">
         <a class="widget-action-btn btn-primary" id="widgetEmailBtn" href="mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BResearch%20Inquiry%5D%20Regarding%20your%20work&body=Dear%20Dr.%20Liu%2C%0A%0AI%20came%20across%20your%20research%20and%20would%20love%20to%20connect%20regarding%3A%0A-%20...%0A%0ABest%20regards%2C%0A%5BYour%20Name%20%26%20Affiliation%5D" target="_blank">
           ✉️ Send Email
@@ -57,13 +62,13 @@ var WIDGET_MODES = {
     mailto: 'mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BResearch%20Inquiry%5D%20Regarding%20your%20work&body=Dear%20Dr.%20Liu%2C%0A%0AI%20came%20across%20your%20research%20and%20would%20love%20to%20connect%20regarding%3A%0A-%20...%0A%0ABest%20regards%2C%0A%5BYour%20Name%20%26%20Affiliation%5D'
   },
   competition: {
-    tag: '🏆 Mentorship & Contests',
-    quote: '“If you are interested in such competitions, keep an eye on the annual PacificVis Visual Storytelling Contest or ChinaVis Data Challenge! Their topics usually come out around September and May. If you\'d like to team up, feel free to reach out!”',
-    desc: 'Passionate about visualization, UI/UX, or interactive storytelling? Reach out once topics are released to team up!',
-    bubble: '🏆 Interested in Vis Competitions? Team up! ▾',
+    tag: '🏆 Storytelling 2027',
+    quote: '“Now that it\'s September, the official page for the PacificVis Visual Data Storytelling Contest is live! The submission deadline is February next year. Please check out the contest page, and feel free to reach out to team up with me!”',
+    desc: 'Interested in participating? Check out the contest topics and reach out to brainstorm ideas and compete together.',
+    bubble: '🏆 PacificVis Storytelling Contest is live! Team up ▾',
     btnText: '✉️ Team Up (Email)',
     copyText: '📋 Copy Email',
-    mailto: 'mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BCompetition%20Team%20Application%5D%20ChinaVis%20%2F%20PacificVis%20-%20%5BYour%20Name%5D&body=Hi%20Dr.%20Liu%2C%0A%0AI%20am%20interested%20in%20participating%20in%20ChinaVis%20%2F%20PacificVis%20Visual%20Storytelling%20Contest%20with%20you.%0A%0A-%20Name%3A%20%0A-%20Major%20%26%20Year%3A%20%0A-%20Skills%20%2F%20Interests%20(e.g.%2C%20Coding%2C%20Visualization%2C%20UI%2FUX%2C%20Storytelling)%3A%20%0A%0ALooking%20forward%20to%20collaborating!'
+    mailto: 'mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BPacificVis%20Storytelling%20Contest%20Team%20Up%5D%20-%20%5BYour%20Name%5D&body=Hi%20Dr.%20Liu%2C%0A%0AI%20checked%20out%20the%20PacificVis%20Visual%20Data%20Storytelling%20Contest%20and%20would%20love%20to%20team%20up%20with%20you%20for%20the%20February%20deadline.%0A%0A-%20Name%3A%20%0A-%20Major%20%26%20Year%3A%20%0A-%20Skills%20%2F%20Interests%20(e.g.%2C%20Visualization%2C%20UI%2FUX%2C%20Web%20Dev%2C%20Storytelling)%3A%20%0A%0ALooking%20forward%20to%20hearing%20from%20you!'
   }
 };
 
@@ -79,6 +84,7 @@ function setWidgetMode(mode) {
   var bubble = document.getElementById('bubbleText');
   var emailBtn = document.getElementById('widgetEmailBtn');
   var copyBtn = document.getElementById('copyEmailBtn');
+  var contestBox = document.getElementById('widgetContestBox');
 
   if (tag) tag.textContent = data.tag;
   if (quote) quote.textContent = data.quote;
@@ -90,6 +96,9 @@ function setWidgetMode(mode) {
   }
   if (copyBtn && !copyBtn.innerHTML.includes('Copied')) {
     copyBtn.innerHTML = data.copyText;
+  }
+  if (contestBox) {
+    contestBox.style.display = (mode === 'competition') ? 'block' : 'none';
   }
 }
 
