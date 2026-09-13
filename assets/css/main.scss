@@ -691,8 +691,9 @@ h1:before, .anchor:before {
     }
     ul.news-archive-list {
         margin-top: 0.5em;
+        margin-left: 0;
+        padding-left: 2em;
         padding-inline-start: 2em;
-        padding-left: 0;
         list-style-type: disc;
         li {
             margin-bottom: 0.4em;
@@ -1191,64 +1192,70 @@ h1:before, .anchor:before {
 }
 
 /* ==========================================================================
-   Sidebar Location Map Card (Suzhou, China & Faint Green Map)
+   Sidebar Location Watermark (Suzhou, China & Faint Green Map)
    ========================================================================== */
-.author__location-card {
+.author__location-row {
     position: relative;
-    display: block !important;
-    width: 100%;
-    min-height: 110px;
-    margin: 10px 0 14px 0 !important;
-    padding: 8px 10px !important;
-    background: linear-gradient(135deg, rgba(114, 138, 122, 0.04) 0%, rgba(114, 138, 122, 0.09) 100%);
-    border: 1px solid rgba(114, 138, 122, 0.18);
-    border-radius: 8px;
-    overflow: hidden;
-    box-sizing: border-box;
-    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: inherit;
+    font-size: 1em;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
     list-style: none !important;
 
-    &:hover {
-        border-color: rgba(114, 138, 122, 0.38);
-        box-shadow: 0 4px 14px rgba(114, 138, 122, 0.10);
+    .author__location-label {
+        position: relative;
+        z-index: 2;
+        display: inline-flex;
+        align-items: center;
+        color: inherit;
+        background: transparent !important;
+        border: none !important;
+        padding: 0 !important;
+        font-size: inherit;
+
+        i {
+            color: #728A7A;
+            margin-right: 0.25em;
+        }
+
+        .author__location-text {
+            color: inherit;
+        }
     }
 
-    .location-card-map-backdrop {
+    .location-map-watermark {
         position: absolute;
-        top: 0;
+        top: 50%;
         left: 0;
-        width: 100%;
-        height: 100%;
+        transform: translateY(-50%);
+        width: 175px;
+        height: 75px;
         pointer-events: none;
         z-index: 1;
+        opacity: 0.38;
+        border: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        overflow: visible;
+        transition: opacity 0.25s ease;
 
         .china-map-bg-svg {
             width: 100%;
             height: 100%;
             display: block;
+            border: none !important;
         }
     }
 
-    .location-card-content {
-        position: relative;
-        z-index: 2;
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        padding: 3px 8px;
-        background: rgba(255, 255, 255, 0.86);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        border: 1px solid rgba(114, 138, 122, 0.20);
-        border-radius: 5px;
-        font-size: 0.82em;
-        font-weight: 600;
-        color: #244b38;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
-
-        i {
-            color: #728A7A;
-        }
+    &:hover .location-map-watermark {
+        opacity: 0.65;
     }
 }
 
