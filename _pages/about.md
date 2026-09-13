@@ -543,7 +543,10 @@ function resetFilter() {
 # <span class="heading-icon-badge">🤝</span> Service
 Reviewer of IEEE VIS, ACM MobileHCI, CSCW, IJHCI, ISS, IEEE VR, ISMAR, PacificVis, ChinaVis, VINCI etc.
 
+<span class='anchor' id='work'></span>
+<span class='anchor' id='-work'></span>
+<span class='anchor' id='work-experience'></span>
 <span class='anchor' id='internships'></span>
-<span class='anchor' id='-internships'></span>
-# <span class="heading-icon-badge">💼</span> Internships
+# <span class="heading-icon-badge">💼</span> Work Experience
+- *2022.08 - Present*, Assistant Professor, [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02) (XJTLU), Suzhou, China.
 - *2021.12 - 2022.06*, Visualization Designer, [Bytedance](https://www.bytedance.com/en/), Beijing, China.
