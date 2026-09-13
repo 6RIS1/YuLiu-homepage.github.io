@@ -26,7 +26,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 - *2025.12*: &nbsp; Two papers were accepted to **ACM VINCI 2025**! Notably, *"Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies"* received the **Honorable Mention** award. The second paper is *"From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West"*.
 
 <details class="news-archive">
-  <summary class="news-toggle-btn"><span>View More News (4)</span> ▾</summary>
+  <summary class="news-toggle-btn"><span>View More News (4)</span> <span class="toggle-arrow">▾</span></summary>
   <ul class="news-archive-list">
     <li><em>2025.06</em>: &nbsp; Our project <em>"ARthroMap (画游姑苏)"</em> received the <strong>Third Prize</strong> in the <strong>2025 "Huihu Youth Innovation" Suzhou Dushu Lake University Student Cultural and Creative Competition</strong>, along with an entrepreneurial seed fund of 50,000 RMB. I received the title of <strong>Excellent Instructor</strong>.</li>
     <li><em>2025.05</em>: &nbsp; I received the <strong>Student-Voted Best Teacher Award</strong> for the academic year 2023-2024! Thanks to all for your wonderful support!</li>
