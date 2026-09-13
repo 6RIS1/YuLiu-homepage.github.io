@@ -598,18 +598,19 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="immersive">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
-        </div>
-        <div class="paper-title">Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration</div>
-        <div class="paper-authors">Haonan Yao, Lixiang Zhao, Hai-Ning Liang, <b>Yu Liu</b>, Yue Li, Lingyun Yu</div>
-        <div class="paper-venue"><em>Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA)</em>, 2024.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3613905.3650777" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{yao2024exploring,
+      <div class="paper-row has-teaser" data-tags="immersive">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
+          </div>
+          <div class="paper-title">Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration</div>
+          <div class="paper-authors">Haonan Yao, Lixiang Zhao, Hai-Ning Liang, <b>Yu Liu</b>, Yue Li, Lingyun Yu</div>
+          <div class="paper-venue"><em>Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA)</em>, 2024.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3613905.3650777" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{yao2024exploring,
   title={Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration},
   author={Yao, Haonan and Zhao, Lixiang and Liang, Hai-Ning and Liu, Yu and Li, Yue and Yu, Lingyun},
   booktitle={Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '24)},
@@ -617,7 +618,11 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3613905.3650777}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/two_handed_vr.jpg" class="image-popup" title="Click to enlarge"><img src="images/two_handed_vr.jpg" alt="Teaser"></a>
         </div>
       </div>
 
