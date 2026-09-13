@@ -543,26 +543,31 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="multi-device">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-        </div>
-        <div class="paper-title">CHORDination: Evaluating Visual Design Choices in Chord Diagrams for Network Data</div>
-        <div class="paper-authors">Kexin Wang, Shuqi He, Wei Wang, Jiazhou Yu, <b>Yu Liu</b>, Lingyun Yu</div>
-        <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2024.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3673038.3673052" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{wang2024chordination,
+      <div class="paper-row has-teaser" data-tags="multi-device">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
+          </div>
+          <div class="paper-title">CHORDination: Evaluating Visual Design Choices in Chord Diagrams for Network Data</div>
+          <div class="paper-authors">Kexin Wang, Shuqi He, Wei Wang, Jiazhou Yu, <b>Yu Liu</b>, Lingyun Yu</div>
+          <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2024.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3678698.3678707" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{wang2024chordination,
   title={CHORDination: Evaluating Visual Design Choices in Chord Diagrams for Network Data},
   author={Wang, Kexin and He, Shuqi and Wang, Wei and Yu, Jiazhou and Liu, Yu and Yu, Lingyun},
   booktitle={Proceedings of the 17th International Symposium on Visual Information Communication and Interaction (VINCI '24)},
   year={2024},
   publisher={ACM},
-  doi={10.1145/3673038.3673052}
+  doi={10.1145/3678698.3678707}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/chordination.jpg" class="image-popup" title="Click to enlarge"><img src="images/chordination.jpg" alt="Teaser"></a>
         </div>
       </div>
 
