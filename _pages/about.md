@@ -109,7 +109,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <img src="images/scroll_vr.png" alt="Teaser">
+          <a href="images/scroll_vr.png" target="_blank" title="View full image"><img src="images/scroll_vr.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -137,7 +137,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <img src="images/movemate.png" alt="Teaser">
+          <a href="images/movemate.png" target="_blank" title="View full image"><img src="images/movemate.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -292,7 +292,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <img src="images/tagmap.png" alt="Teaser">
+          <a href="images/tagmap.png" target="_blank" title="View full image"><img src="images/tagmap.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -320,7 +320,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <img src="images/journey_west.png" alt="Teaser">
+          <a href="images/journey_west.png" target="_blank" title="View full image"><img src="images/journey_west.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -348,7 +348,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <img src="images/Physicalization.png" alt="Teaser">
+          <a href="images/Physicalization.png" target="_blank" title="View full image"><img src="images/Physicalization.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -377,7 +377,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <img src="images/MapCraft.png" alt="Teaser">
+          <a href="images/MapCraft.png" target="_blank" title="View full image"><img src="images/MapCraft.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -509,7 +509,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <img src="images/mobiles.png" alt="Teaser">
+          <a href="images/mobiles.png" target="_blank" title="View full image"><img src="images/mobiles.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -559,7 +559,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <img src="images/Projectedmap.png" alt="Teaser">
+          <a href="images/Projectedmap.png" target="_blank" title="View full image"><img src="images/Projectedmap.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -738,29 +738,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="multi-device">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-        </div>
-        <div class="paper-title">BioChipVis: An Information Visualization Interface for Explainable Biochip Data Classification</div>
-        <div class="paper-authors">Paul Craig, Ruben Ng, <b>Yu Liu</b>, Boris Tefsen, Sam Linsen</div>
-        <div class="paper-venue"><em>IS&T Electronic Imaging (Visualization and Data Analysis)</em>, 2023.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://doi.org/10.2352/EI.2023.35.1.VDA-404" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@article{craig2023biochipvis,
-  title={BioChipVis: An Information Visualization Interface for Explainable Biochip Data Classification},
-  author={Craig, Paul and Ng, Ruben and Liu, Yu and Tefsen, Boris and Linsen, Sam},
-  journal={Electronic Imaging},
-  volume={35},
-  pages={404-1--404-8},
-  year={2023},
-  doi={10.2352/EI.2023.35.1.VDA-404}
-}</code></pre>
-          </details>
-        </div>
-      </div>
     </div>
     <div class="timeline-spine-col">
       <div class="timeline-year-badge">2023</div>
