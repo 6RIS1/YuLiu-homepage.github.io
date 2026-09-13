@@ -82,14 +82,16 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box' data-tags="immersive cultural">
   <div class='paper-box-image'>
+    <div class="teaser-tags-top-left">
+      <span class="tag-device-overlay" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
+      <span class="tag-theme-overlay" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
+    </div>
+    <div class="teaser-award-top-right">
+      <span class="badge-award-overlay">🏆 Honorable Mention</span>
+    </div>
     <img src='images/scroll_vr.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
-      <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
-      <span class="badge-award">🏆 Honorable Mention</span>
-    </div>
     <div class="paper-title">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
     <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
     <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
@@ -111,13 +113,13 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class='paper-box' data-tags="smartwatch sports">
   <div class='paper-box-image'>
+    <div class="teaser-tags-top-left">
+      <span class="tag-device-overlay" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+      <span class="tag-theme-overlay" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
+    </div>
     <img src='images/movemate.png' alt="Teaser">
   </div>
   <div class='paper-box-text'>
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-      <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
-    </div>
     <div class="paper-title">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
     <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
     <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
@@ -139,22 +141,24 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <div class="pub-subheading">📚 All Publications</div>
 
-<div class="pub-timeline-list">
+<div class="pub-timeline-container">
 
-<div class="paper-row" data-tags="smartwatch multi-device">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-      <span class="tag-theme" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">📊 Multi-Device Systems</span>
-    </div>
-    <div class="paper-title">A Survey on Multi-Device Systems Involving Smartwatches</div>
-    <div class="paper-authors">Yihan Liu, Jiazhe Huang, Yuchen Gu, Fabiola Polidoro, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>International Journal of Human–Computer Interaction (IJHCI)</em>, 2026.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://doi.org/10.1080/10447318.2026.2643339" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@article{liu2026survey,
+  <!-- 2026 Year Section -->
+  <div class="timeline-year-section" data-year="2026">
+    <div class="timeline-content-col">
+      <div class="paper-row" data-tags="smartwatch multi-device">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+          <span class="tag-theme" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">📊 Multi-Device Systems</span>
+        </div>
+        <div class="paper-title">A Survey on Multi-Device Systems Involving Smartwatches</div>
+        <div class="paper-authors">Yihan Liu, Jiazhe Huang, Yuchen Gu, Fabiola Polidoro, Lingyun Yu, <b>Yu Liu</b></div>
+        <div class="paper-venue"><em>International Journal of Human–Computer Interaction (IJHCI)</em>, 2026.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://doi.org/10.1080/10447318.2026.2643339" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@article{liu2026survey,
   title={A Survey on Multi-Device Systems Involving Smartwatches},
   author={Liu, Yihan and Huang, Jiazhe and Gu, Yuchen and Polidoro, Fabiola and Yu, Lingyun and Liu, Yu},
   journal={International Journal of Human–Computer Interaction},
@@ -163,29 +167,32 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={Taylor \& Francis},
   doi={10.1080/10447318.2026.2643339}
 }</code></pre>
-      </details>
+          </details>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-spine-col">
+      <div class="timeline-year-badge">2026</div>
+      <div class="timeline-track-line"></div>
     </div>
   </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2026</span>
-  </div>
-</div>
 
-<div class="paper-row" data-tags="smartwatch sports">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-      <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
-    </div>
-    <div class="paper-title">Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches</div>
-    <div class="paper-authors"><b>Yu Liu</b>, Zhouxuan Xia, Jinyuan Du</div>
-    <div class="paper-venue"><em>Computer Graphics Forum (CGF)</em>, 2025.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://doi.org/10.1111/cgf.70224" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@article{liu2025comparative,
+  <!-- 2025 Year Section -->
+  <div class="timeline-year-section" data-year="2025">
+    <div class="timeline-content-col">
+      <div class="paper-row" data-tags="smartwatch sports">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+          <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
+        </div>
+        <div class="paper-title">Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches</div>
+        <div class="paper-authors"><b>Yu Liu</b>, Zhouxuan Xia, Jinyuan Du</div>
+        <div class="paper-venue"><em>Computer Graphics Forum (CGF)</em>, 2025.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://doi.org/10.1111/cgf.70224" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@article{liu2025comparative,
   title={Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches},
   author={Liu, Yu and Xia, Zhouxuan and Du, Jinyuan},
   journal={Computer Graphics Forum},
@@ -195,58 +202,46 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={Wiley},
   doi={10.1111/cgf.70224}
 }</code></pre>
-      </details>
-    </div>
-  </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2025</span>
-  </div>
-</div>
+          </details>
+        </div>
+      </div>
 
-<div class="paper-row" data-tags="multi-device vis-analytics">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-      <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Collaborative Vis</span>
-    </div>
-    <div class="paper-title">Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration</div>
-    <div class="paper-authors">Qiuyao Cheng, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>The China Visualization and Visual Analytics Conference (ChinaVis)</em>, 2025.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://chinavis.org/2025/papers/Evaluating%20Information%20Synchronization%20Methods%20in%20Large%20Display-Centered%20Multi-Device%20Collaboration.pdf" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{cheng2025evaluating,
+      <div class="paper-row" data-tags="multi-device vis-analytics">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
+          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Collaborative Vis</span>
+        </div>
+        <div class="paper-title">Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration</div>
+        <div class="paper-authors">Qiuyao Cheng, Lingyun Yu, <b>Yu Liu</b></div>
+        <div class="paper-venue"><em>The China Visualization and Visual Analytics Conference (ChinaVis)</em>, 2025.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://chinavis.org/2025/papers/Evaluating%20Information%20Synchronization%20Methods%20in%20Large%20Display-Centered%20Multi-Device%20Collaboration.pdf" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{cheng2025evaluating,
   title={Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration},
   author={Cheng, Qiuyao and Yu, Lingyun and Liu, Yu},
   booktitle={Proceedings of the China Visualization and Visual Analytics Conference (ChinaVis '25)},
   year={2025}
 }</code></pre>
-      </details>
-    </div>
-  </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2025</span>
-  </div>
-</div>
+          </details>
+        </div>
+      </div>
 
-<div class="paper-row" data-tags="vis-analytics">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">🖥️ Display Interaction</span>
-      <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Map Visualization</span>
-      <span class="badge-award">🏆 Honorable Mention</span>
-    </div>
-    <div class="paper-title">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</div>
-    <div class="paper-authors">Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{chen2025textcolor,
+      <div class="paper-row" data-tags="vis-analytics">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">🖥️ Display Interaction</span>
+          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Map Visualization</span>
+          <span class="badge-award">🏆 Honorable Mention</span>
+        </div>
+        <div class="paper-title">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</div>
+        <div class="paper-authors">Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, <b>Yu Liu</b></div>
+        <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{chen2025textcolor,
   title={Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies},
   author={Chen, Xinyao and Zhang, Xinyuan and Ma, Teng and Yu, Lingyun and Liu, Yu},
   booktitle={Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)},
@@ -255,29 +250,23 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3769534.3769610}
 }</code></pre>
-      </details>
-    </div>
-  </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2025</span>
-  </div>
-</div>
+          </details>
+        </div>
+      </div>
 
-<div class="paper-row" data-tags="cultural vis-analytics">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Interactive System</span>
-      <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
-    </div>
-    <div class="paper-title">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</div>
-    <div class="paper-authors">Zeyu Chen, Anqi Xie, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{chen2025myth,
+      <div class="paper-row" data-tags="cultural vis-analytics">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Interactive System</span>
+          <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
+        </div>
+        <div class="paper-title">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</div>
+        <div class="paper-authors">Zeyu Chen, Anqi Xie, Lingyun Yu, <b>Yu Liu</b></div>
+        <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{chen2025myth,
   title={From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West},
   author={Chen, Zeyu and Xie, Anqi and Yu, Lingyun and Liu, Yu},
   booktitle={Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)},
@@ -286,88 +275,79 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3769534.3769615}
 }</code></pre>
-      </details>
+          </details>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-spine-col">
+      <div class="timeline-year-badge">2025</div>
+      <div class="timeline-track-line"></div>
     </div>
   </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2025</span>
-  </div>
-</div>
 
-<div class="paper-row" data-tags="vis-analytics">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">🖥️ Visual Design</span>
-      <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Geo-Infographics</span>
-      <span class="badge-award">🏆 Honorable Mention</span>
-    </div>
-    <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
-    <div class="paper-authors">Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ChinaVis 2024 / Journal of Visualization</em>, 2024.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://arxiv.org/abs/2409.13424" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@article{zhang2024mapcraft,
+  <!-- 2024 Year Section -->
+  <div class="timeline-year-section" data-year="2024">
+    <div class="timeline-content-col">
+      <div class="paper-row" data-tags="vis-analytics">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">🖥️ Visual Design</span>
+          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Geo-Infographics</span>
+          <span class="badge-award">🏆 Honorable Mention</span>
+        </div>
+        <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
+        <div class="paper-authors">Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, <b>Yu Liu</b></div>
+        <div class="paper-venue"><em>ChinaVis 2024 / Journal of Visualization</em>, 2024.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://arxiv.org/abs/2409.13424" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@article{zhang2024mapcraft,
   title={MapCraft: Dissecting and Designing Custom Geo-Infographics},
   author={Zhang, Xinyuan and Xu, Yifan and Li, Kaiwen and Yu, Lingyun and Liu, Yu},
   journal={Journal of Visualization},
   year={2024},
   doi={10.1007/s12650-024-01048-w}
 }</code></pre>
-      </details>
-    </div>
-  </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2024</span>
-  </div>
-</div>
+          </details>
+        </div>
+      </div>
 
-<div class="paper-row" data-tags="physicalization vis-analytics">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
-      <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Comparative Evaluation</span>
-    </div>
-    <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
-    <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ChinaVis 2024 / Journal of Visualization</em>, 2024.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://arxiv.org/abs/2409.06951" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@article{wang2024comparative,
+      <div class="paper-row" data-tags="physicalization vis-analytics">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
+          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Comparative Evaluation</span>
+        </div>
+        <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
+        <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
+        <div class="paper-venue"><em>ChinaVis 2024 / Journal of Visualization</em>, 2024.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://arxiv.org/abs/2409.06951" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@article{wang2024comparative,
   title={A Comparative Study of Table-Sized Physicalization and Digital Visualization},
   author={Wang, Yanxin and Liu, Yihan and Yu, Lingyun and Ji, Chengtao and Liu, Yu},
   journal={Journal of Visualization},
   year={2024},
   doi={10.1007/s12650-024-01042-2}
 }</code></pre>
-      </details>
-    </div>
-  </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2024</span>
-  </div>
-</div>
+          </details>
+        </div>
+      </div>
 
-<div class="paper-row" data-tags="smartwatch multi-device">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-      <span class="tag-theme" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">📊 Cross-Device Interaction</span>
-    </div>
-    <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
-    <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2024.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{cheng2024enhancing,
+      <div class="paper-row" data-tags="smartwatch multi-device">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+          <span class="tag-theme" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">📊 Cross-Device Interaction</span>
+        </div>
+        <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
+        <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, <b>Yu Liu</b></div>
+        <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2024.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{cheng2024enhancing,
   title={Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration},
   author={Cheng, Qiuyao and Tian, Xuanyao and Liao, Fengyuan and Chen, Tan and Chen, Xinyao and Wang, Zixuan and Dong, Yutong and Liu, Yu},
   booktitle={Adjunct Proceedings of the 26th International Conference on Mobile Human-Computer Interaction (MobileHCI '24)},
@@ -375,57 +355,45 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   year={2024},
   doi={10.1145/3640471.3680451}
 }</code></pre>
-      </details>
-    </div>
-  </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2024</span>
-  </div>
-</div>
+          </details>
+        </div>
+      </div>
 
-<div class="paper-row" data-tags="projection vis-analytics">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('projection', '📽️ Projection Augmented')">📽️ Projection Augmented</span>
-      <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Geographic Vis</span>
-    </div>
-    <div class="paper-title">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</div>
-    <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>International Workshop on Big Spatial Data and Visualization (BigVis)</em>, 2024.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{teng2024enhancing,
+      <div class="paper-row" data-tags="projection vis-analytics">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('projection', '📽️ Projection Augmented')">📽️ Projection Augmented</span>
+          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Geographic Vis</span>
+        </div>
+        <div class="paper-title">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</div>
+        <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
+        <div class="paper-venue"><em>International Workshop on Big Spatial Data and Visualization (BigVis)</em>, 2024.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{teng2024enhancing,
   title={Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps},
   author={Teng, Changyuanlang and Shi, Zhiwei and Yu, Lingyun and Liu, Yu},
   booktitle={International Workshop on Big Spatial Data and Visualization (BigVis '24)},
   year={2024}
 }</code></pre>
-      </details>
-    </div>
-  </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2024</span>
-  </div>
-</div>
+          </details>
+        </div>
+      </div>
 
-<div class="paper-row" data-tags="immersive vis-analytics">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
-      <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Data Exploration</span>
-    </div>
-    <div class="paper-title">Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration</div>
-    <div class="paper-authors">Haonan Yao, Lixiang Zhao, Hai-Ning Liang, <b>Yu Liu</b>, Yue Li, Lingyun Yu</div>
-    <div class="paper-venue"><em>ACM Conference on Human Factors in Computing Systems (CHI Extended Abstracts)</em>, 2024.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3613905.3650956" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{yao2024exploring,
+      <div class="paper-row" data-tags="immersive vis-analytics">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
+          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Data Exploration</span>
+        </div>
+        <div class="paper-title">Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration</div>
+        <div class="paper-authors">Haonan Yao, Lixiang Zhao, Hai-Ning Liang, <b>Yu Liu</b>, Yue Li, Lingyun Yu</div>
+        <div class="paper-venue"><em>ACM Conference on Human Factors in Computing Systems (CHI Extended Abstracts)</em>, 2024.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3613905.3650956" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{yao2024exploring,
   title={Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration},
   author={Yao, Haonan and Zhao, Lixiang and Liang, Hai-Ning and Liu, Yu and Li, Yue and Yu, Lingyun},
   booktitle={Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems (CHI EA '24)},
@@ -433,29 +401,23 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   year={2024},
   doi={10.1145/3613905.3650956}
 }</code></pre>
-      </details>
-    </div>
-  </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2024</span>
-  </div>
-</div>
+          </details>
+        </div>
+      </div>
 
-<div class="paper-row" data-tags="smartwatch vis-analytics">
-  <div class="paper-main-content">
-    <div class="paper-row-tags">
-      <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-      <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Prototyping Approach</span>
-    </div>
-    <div class="paper-title">Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach</div>
-    <div class="paper-authors">Fabiola Polidoro, <b>Yu Liu</b>, Paul Craig</div>
-    <div class="paper-venue"><em>ACM Conference on Human Factors in Computing Systems (CHI Extended Abstracts)</em>, 2024.</div>
-    <div class="paper-actions">
-      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3613905.3650949" target="_blank">Full Text</a>
-      <details class="paper-bibtex">
-        <summary class="paper-btn">BibTeX</summary>
-        <pre><code>@inproceedings{polidoro2024enhancing,
+      <div class="paper-row" data-tags="smartwatch vis-analytics">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Prototyping Approach</span>
+        </div>
+        <div class="paper-title">Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach</div>
+        <div class="paper-authors">Fabiola Polidoro, <b>Yu Liu</b>, Paul Craig</div>
+        <div class="paper-venue"><em>ACM Conference on Human Factors in Computing Systems (CHI Extended Abstracts)</em>, 2024.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3613905.3650949" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{polidoro2024enhancing,
   title={Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach},
   author={Polidoro, Fabiola and Liu, Yu and Craig, Paul},
   booktitle={Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems (CHI EA '24)},
@@ -463,14 +425,15 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   year={2024},
   doi={10.1145/3613905.3650949}
 }</code></pre>
-      </details>
+          </details>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-spine-col">
+      <div class="timeline-year-badge">2024</div>
+      <div class="timeline-track-line"></div>
     </div>
   </div>
-  <div class="paper-timeline-rail">
-    <div class="timeline-node"></div>
-    <span class="paper-year-badge">2024</span>
-  </div>
-</div>
 
 </div>
 
@@ -512,11 +475,22 @@ function filterPubs(tag, label) {
   document.querySelectorAll('.paper-row').forEach(function(row) {
     var tags = (row.getAttribute('data-tags') || '').split(' ');
     var match = tags.indexOf(tag) !== -1;
-    row.style.display = match ? 'flex' : 'none';
+    row.style.display = match ? 'block' : 'none';
     if (match) matchCount++;
   });
 
   if (countSpan) countSpan.textContent = matchCount;
+
+  // Toggle year section visibility based on whether it has visible papers
+  document.querySelectorAll('.timeline-year-section').forEach(function(section) {
+    var hasVisible = false;
+    section.querySelectorAll('.paper-row').forEach(function(row) {
+      if (row.style.display !== 'none') {
+        hasVisible = true;
+      }
+    });
+    section.style.display = hasVisible ? 'grid' : 'none';
+  });
 
   if (statusBar) {
     statusBar.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -534,7 +508,10 @@ function resetFilter() {
     card.style.display = 'flex';
   });
   document.querySelectorAll('.paper-row').forEach(function(row) {
-    row.style.display = 'flex';
+    row.style.display = 'block';
+  });
+  document.querySelectorAll('.timeline-year-section').forEach(function(section) {
+    section.style.display = 'grid';
   });
 }
 </script>
