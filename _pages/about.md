@@ -41,7 +41,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <div class='paper-box-text'>
     <div class="paper-title">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
     <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM MobileHCI 2026</em> <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026. <span class="badge-award">🏆 Honorable Mention</span></div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -66,7 +66,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <div class='paper-box-text'>
     <div class="paper-title">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
     <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM MobileHCI 2026</em></div>
+    <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263573" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -91,7 +91,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <div class='paper-box-text'>
     <div class="paper-title">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</div>
     <div class="paper-authors">Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM VINCI 2025</em> <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025. <span class="badge-award">🏆 Honorable Mention</span></div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -118,7 +118,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <div class='paper-box-text'>
     <div class="paper-title">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</div>
     <div class="paper-authors">Zeyu Chen, Anqi Xie, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM VINCI 2025</em></div>
+    <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -145,7 +145,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <div class='paper-box-text'>
     <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
     <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>ACM MobileHCI 2024</em></div>
+    <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2024.</div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -171,7 +171,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <div class='paper-box-text'>
     <div class="paper-title">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</div>
     <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>BigVis 2024</em></div>
+    <div class="paper-venue"><em>International Workshop on Big Spatial Data and Visualization (BigVis)</em>, 2024.</div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -195,7 +195,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <div class='paper-box-text'>
     <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
     <div class="paper-authors">Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>Journal of Visualization</em>, 2024. <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-venue"><em>ChinaVis 2024 / Journal of Visualization</em>, 2024. <span class="badge-award">🏆 Honorable Mention</span></div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://arxiv.org/abs/2409.13424" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -220,7 +220,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <div class='paper-box-text'>
     <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
     <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
-    <div class="paper-venue"><em>Journal of Visualization</em>, 2024.</div>
+    <div class="paper-venue"><em>ChinaVis 2024 / Journal of Visualization</em>, 2024.</div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://arxiv.org/abs/2409.06951" target="_blank">Full Text</a>
       <details class="paper-bibtex">
@@ -237,8 +237,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-- Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration, Haonan Yao, Lixiang Zhao, Hai-Ning Liang, **Yu Liu**, Yue Li and Lingyun Yu, **ACM CHI 2024**
-- Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach, Fabiola Polidoro, **Yu Liu** and Paul Craig, **ACM CHI 2024**
+- Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration, Haonan Yao, Lixiang Zhao, Hai-Ning Liang, **Yu Liu**, Yue Li and Lingyun Yu, *ACM Conference on Human Factors in Computing Systems (CHI)*, 2024.
+- Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach, Fabiola Polidoro, **Yu Liu** and Paul Craig, *ACM Conference on Human Factors in Computing Systems (CHI)*, 2024.
 
 <span class='anchor' id='teaching'></span>
 <span class='anchor' id='-teaching'></span>

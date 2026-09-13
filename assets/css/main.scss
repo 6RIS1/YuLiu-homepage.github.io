@@ -99,7 +99,7 @@ h1:before, .anchor:before {
     position: absolute;
     top: 6px;
     left: 6px;
-    background: rgba(17, 24, 39, 0.75);
+    background: rgba(114, 138, 122, 0.92);
     color: #ffffff;
     font-size: 0.7em;
     font-weight: 600;
@@ -155,9 +155,9 @@ h1:before, .anchor:before {
     padding: 2px 8px;
     font-size: 0.78em;
     font-weight: 600;
-    color: #2563eb;
-    background-color: #eff6ff;
-    border: 1px solid #bfdbfe;
+    color: #44594c;
+    background-color: #f0f4f1;
+    border: 1px solid #c1d0c7;
     border-radius: 3px;
     text-decoration: none;
     cursor: pointer;
@@ -165,7 +165,8 @@ h1:before, .anchor:before {
     transition: all 0.15s ease;
 
     &:hover {
-        background-color: #2563eb;
+        background-color: #728A7A;
+        border-color: #728A7A;
         color: #ffffff;
         text-decoration: none;
     }
@@ -201,7 +202,8 @@ h1:before, .anchor:before {
         width: 100%;
         margin-top: 4px;
         summary {
-            background-color: #2563eb;
+            background-color: #728A7A;
+            border-color: #728A7A;
             color: #ffffff;
         }
     }
@@ -209,14 +211,14 @@ h1:before, .anchor:before {
         margin-top: 6px;
         margin-bottom: 0;
         padding: 8px 10px;
-        background-color: #f9fafb;
-        border: 1px solid #e5e7eb;
+        background-color: #f7f9f8;
+        border: 1px solid #dce4df;
         border-radius: 4px;
         font-size: 0.75em;
         font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
         white-space: pre-wrap;
         word-break: break-all;
-        color: #374151;
+        color: #2e3b33;
         line-height: 1.4;
     }
 }
