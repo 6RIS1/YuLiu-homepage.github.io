@@ -204,6 +204,41 @@ h1:before, .anchor:before {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
+/* Icon Badge Box System (Unified Style 3) */
+.heading-icon-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    background-color: #ecf3ef;
+    border: 1px solid #b6cec1;
+    border-radius: 6px;
+    margin-right: 8px;
+    vertical-align: -3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.subheading-icon-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    font-size: 13px;
+    background-color: #f0f5f2;
+    border: 1px solid #c8d8ce;
+    border-radius: 4px;
+    margin-right: 6px;
+    vertical-align: -2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    line-height: 1;
+    flex-shrink: 0;
+}
+
 /* Section Headings inside Publications */
 .pub-subheading {
     font-size: 1.1em;

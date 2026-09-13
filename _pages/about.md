@@ -21,7 +21,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <span class='anchor' id='news'></span>
 <span class='anchor' id='-news'></span>
-# ![world-news_2644746](https://github.com/user-attachments/assets/f25c2d8f-46b8-4880-9473-4280fb48cc65) News
+# <span class="heading-icon-badge">📰</span> News
 - *2026.08*: &nbsp; Two papers were accepted to **ACM MobileHCI 2026**! Notably, *"Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings"* received the **Honorable Mention** award. The second paper is *"MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance"*.
 - *2025.12*: &nbsp; Two papers were accepted to **ACM VINCI 2025**! Notably, *"Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies"* received the **Honorable Mention** award. The second paper is *"From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West"*.
 
@@ -37,12 +37,12 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
 <span class='anchor' id='publications'></span>
 <span class='anchor' id='-publications'></span>
-# ![paper_420287](https://github.com/user-attachments/assets/457296da-93ad-4669-bf3c-bfbe831df244) Publications 
+# <span class="heading-icon-badge">📄</span> Publications 
 
 <div class="filter-panel-container">
   <div class="filter-card filter-card-device">
     <div class="filter-card-header">
-      <span class="filter-card-title">📱 Interaction & Devices</span>
+      <span class="filter-card-title"><span class="subheading-icon-badge">📱</span> Interaction & Devices</span>
       <span class="filter-card-hint">Device Modality</span>
     </div>
     <div class="filter-card-desc">Interactive modalities, wearable systems, and novel display setups</div>
@@ -57,14 +57,14 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 
   <div class="filter-card filter-card-theme">
     <div class="filter-card-header">
-      <span class="filter-card-title">🎯 Application Domains</span>
+      <span class="filter-card-title"><span class="subheading-icon-badge" style="background:#edf4f8; border-color:#b7d2e3;">🎯</span> Application Domains</span>
       <span class="filter-card-hint">Domain & Theme</span>
     </div>
-    <div class="filter-card-desc">Sports & health analytics, digital cultural heritage, and visual design</div>
+    <div class="filter-card-desc">Real-world applications in cultural heritage, sports, and cartography</div>
     <div class="filter-card-tags">
-      <button class="filter-btn filter-btn-theme" data-filter="sports" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</button>
       <button class="filter-btn filter-btn-theme" data-filter="cultural" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</button>
-      <button class="filter-btn filter-btn-theme" data-filter="vis-analytics" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Visual Analytics & Design</button>
+      <button class="filter-btn filter-btn-theme" data-filter="sports" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</button>
+      <button class="filter-btn filter-btn-theme" data-filter="maps" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</button>
     </div>
   </div>
 </div>
@@ -78,7 +78,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <button class="clear-filter-btn" onclick="resetFilter()">Show All Papers ✕</button>
 </div>
 
-<div class="pub-subheading">🌟 Featured Highlights</div>
+<div class="pub-subheading"><span class="subheading-icon-badge">🌟</span> Featured Highlights</div>
 
 <div class='paper-box' data-tags="immersive cultural">
   <div class='paper-box-image'>
@@ -139,7 +139,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   </div>
 </div>
 
-<div class="pub-subheading">📚 All Publications</div>
+<div class="pub-subheading"><span class="subheading-icon-badge">📚</span> All Publications</div>
 
 <div class="pub-timeline-container">
 
@@ -149,7 +149,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
       <div class="paper-row" data-tags="smartwatch multi-device">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-theme" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">📊 Multi-Device Systems</span>
+          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device</span>
         </div>
         <div class="paper-title">A Survey on Multi-Device Systems Involving Smartwatches</div>
         <div class="paper-authors">Yihan Liu, Jiazhe Huang, Yuchen Gu, Fabiola Polidoro, Lingyun Yu, <b>Yu Liu</b></div>
@@ -206,10 +206,9 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="multi-device vis-analytics">
+      <div class="paper-row" data-tags="multi-device">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Collaborative Vis</span>
         </div>
         <div class="paper-title">Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration</div>
         <div class="paper-authors">Qiuyao Cheng, Lingyun Yu, <b>Yu Liu</b></div>
@@ -228,10 +227,9 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="vis-analytics">
+      <div class="paper-row" data-tags="maps">
         <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">🖥️ Display Interaction</span>
-          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Map Visualization</span>
+          <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</span>
           <span class="badge-award">🏆 Honorable Mention</span>
         </div>
         <div class="paper-title">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</div>
@@ -254,7 +252,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="cultural vis-analytics">
+      <div class="paper-row" data-tags="cultural multi-device">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Interactive System</span>
           <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
@@ -288,10 +286,9 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <!-- 2024 Year Section -->
   <div class="timeline-year-section" data-year="2024">
     <div class="timeline-content-col">
-      <div class="paper-row" data-tags="vis-analytics">
+      <div class="paper-row" data-tags="maps">
         <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">🖥️ Visual Design</span>
-          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Geo-Infographics</span>
+          <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Geo-Infographics & Maps</span>
           <span class="badge-award">🏆 Honorable Mention</span>
         </div>
         <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
@@ -312,10 +309,9 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="physicalization vis-analytics">
+      <div class="paper-row" data-tags="physicalization">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
-          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Comparative Evaluation</span>
         </div>
         <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
         <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
@@ -338,7 +334,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
       <div class="paper-row" data-tags="smartwatch multi-device">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-theme" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">📊 Cross-Device Interaction</span>
+          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Cross-Device</span>
         </div>
         <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
         <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, <b>Yu Liu</b></div>
@@ -359,10 +355,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="projection vis-analytics">
+      <div class="paper-row" data-tags="projection maps">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('projection', '📽️ Projection Augmented')">📽️ Projection Augmented</span>
-          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Geographic Vis</span>
+          <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Geographic Vis & Maps</span>
         </div>
         <div class="paper-title">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</div>
         <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
@@ -381,10 +377,9 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="immersive vis-analytics">
+      <div class="paper-row" data-tags="immersive">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
-          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Data Exploration</span>
         </div>
         <div class="paper-title">Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration</div>
         <div class="paper-authors">Haonan Yao, Lixiang Zhao, Hai-Ning Liang, <b>Yu Liu</b>, Yue Li, Lingyun Yu</div>
@@ -405,10 +400,9 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="smartwatch vis-analytics">
+      <div class="paper-row" data-tags="smartwatch">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-theme" onclick="toggleFilter('vis-analytics', '📊 Visual Analytics & Design')">📊 Prototyping Approach</span>
         </div>
         <div class="paper-title">Enhancing Mobile Visualisation Interactivity: Insights on a Mixed-fidelity Prototyping Approach</div>
         <div class="paper-authors">Fabiola Polidoro, <b>Yu Liu</b>, Paul Craig</div>
@@ -518,14 +512,14 @@ function resetFilter() {
 
 <span class='anchor' id='teaching'></span>
 <span class='anchor' id='-teaching'></span>
-# ![teaching](https://github.com/user-attachments/assets/20e43195-f4c2-4b65-95a2-2c57a358de63) Teaching
+# <span class="heading-icon-badge">👨‍🏫</span> Teaching
 - CPT001 Professional Skills in Computer Science
 - CPT003 Introduction to Database
 
 
 <span class='anchor' id='student-competitions'></span>
 <span class='anchor' id='-honors-and-awards'></span>
-# ![gong_3420372](https://github.com/user-attachments/assets/f495385b-4699-4c6b-b935-d71fc3e3052d) Student Competitions
+# <span class="heading-icon-badge">🏆</span> Student Competitions
 - *2026.06* ChinaVis Data Challenge Contest, Third Prize.
 - *2024.06* ChinaVis Data Challenge Contest, Second Prize.
 - *2023.06* ChinaVis Data Challenge Contest, First Prize.
@@ -536,22 +530,22 @@ function resetFilter() {
 
 <span class='anchor' id='educations'></span>
 <span class='anchor' id='-educations'></span>
-# ![global-education_3379870](https://github.com/user-attachments/assets/1ffecb0d-2ef9-4507-9815-6d66c19d6726) Educations
+# <span class="heading-icon-badge">🎓</span> Educations
 - *2018.02 - 2022.06*, Ph.D. Computer Science, University of Liverpool (UoL). 
 - *2016.09 - 2017.12*, MSc. Design for Informatics, University of Edinburgh (UoE).
 - *2012.09 - 2016.06*, BSc. Computer Science and Software Engineering. Taiyuan University of Technology (TYUT).
 
 <span class='anchor' id='invited-talks'></span>
 <span class='anchor' id='-invited-talks'></span>
-# ![teacher_1115729](https://github.com/user-attachments/assets/1152abf1-9e5a-467b-9a7a-9686709e4427) Invited Talks
+# <span class="heading-icon-badge">🎤</span> Invited Talks
 - *2023.04*, 2023 China-Japan-South Korea Visualization Forum, Seoul, Korea.
 
 <span class='anchor' id='service'></span>
 <span class='anchor' id='-service'></span>
-# ![studying_16493824](https://github.com/user-attachments/assets/d3738a87-6ca4-45eb-af0f-32482cfbf07d) Service
+# <span class="heading-icon-badge">🤝</span> Service
 Reviewer of IEEE VIS, ACM MobileHCI, CSCW, IJHCI, ISS, IEEE VR, ISMAR, PacificVis, ChinaVis, VINCI etc.
 
 <span class='anchor' id='internships'></span>
 <span class='anchor' id='-internships'></span>
-# ![identification_16269807](https://github.com/user-attachments/assets/17932ed8-0177-4e37-ab5a-070e73a9e0e4) Internships
+# <span class="heading-icon-badge">💼</span> Internships
 - *2021.12 - 2022.06*, Visualization Designer, [Bytedance](https://www.bytedance.com/en/), Beijing, China.
