@@ -667,6 +667,28 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
+      <div class="paper-row" data-tags="physicalization">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
+        </div>
+        <div class="paper-title">TangibleChannel: An Innovative Data Physicalization System for Visual Channel Education</div>
+        <div class="paper-authors">Siqi Xie, <b>Yu Liu</b>, Lingyun Yu</div>
+        <div class="paper-venue"><em>IEEE Visualization and Visual Analytics (VIS)</em>, 2023.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://ieeexplore.ieee.org/document/10322194/" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{xie2023tangiblechannel,
+  title={TangibleChannel: An Innovative Data Physicalization System for Visual Channel Education},
+  author={Xie, Siqi and Liu, Yu and Yu, Lingyun},
+  booktitle={2023 IEEE Visualization and Visual Analytics (VIS)},
+  year={2023},
+  publisher={IEEE}
+}</code></pre>
+          </details>
+        </div>
+      </div>
+
       <div class="paper-row" data-tags="immersive cultural">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
@@ -956,7 +978,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
         <div class="paper-title">Coordinating User Selections in Collaborative Smart-Phone Large-Display Multi-device Environments</div>
         <div class="paper-authors">Paul Craig, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>International Conference on Cooperative Design, Visualization and Engineering (CDVE), Lecture Notes in Computer Science (LNCS)</em>, 2018.</div>
+        <div class="paper-venue"><em>International Conference on Cooperative Design, Visualization and Engineering (CDVE)</em>, 2018.</div>
         <div class="paper-actions">
           <a class="paper-btn" href="https://doi.org/10.1007/978-3-030-00560-3_4" target="_blank">Full Text</a>
           <details class="paper-bibtex">
@@ -965,7 +987,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   title={Coordinating User Selections in Collaborative Smart-Phone Large-Display Multi-device Environments},
   author={Craig, Paul and Liu, Yu},
   booktitle={International Conference on Cooperative Design, Visualization and Engineering (CDVE 2018)},
-  series={Lecture Notes in Computer Science},
   volume={11115},
   pages={28--37},
   year={2018},
@@ -982,7 +1003,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
         <div class="paper-title">Toward a View Coordination Methodology for Collaborative Shared Large-Display Environments</div>
         <div class="paper-authors"><b>Yu Liu</b>, Paul Craig</div>
-        <div class="paper-venue"><em>International Conference on Cooperative Design, Visualization and Engineering (CDVE), Lecture Notes in Computer Science (LNCS)</em>, 2018.</div>
+        <div class="paper-venue"><em>International Conference on Cooperative Design, Visualization and Engineering (CDVE)</em>, 2018.</div>
         <div class="paper-actions">
           <a class="paper-btn" href="https://doi.org/10.1007/978-3-030-00560-3_41" target="_blank">Full Text</a>
           <details class="paper-bibtex">
@@ -991,7 +1012,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   title={Toward a View Coordination Methodology for Collaborative Shared Large-Display Environments},
   author={Liu, Yu and Craig, Paul},
   booktitle={International Conference on Cooperative Design, Visualization and Engineering (CDVE 2018)},
-  series={Lecture Notes in Computer Science},
   volume={11115},
   pages={317--324},
   year={2018},
