@@ -94,9 +94,9 @@ h1:before, .anchor:before {
     margin-top: -$scroll_offset;
 }
 
-/* Dual-dimension Harmonious Green Tag System:
+/* Dual-dimension Harmonious Tag System:
    - Device: Deep Forest / Pine Green
-   - Theme: Soft Sage / Moss Green
+   - Theme: Slate Dusk Blue (high distinction, academic elegance)
 */
 .tag-device {
     display: inline-flex;
@@ -117,9 +117,9 @@ h1:before, .anchor:before {
     align-items: center;
     font-size: 0.72em;
     font-weight: 600;
-    color: #456350;
-    background-color: #f2f6f3;
-    border: 1px solid #cad9cf;
+    color: #1d4e6d;
+    background-color: #edf4f8;
+    border: 1px solid #b7d2e3;
     padding: 1px 7px;
     border-radius: 4px;
     line-height: 1.4;
@@ -172,11 +172,11 @@ h1:before, .anchor:before {
     align-items: center;
     font-size: 0.72em;
     font-weight: 600;
-    color: #456350;
+    color: #1d4e6d;
     background: rgba(255, 255, 255, 0.94);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px solid #cad9cf;
+    border: 1px solid #b7d2e3;
     padding: 2px 7px;
     border-radius: 4px;
     line-height: 1.4;
@@ -184,7 +184,7 @@ h1:before, .anchor:before {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
     transition: all 0.15s ease;
     &:hover {
-        background: #f2f6f3;
+        background: #e4eff6;
     }
 }
 
@@ -534,19 +534,19 @@ h1:before, .anchor:before {
     }
 }
 
-/* Theme Dimension: Soft Sage Green Card */
+/* Theme Dimension: Slate Dusk Blue Card */
 .filter-card-theme {
-    background: #fafcfb;
-    border: 1px solid #d2ded7;
+    background: #f6f9fc;
+    border: 1px solid #ccdbe6;
 
     .filter-card-title {
-        color: #3b5745;
+        color: #1a4968;
     }
     .filter-card-desc {
-        color: #597564;
+        color: #3b6685;
     }
     .filter-card-hint {
-        color: #3b5745;
+        color: #1a4968;
     }
 }
 
@@ -580,17 +580,17 @@ h1:before, .anchor:before {
 
     &.filter-btn-theme {
         background-color: #ffffff;
-        color: #456350;
-        border: 1px solid #cad9cf;
+        color: #1d4e6d;
+        border: 1px solid #b7d2e3;
         &:hover {
-            background-color: #ebf3ee;
-            border-color: #a4c4af;
+            background-color: #e4eff6;
+            border-color: #92b8d2;
         }
         &.active {
-            background-color: #4b6d58;
+            background-color: #24587a;
             color: #ffffff;
-            border-color: #4b6d58;
-            box-shadow: 0 1px 4px rgba(71, 102, 85, 0.25);
+            border-color: #24587a;
+            box-shadow: 0 1px 4px rgba(36, 88, 122, 0.25);
         }
     }
 }
