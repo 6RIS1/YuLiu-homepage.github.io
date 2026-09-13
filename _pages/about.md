@@ -267,19 +267,20 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="maps">
-        <div class="paper-row-tags">
-          <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</span>
-          <span class="badge-award">🏆 Honorable Mention</span>
-        </div>
-        <div class="paper-title">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</div>
-        <div class="paper-authors">Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{chen2025textcolor,
+      <div class="paper-row has-teaser" data-tags="maps">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</span>
+            <span class="badge-award">🏆 Honorable Mention</span>
+          </div>
+          <div class="paper-title">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</div>
+          <div class="paper-authors">Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{chen2025textcolor,
   title={Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies},
   author={Chen, Xinyao and Zhang, Xinyuan and Ma, Teng and Yu, Lingyun and Liu, Yu},
   booktitle={Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)},
@@ -287,22 +288,27 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3769534.3769610}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <img src="images/tagmap.png" alt="Teaser">
         </div>
       </div>
 
-      <div class="paper-row" data-tags="cultural">
-        <div class="paper-row-tags">
-          <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
-        </div>
-        <div class="paper-title">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</div>
-        <div class="paper-authors">Zeyu Chen, Anqi Xie, Lingyun Yu, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{chen2025myth,
+      <div class="paper-row has-teaser" data-tags="cultural">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
+          </div>
+          <div class="paper-title">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</div>
+          <div class="paper-authors">Zeyu Chen, Anqi Xie, Lingyun Yu, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2025.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{chen2025myth,
   title={From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West},
   author={Chen, Zeyu and Xie, Anqi and Yu, Lingyun and Liu, Yu},
   booktitle={Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)},
@@ -310,22 +316,27 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3769534.3769615}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <img src="images/journey_west.png" alt="Teaser">
         </div>
       </div>
 
-      <div class="paper-row" data-tags="physicalization">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
-        </div>
-        <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
-        <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>Journal of Visualization (ChinaVis 2024)</em>, 2025.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://doi.org/10.1007/s12650-025-01056-7" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@article{wang2025comparative,
+      <div class="paper-row has-teaser" data-tags="physicalization">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
+          </div>
+          <div class="paper-title">A Comparative Study of Table-Sized Physicalization and Digital Visualization</div>
+          <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>Journal of Visualization</em>, 2025.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://doi.org/10.1007/s12650-025-01056-7" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@article{wang2025comparative,
   title={A Comparative Study of Table-Sized Physicalization and Digital Visualization},
   author={Wang, Yanxin and Liu, Yihan and Yu, Lingyun and Ji, Chengtao and Liu, Yu},
   journal={Journal of Visualization},
@@ -333,23 +344,28 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={Springer},
   doi={10.1007/s12650-025-01056-7}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <img src="images/Physicalization.png" alt="Teaser">
         </div>
       </div>
 
-      <div class="paper-row" data-tags="maps">
-        <div class="paper-row-tags">
-          <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</span>
-          <span class="badge-award">🏆 Honorable Mention</span>
-        </div>
-        <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
-        <div class="paper-authors">Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>Journal of Visualization (ChinaVis 2024)</em>, 2025.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://doi.org/10.1007/s12650-025-01059-4" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@article{zhang2025mapcraft,
+      <div class="paper-row has-teaser" data-tags="maps">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</span>
+            <span class="badge-award">🏆 Honorable Mention</span>
+          </div>
+          <div class="paper-title">MapCraft: Dissecting and Designing Custom Geo-Infographics</div>
+          <div class="paper-authors">Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>Journal of Visualization and ChinaVis</em>, 2024.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://doi.org/10.1007/s12650-025-01059-4" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@article{zhang2025mapcraft,
   title={MapCraft: Dissecting and Designing Custom Geo-Infographics},
   author={Zhang, Xinyuan and Xu, Yifan and Li, Kaiwen and Yu, Lingyun and Liu, Yu},
   journal={Journal of Visualization},
@@ -357,7 +373,11 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={Springer},
   doi={10.1007/s12650-025-01059-4}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <img src="images/MapCraft.png" alt="Teaser">
         </div>
       </div>
 
@@ -464,19 +484,20 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="smartwatch multi-device">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-        </div>
-        <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
-        <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2024.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{cheng2024enhancing,
+      <div class="paper-row has-teaser" data-tags="smartwatch multi-device">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+            <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
+          </div>
+          <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
+          <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2024.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{cheng2024enhancing,
   title={Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration},
   author={Cheng, Qiuyao and Tian, Xuanyao and Liao, Fengyuan and Chen, Tan and Chen, Xinyao and Wang, Zixuan and Liu, Yu},
   booktitle={Proceedings of the 26th International Conference on Mobile Human-Computer Interaction (MobileHCI '24)},
@@ -484,7 +505,11 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={ACM},
   doi={10.1145/3640471.3680451}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <img src="images/mobiles.png" alt="Teaser">
         </div>
       </div>
 
@@ -511,27 +536,30 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="maps physicalization projection">
-        <div class="paper-row-tags">
-          <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</span>
-          <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
-          <span class="tag-device" onclick="toggleFilter('projection', '📽️ Projection Augmented')">📽️ Projection Augmented</span>
-          <span class="badge-award">🏆 Honorable Mention</span>
-        </div>
-        <div class="paper-title">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</div>
-        <div class="paper-authors">Yu Chen, Jiacheng Liu, Jingxuan Zhang, Paul Craig, Lingyun Yu, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>The China Visualization and Visual Analytics Conference (ChinaVis)</em>, 2024.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://chinavis.org/2024/papers/Enhancing%20Geographic%20Information%20Visualization%20A%20Comparative%20Analysis%20of%20Digital%20Maps%20and%20Projection%20Augmented%20Relief%20Maps.pdf" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{chen2024enhancing,
+      <div class="paper-row has-teaser" data-tags="projection maps">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('projection', '📽️ Projection Augmented')">📽️ Projection Augmented</span>
+            <span class="tag-theme" onclick="toggleFilter('maps', '🗺️ Cartography & Maps')">🗺️ Cartography & Maps</span>
+          </div>
+          <div class="paper-title">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</div>
+          <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>International Workshop on Big Spatial Data and Visualization (BigVis)</em>, 2024.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{teng2024enhancing,
   title={Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps},
-  author={Chen, Yu and Liu, Jiacheng and Zhang, Jingxuan and Craig, Paul and Yu, Lingyun and Liu, Yu},
-  booktitle={The China Visualization and Visual Analytics Conference (ChinaVis 2024)},
+  author={Teng, Changyuanlang and Shi, Zhiwei and Yu, Lingyun and Liu, Yu},
+  booktitle={International Workshop on Big Spatial Data and Visualization (BigVis '24)},
   year={2024}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <img src="images/Projectedmap.png" alt="Teaser">
         </div>
       </div>
 
