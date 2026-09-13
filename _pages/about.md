@@ -180,7 +180,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
     </div>
     <div class="paper-title">Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches</div>
     <div class="paper-authors"><b>Yu Liu</b>, Zhouxuan Xia, Jinyuan Du</div>
-    <div class="paper-venue"><em>Computer Graphics Forum (ChinaVis)</em>, 2025.</div>
+    <div class="paper-venue"><em>Computer Graphics Forum (CGF)</em>, 2025.</div>
     <div class="paper-actions">
       <a class="paper-btn" href="https://doi.org/10.1111/cgf.70224" target="_blank">Full Text</a>
       <details class="paper-bibtex">
