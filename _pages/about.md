@@ -207,19 +207,20 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <!-- 2025 Year Section -->
   <div class="timeline-year-section" data-year="2025">
     <div class="timeline-content-col">
-      <div class="paper-row" data-tags="smartwatch sports">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
-        </div>
-        <div class="paper-title">Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches</div>
-        <div class="paper-authors"><b>Yu Liu</b>, Zhouxuan Xia, Jinyuan Du</div>
-        <div class="paper-venue"><em>Computer Graphics Forum (CGF)</em>, 2025.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://doi.org/10.1111/cgf.70224" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@article{liu2025comparative,
+      <div class="paper-row has-teaser" data-tags="smartwatch sports">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+            <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
+          </div>
+          <div class="paper-title">Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches</div>
+          <div class="paper-authors"><b>Yu Liu</b>, Zhouxuan Xia, Jinyuan Du</div>
+          <div class="paper-venue"><em>Computer Graphics Forum (CGF)</em>, 2025.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://doi.org/10.1111/cgf.70224" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@article{liu2025comparative,
   title={Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches},
   author={Liu, Yu and Xia, Zhouxuan and Du, Jinyuan},
   journal={Computer Graphics Forum},
@@ -229,7 +230,11 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={Wiley},
   doi={10.1111/cgf.70224}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/smartwatch_cgf.png" class="image-popup" title="Click to enlarge"><img src="images/smartwatch_cgf.png" alt="Teaser"></a>
         </div>
       </div>
 
