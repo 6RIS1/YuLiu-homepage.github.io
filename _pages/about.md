@@ -109,7 +109,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/scroll_vr.png" target="_blank" title="View full image"><img src="images/scroll_vr.png" alt="Teaser"></a>
+          <a href="images/scroll_vr.png" class="image-popup" title="Click to enlarge"><img src="images/scroll_vr.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -137,7 +137,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/movemate.png" target="_blank" title="View full image"><img src="images/movemate.png" alt="Teaser"></a>
+          <a href="images/movemate.png" class="image-popup" title="Click to enlarge"><img src="images/movemate.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -167,7 +167,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/multidevice_survey.jpg" target="_blank" title="View full image"><img src="images/multidevice_survey.jpg" alt="Teaser"></a>
+          <a href="images/multidevice_survey.jpg" class="image-popup" title="Click to enlarge"><img src="images/multidevice_survey.jpg" alt="Teaser"></a>
         </div>
       </div>
 
@@ -194,7 +194,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/nftspot.png" target="_blank" title="View full image"><img src="images/nftspot.png" alt="Teaser"></a>
+          <a href="images/nftspot.png" class="image-popup" title="Click to enlarge"><img src="images/nftspot.png" alt="Teaser"></a>
         </div>
       </div>
     </div>
@@ -278,7 +278,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/large_display_sync.png" target="_blank" title="View full image"><img src="images/large_display_sync.png" alt="Teaser"></a>
+          <a href="images/large_display_sync.png" class="image-popup" title="Click to enlarge"><img src="images/large_display_sync.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -307,7 +307,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/tagmap.png" target="_blank" title="View full image"><img src="images/tagmap.png" alt="Teaser"></a>
+          <a href="images/tagmap.png" class="image-popup" title="Click to enlarge"><img src="images/tagmap.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -335,7 +335,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/journey_west.png" target="_blank" title="View full image"><img src="images/journey_west.png" alt="Teaser"></a>
+          <a href="images/journey_west.png" class="image-popup" title="Click to enlarge"><img src="images/journey_west.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -363,7 +363,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/Physicalization.png" target="_blank" title="View full image"><img src="images/Physicalization.png" alt="Teaser"></a>
+          <a href="images/Physicalization.png" class="image-popup" title="Click to enlarge"><img src="images/Physicalization.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -392,7 +392,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/MapCraft.png" target="_blank" title="View full image"><img src="images/MapCraft.png" alt="Teaser"></a>
+          <a href="images/MapCraft.png" class="image-popup" title="Click to enlarge"><img src="images/MapCraft.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -524,7 +524,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/mobiles.png" target="_blank" title="View full image"><img src="images/mobiles.png" alt="Teaser"></a>
+          <a href="images/mobiles.png" class="image-popup" title="Click to enlarge"><img src="images/mobiles.png" alt="Teaser"></a>
         </div>
       </div>
 
@@ -574,7 +574,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           </div>
         </div>
         <div class="paper-row-teaser">
-          <a href="images/Projectedmap.png" target="_blank" title="View full image"><img src="images/Projectedmap.png" alt="Teaser"></a>
+          <a href="images/Projectedmap.png" class="image-popup" title="Click to enlarge"><img src="images/Projectedmap.png" alt="Teaser"></a>
         </div>
       </div>
 

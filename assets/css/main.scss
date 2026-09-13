@@ -429,39 +429,49 @@ h1:before, .anchor:before {
 
         .paper-row-main {
             flex: 1 1 auto;
+            max-width: calc(100% - 305px);
             min-width: 0;
         }
 
         .paper-row-teaser {
-            flex: 0 0 230px;
-            max-width: 230px;
-            border-radius: 8px;
+            flex: 0 0 280px;
+            max-width: 280px;
+            height: 105px;
+            border-radius: 6px;
             overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-            border: 1px solid #dbe4de;
-            background: #ffffff;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e2ebe5;
+            background: #fbfdfc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             transition: all 0.25s ease;
 
             a {
-                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 width: 100%;
                 height: 100%;
-                cursor: pointer;
+                padding: 4px;
+                cursor: zoom-in;
             }
 
             img {
-                width: 100%;
-                height: 120px;
-                object-fit: cover;
+                max-width: 100%;
+                max-height: 100%;
+                width: auto;
+                height: auto;
+                object-fit: contain;
                 display: block;
                 transition: transform 0.25s ease;
             }
 
             &:hover {
-                box-shadow: 0 6px 18px rgba(46, 75, 59, 0.16);
+                box-shadow: 0 4px 14px rgba(46, 75, 59, 0.15);
                 border-color: #728A7A;
                 img {
-                    transform: scale(1.04);
+                    transform: scale(1.03);
                 }
             }
         }
@@ -498,13 +508,24 @@ h1:before, .anchor:before {
         align-items: stretch;
         gap: 12px;
 
+        .paper-row-main {
+            max-width: 100%;
+        }
+
         .paper-row-teaser {
             flex: 0 0 auto;
             max-width: 100%;
             width: 100%;
+            height: 140px;
+
+            a {
+                padding: 6px;
+            }
 
             img {
-                height: 150px;
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
             }
         }
     }
@@ -529,9 +550,9 @@ h1:before, .anchor:before {
 /* Minimalist Publication Info */
 .paper-title {
     font-size: 0.98em;
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
-    line-height: 1.35;
+    line-height: 1.38;
     margin-bottom: 0.25em;
 }
 
