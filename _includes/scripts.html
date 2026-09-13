@@ -1,4 +1,19 @@
 <script src="assets/js/main.min.js"></script>
 
+<script>
+function copyBib(btn) {
+  var box = btn.closest('.bibtex-box');
+  if (box) {
+    var code = box.querySelector('code').innerText;
+    navigator.clipboard.writeText(code).then(function() {
+      var orig = btn.innerText;
+      btn.innerText = "Copied!";
+      setTimeout(function() { btn.innerText = orig; }, 2000);
+    });
+  }
+}
+</script>
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+

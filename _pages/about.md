@@ -31,79 +31,224 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 <span class='anchor' id='-publications'></span>
 # ![paper_420287](https://github.com/user-attachments/assets/457296da-93ad-4669-bf3c-bfbe831df244) Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2026</div><img src='images/scroll_vr.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings](https://programs.sigchi.org/mobilehci/2026/program/content/263572) <span style="color: #e74c3c; font-weight: bold;">(🏆 Honorable Mention)</span>
-
-Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, **Yu Liu**
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2026</div><img src='images/movemate.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance](https://programs.sigchi.org/mobilehci/2026/program/content/263573)
-
-Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, **Yu Liu**
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VINCI 2025</div><img src='images/tagmap.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies](https://dl.acm.org/doi/10.1145/3769534.3769610) <span style="color: #e74c3c; font-weight: bold;">(🏆 Honorable Mention)</span>
-
-Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, **Yu Liu**
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VINCI 2025</div><img src='images/journey_west.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West](https://dl.acm.org/doi/10.1145/3769534.3769615)
-
-Zeyu Chen, Anqi Xie, Lingyun Yu, **Yu Liu**
-</div>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">MobileHCI 2026</div><img src='images/scroll_vr.png' alt="Teaser" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title"><a href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</a></div>
+    <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
+    <div class="paper-venue"><em>Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)</em>, 2026. <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-links">
+      <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263572" target="_blank"><i class="fas fa-file-alt"></i> Full Text</a>
+      <details class="paper-bibtex">
+        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
+        <div class="bibtex-box">
+          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
+          <pre><code>@inproceedings{peng2026exploring,
+  title={Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings},
+  author={Peng, Yuanyuan and Guo, Yuhan and Zhou, Yutong and Liu, Suxuan and Wang, Jiayu and Cai, Jiawen and Fu, Yihan and Chen, Xiaojiao and Liu, Yu},
+  booktitle={Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)},
+  year={2026},
+  publisher={ACM}
+}</code></pre>
+        </div>
+      </details>
+    </div>
+  </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobileHCI 2024</div><img src='images/mobiles.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Enhancing Mobile Interaction: Practical Insights from
-Smartphone and Smartwatch Integration](https://dl.acm.org/doi/10.1145/3640471.3680451).
-
-Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, **Yu Liu**
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BigVis 2024</div><img src='images/Projectedmap.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps](https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html).
-
-Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, **Yu Liu**
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MapCraft: Dissecting and Designing Custom Geo-Infographics](https://arxiv.org/abs/2409.13424)
-
-Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, **Yu Liu**
-
-</div>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">MobileHCI 2026</div><img src='images/movemate.png' alt="Teaser" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title"><a href="https://programs.sigchi.org/mobilehci/2026/program/content/263573" target="_blank">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</a></div>
+    <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
+    <div class="paper-venue"><em>Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)</em>, 2026.</div>
+    <div class="paper-links">
+      <a class="paper-btn" href="https://programs.sigchi.org/mobilehci/2026/program/content/263573" target="_blank"><i class="fas fa-file-alt"></i> Full Text</a>
+      <details class="paper-bibtex">
+        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
+        <div class="bibtex-box">
+          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
+          <pre><code>@inproceedings{liu2026movemate,
+  title={MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance},
+  author={Liu, Yihan and Xie, Anqi and Hu, Shuheng and Yue, Yong and Liu, Yu},
+  booktitle={Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26)},
+  year={2026},
+  publisher={ACM}
+}</code></pre>
+        </div>
+      </details>
+    </div>
+  </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChinaVis 2024</div><img src='images/Physicalization.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[A Comparative Study of Table-Sized Physicalization and Digital Visualization](https://arxiv.org/abs/2409.06951)
-
-Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, **Yu Liu**
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">VINCI 2025</div><img src='images/tagmap.png' alt="Teaser" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank">Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies</a></div>
+    <div class="paper-authors">Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, <b>Yu Liu</b></div>
+    <div class="paper-venue"><em>Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)</em>, 2025. <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-links">
+      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769610" target="_blank"><i class="fas fa-file-alt"></i> Full Text (DOI)</a>
+      <details class="paper-bibtex">
+        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
+        <div class="bibtex-box">
+          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
+          <pre><code>@inproceedings{chen2025textcolor,
+  title={Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies},
+  author={Chen, Xinyao and Zhang, Xinyuan and Ma, Teng and Yu, Lingyun and Liu, Yu},
+  booktitle={Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)},
+  pages={1--8},
+  year={2025},
+  publisher={ACM},
+  doi={10.1145/3769534.3769610}
+}</code></pre>
+        </div>
+      </details>
+    </div>
+  </div>
 </div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">VINCI 2025</div><img src='images/journey_west.png' alt="Teaser" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank">From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West</a></div>
+    <div class="paper-authors">Zeyu Chen, Anqi Xie, Lingyun Yu, <b>Yu Liu</b></div>
+    <div class="paper-venue"><em>Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)</em>, 2025.</div>
+    <div class="paper-links">
+      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3769534.3769615" target="_blank"><i class="fas fa-file-alt"></i> Full Text (DOI)</a>
+      <details class="paper-bibtex">
+        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
+        <div class="bibtex-box">
+          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
+          <pre><code>@inproceedings{chen2025myth,
+  title={From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West},
+  author={Chen, Zeyu and Xie, Anqi and Yu, Lingyun and Liu, Yu},
+  booktitle={Proceedings of the 18th International Symposium on Visual Information Communication and Interaction (VINCI '25)},
+  pages={1--8},
+  year={2025},
+  publisher={ACM},
+  doi={10.1145/3769534.3769615}
+}</code></pre>
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">MobileHCI 2024</div><img src='images/mobiles.png' alt="Teaser" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</a></div>
+    <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yutong Dong, <b>Yu Liu</b></div>
+    <div class="paper-venue"><em>Adjunct Proceedings of the 26th International Conference on Mobile Human-Computer Interaction (MobileHCI '24)</em>, 2024.</div>
+    <div class="paper-links">
+      <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank"><i class="fas fa-file-alt"></i> Full Text (DOI)</a>
+      <details class="paper-bibtex">
+        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
+        <div class="bibtex-box">
+          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
+          <pre><code>@inproceedings{cheng2024enhancing,
+  title={Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration},
+  author={Cheng, Qiuyao and Tian, Xuanyao and Liao, Fengyuan and Chen, Tan and Chen, Xinyao and Wang, Zixuan and Dong, Yutong and Liu, Yu},
+  booktitle={Adjunct Proceedings of the 26th International Conference on Mobile Human-Computer Interaction (MobileHCI '24)},
+  pages={1--7},
+  year={2024},
+  doi={10.1145/3640471.3680451}
+}</code></pre>
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">BigVis 2024</div><img src='images/Projectedmap.png' alt="Teaser" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title"><a href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank">Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps</a></div>
+    <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
+    <div class="paper-venue"><em>International Workshop on Big Spatial Data and Visualization (BigVis '24)</em>, 2024.</div>
+    <div class="paper-links">
+      <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank"><i class="fas fa-file-alt"></i> Full Text</a>
+      <details class="paper-bibtex">
+        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
+        <div class="bibtex-box">
+          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
+          <pre><code>@inproceedings{teng2024enhancing,
+  title={Enhancing Geographic Information Visualization: A Comparative Analysis of Digital Maps and Projection Augmented Relief Maps},
+  author={Teng, Changyuanlang and Shi, Zhiwei and Yu, Lingyun and Liu, Yu},
+  booktitle={International Workshop on Big Spatial Data and Visualization (BigVis '24)},
+  year={2024}
+}</code></pre>
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">ChinaVis 2024</div><img src='images/MapCraft.png' alt="Teaser" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title"><a href="https://arxiv.org/abs/2409.13424" target="_blank">MapCraft: Dissecting and Designing Custom Geo-Infographics</a></div>
+    <div class="paper-authors">Xinyuan Zhang, Yifan Xu, Kaiwen Li, Lingyun Yu, <b>Yu Liu</b></div>
+    <div class="paper-venue"><em>Journal of Visualization</em>, 2024. <span class="badge-award">🏆 Honorable Mention</span></div>
+    <div class="paper-links">
+      <a class="paper-btn" href="https://arxiv.org/abs/2409.13424" target="_blank"><i class="fas fa-file-alt"></i> arXiv (Full Text)</a>
+      <details class="paper-bibtex">
+        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
+        <div class="bibtex-box">
+          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
+          <pre><code>@article{zhang2024mapcraft,
+  title={MapCraft: Dissecting and Designing Custom Geo-Infographics},
+  author={Zhang, Xinyuan and Xu, Yifan and Li, Kaiwen and Yu, Lingyun and Liu, Yu},
+  journal={Journal of Visualization},
+  year={2024},
+  doi={10.1007/s12650-024-01048-w}
+}</code></pre>
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div><div class="badge">ChinaVis 2024</div><img src='images/Physicalization.png' alt="Teaser" width="100%"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class="paper-title"><a href="https://arxiv.org/abs/2409.06951" target="_blank">A Comparative Study of Table-Sized Physicalization and Digital Visualization</a></div>
+    <div class="paper-authors">Yanxin Wang, Yihan Liu, Lingyun Yu, Chengtao Ji, <b>Yu Liu</b></div>
+    <div class="paper-venue"><em>Journal of Visualization</em>, 2024.</div>
+    <div class="paper-links">
+      <a class="paper-btn" href="https://arxiv.org/abs/2409.06951" target="_blank"><i class="fas fa-file-alt"></i> arXiv (Full Text)</a>
+      <details class="paper-bibtex">
+        <summary class="paper-btn"><i class="fas fa-quote-right"></i> BibTeX</summary>
+        <div class="bibtex-box">
+          <button class="copy-bib-btn" onclick="copyBib(this)">Copy</button>
+          <pre><code>@article{wang2024comparative,
+  title={A Comparative Study of Table-Sized Physicalization and Digital Visualization},
+  author={Wang, Yanxin and Liu, Yihan and Yu, Lingyun and Ji, Chengtao and Liu, Yu},
+  journal={Journal of Visualization},
+  year={2024},
+  doi={10.1007/s12650-024-01042-2}
+}</code></pre>
+        </div>
+      </details>
+    </div>
+  </div>
 </div>
 
 - Exploring Embodied Asymmetric Two-Handed Interactions for Immersive Data Exploration, Haonan Yao, Lixiang Zhao, Hai-Ning Liang, **Yu Liu**, Yue Li and Lingyun Yu, **ACM CHI 2024**

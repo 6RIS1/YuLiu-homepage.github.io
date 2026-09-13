@@ -107,3 +107,143 @@ h1:before, .anchor:before {
     background-color: #728A7A;
     font-size: .8em;
 }
+
+/* Modern Publication Cards Enhancements */
+.paper-title {
+    font-size: 1.05em;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.3em;
+    a {
+        color: #24292e;
+        text-decoration: none;
+        &:hover {
+            color: #0366d6;
+            text-decoration: underline;
+        }
+    }
+}
+
+.paper-authors {
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 0.3em;
+    line-height: 1.45;
+    strong, b {
+        color: #111;
+        font-weight: 700;
+    }
+}
+
+.paper-venue {
+    font-size: 0.88em;
+    color: #555;
+    margin-bottom: 0.4em;
+    line-height: 1.45;
+    em {
+        color: #29527a;
+        font-style: italic;
+    }
+}
+
+.paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-top: 0.5em;
+}
+
+.paper-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px;
+    font-size: 0.82em;
+    font-weight: 600;
+    color: #0366d6;
+    background-color: #f1f8ff;
+    border: 1px solid rgba(3, 102, 214, 0.25);
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.6;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+        background-color: #0366d6;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+.badge-award {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.82em;
+    font-weight: 700;
+    color: #b94a48;
+    background-color: #fdf2f2;
+    border: 1px solid #f8d7da;
+    padding: 1px 7px;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+
+.paper-bibtex {
+    display: block;
+    width: 100%;
+    margin-top: 4px;
+    summary {
+        display: inline-flex;
+        outline: none;
+        list-style: none;
+        cursor: pointer;
+        user-select: none;
+        &::-webkit-details-marker {
+            display: none;
+        }
+    }
+    &[open] summary {
+        background-color: #0366d6;
+        color: #ffffff;
+    }
+    .bibtex-box {
+        position: relative;
+        margin-top: 8px;
+        margin-bottom: 4px;
+        background-color: #f6f8fa;
+        border: 1px solid #e1e4e8;
+        border-radius: 6px;
+        padding: 10px 12px;
+    }
+    pre {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        border: none;
+        font-size: 0.78em;
+        font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+        white-space: pre-wrap;
+        word-break: break-all;
+        color: #24292e;
+        line-height: 1.45;
+    }
+    .copy-bib-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        padding: 2px 8px;
+        font-size: 0.72em;
+        font-weight: 600;
+        background: #fff;
+        border: 1px solid #d1d5da;
+        border-radius: 3px;
+        cursor: pointer;
+        color: #444;
+        &:hover {
+            background: #f1f8ff;
+            color: #0366d6;
+            border-color: #0366d6;
+        }
+    }
+}
