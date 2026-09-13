@@ -887,10 +887,22 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
       </div>
     </div>
     <div class="timeline-spine-col">
-      <div class="timeline-year-badge">2022</div>
+      <div class="timeline-year-badge clickable-year-badge" onclick="toggleEarlierPubs()" title="Click to view/hide earlier publications (2018–2021)">2022 <span id="badgeYearArrow" class="badge-sub-arrow">▾</span></div>
       <div class="timeline-track-line"></div>
     </div>
   </div>
+
+  <!-- Collapsible Section for Pre-2022 Publications (2018–2021) -->
+  <div class="earlier-pubs-wrapper" id="earlierPubsWrapper">
+    <details class="earlier-pubs-archive" id="earlierPubsArchive">
+      <summary class="earlier-pubs-toggle-wrap">
+        <div class="earlier-pubs-toggle-btn">
+          <span class="toggle-icon">📜</span>
+          <span>View Earlier Publications (2018–2021)</span>
+          <span class="toggle-arrow">▾</span>
+        </div>
+      </summary>
+      <div class="earlier-pubs-content">
 
   <!-- 2021 Year Section -->
   <div class="timeline-year-section" data-year="2021">
@@ -1065,9 +1077,39 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
     </div>
   </div>
 
+      </div>
+    </details>
+  </div>
+
 </div>
 
 <script>
+function toggleEarlierPubs() {
+  var archive = document.getElementById('earlierPubsArchive');
+  if (archive) {
+    archive.open = !archive.open;
+    var arrow = document.getElementById('badgeYearArrow');
+    if (arrow) {
+      arrow.textContent = archive.open ? '▴' : '▾';
+    }
+    if (archive.open) {
+      archive.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var archiveEl = document.getElementById('earlierPubsArchive');
+  if (archiveEl) {
+    archiveEl.addEventListener('toggle', function() {
+      var arrow = document.getElementById('badgeYearArrow');
+      if (arrow) {
+        arrow.textContent = archiveEl.open ? '▴' : '▾';
+      }
+    });
+  }
+});
+
 function toggleFilter(tag, label) {
   var activeBtn = document.querySelector('.filter-btn[data-filter="' + tag + '"]');
   var isAlreadyActive = activeBtn && activeBtn.classList.contains('active');
@@ -1122,6 +1164,24 @@ function filterPubs(tag, label) {
     section.style.display = hasVisible ? 'grid' : 'none';
   });
 
+  // Handle earlier publications archive visibility and open state when filtering
+  var archive = document.getElementById('earlierPubsArchive');
+  var wrapper = document.getElementById('earlierPubsWrapper');
+  if (archive) {
+    var hasMatchInArchive = false;
+    archive.querySelectorAll('.paper-row').forEach(function(row) {
+      if (row.style.display !== 'none') {
+        hasMatchInArchive = true;
+      }
+    });
+    if (hasMatchInArchive) {
+      if (wrapper) wrapper.style.display = 'block';
+      archive.open = true;
+    } else {
+      if (wrapper) wrapper.style.display = 'none';
+    }
+  }
+
   if (statusBar) {
     statusBar.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
@@ -1143,6 +1203,13 @@ function resetFilter() {
   document.querySelectorAll('.timeline-year-section').forEach(function(section) {
     section.style.display = 'grid';
   });
+
+  var wrapper = document.getElementById('earlierPubsWrapper');
+  var archive = document.getElementById('earlierPubsArchive');
+  if (wrapper) wrapper.style.display = 'block';
+  if (archive) archive.open = false;
+  var arrow = document.getElementById('badgeYearArrow');
+  if (arrow) arrow.textContent = '▾';
 }
 </script>
 
