@@ -141,19 +141,20 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="smartwatch multi-device">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-        </div>
-        <div class="paper-title">A Survey on Multi-Device Systems Involving Smartwatches</div>
-        <div class="paper-authors">Yihan Liu, Jiazhe Huang, Yuchen Gu, Fabiola Polidoro, Lingyun Yu, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>International Journal of Human–Computer Interaction (IJHCI)</em>, 2026.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://doi.org/10.1080/10447318.2026.2643339" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@article{liu2026survey,
+      <div class="paper-row has-teaser" data-tags="smartwatch multi-device">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+            <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
+          </div>
+          <div class="paper-title">A Survey on Multi-Device Systems Involving Smartwatches</div>
+          <div class="paper-authors">Yihan Liu, Jiazhe Huang, Yuchen Gu, Fabiola Polidoro, Lingyun Yu, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>International Journal of Human–Computer Interaction (IJHCI)</em>, 2026.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://doi.org/10.1080/10447318.2026.2643339" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@article{liu2026survey,
   title={A Survey on Multi-Device Systems Involving Smartwatches},
   author={Liu, Yihan and Huang, Jiazhe and Gu, Yuchen and Polidoro, Fabiola and Yu, Lingyun and Liu, Yu},
   journal={International Journal of Human–Computer Interaction},
@@ -162,29 +163,38 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   publisher={Taylor & Francis},
   doi={10.1080/10447318.2026.2643339}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/multidevice_survey.jpg" target="_blank" title="View full image"><img src="images/multidevice_survey.jpg" alt="Teaser"></a>
         </div>
       </div>
 
-      <div class="paper-row" data-tags="multi-device">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-        </div>
-        <div class="paper-title">NFTSpot: Visualizing Price Patterns and Investment Opportunities in NFTs</div>
-        <div class="paper-authors"><b>Yu Liu</b>, Ruiqi Chen, Teng Ma</div>
-        <div class="paper-venue"><em>2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)</em>, 2026.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://ieeexplore.ieee.org/document/11582077/" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{liu2026nftspot,
+      <div class="paper-row has-teaser" data-tags="multi-device">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
+          </div>
+          <div class="paper-title">NFTSpot: Visualizing Price Patterns and Investment Opportunities in NFTs</div>
+          <div class="paper-authors"><b>Yu Liu</b>, Ruiqi Chen, Teng Ma</div>
+          <div class="paper-venue"><em>2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)</em>, 2026.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://ieeexplore.ieee.org/document/11582077/" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{liu2026nftspot,
   title={NFTSpot: Visualizing Price Patterns and Investment Opportunities in NFTs},
   author={Liu, Yu and Chen, Ruiqi and Ma, Teng},
   booktitle={2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)},
   year={2026},
   publisher={IEEE}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/nftspot.png" target="_blank" title="View full image"><img src="images/nftspot.png" alt="Teaser"></a>
         </div>
       </div>
     </div>
@@ -246,24 +256,29 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="multi-device">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
-        </div>
-        <div class="paper-title">Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration</div>
-        <div class="paper-authors">Qiuyao Cheng, Lingyun Yu, <b>Yu Liu</b></div>
-        <div class="paper-venue"><em>The China Visualization and Visual Analytics Conference (ChinaVis)</em>, 2025.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://chinavis.org/2025/papers/Evaluating%20Information%20Synchronization%20Methods%20in%20Large%20Display-Centered%20Multi-Device%20Collaboration.pdf" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{cheng2025evaluating,
+      <div class="paper-row has-teaser" data-tags="multi-device">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
+          </div>
+          <div class="paper-title">Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration</div>
+          <div class="paper-authors">Qiuyao Cheng, Lingyun Yu, <b>Yu Liu</b></div>
+          <div class="paper-venue"><em>The China Visualization and Visual Analytics Conference (ChinaVis)</em>, 2025.</div>
+          <div class="paper-actions">
+            <a class="paper-btn" href="https://chinavis.org/2025/papers/Evaluating%20Information%20Synchronization%20Methods%20in%20Large%20Display-Centered%20Multi-Device%20Collaboration.pdf" target="_blank">Full Text</a>
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{cheng2025evaluating,
   title={Evaluating Information Synchronization Methods in Large Display-Centered Multi-Device Collaboration},
   author={Cheng, Qiuyao and Yu, Lingyun and Liu, Yu},
   booktitle={The China Visualization and Visual Analytics Conference (ChinaVis 2025)},
   year={2025}
 }</code></pre>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/large_display_sync.png" target="_blank" title="View full image"><img src="images/large_display_sync.png" alt="Teaser"></a>
         </div>
       </div>
 
