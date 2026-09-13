@@ -22,6 +22,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 <span class='anchor' id='-news'></span>
 # ![world-news_2644746](https://github.com/user-attachments/assets/f25c2d8f-46b8-4880-9473-4280fb48cc65) News
 - *2026.08*: &nbsp; Two papers were accepted to **ACM MobileHCI 2026**! Notably, "*Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings*" received the **Honorable Mention** award. The second paper is "*MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance*".
+- *2025.12*: &nbsp; Two papers were accepted to **ACM VINCI 2025**! Notably, "*Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies*" received the **Honorable Mention** award.
 - *2025.06*: &nbsp; Our project title ARthroMap (画游姑苏), received the Third Prize in the 2025 “Huihu Youth Innovation” Suzhou Dushu Lake University Student Cultural and Creative Competition, along with an entrepreneurial seed fund of 50,000 RMB. I received the title Excellent Instructor. 
 - *2025.05*: &nbsp; I received the Student-Voted Best Teacher Award for the academic year 2023-2024! Thanks to all for your wonderful support!
 - *2024.07*: &nbsp; Our paper titled MapCraft: Dissecting and Designing Custom Geo-Infographics received an honorable mention at ChinaVis 2024.
@@ -45,6 +46,24 @@ Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan
 [MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance](https://programs.sigchi.org/mobilehci/2026/program/content/263573)
 
 Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, **Yu Liu**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VINCI 2025</div><img src='images/tagmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies](https://dl.acm.org/doi/10.1145/3769534.3769610) <span style="color: #e74c3c; font-weight: bold;">(🏆 Honorable Mention)</span>
+
+Xinyao Chen, Xinyuan Zhang, Teng Ma, Lingyun Yu, **Yu Liu**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VINCI 2025</div><img src='images/journey_west.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West](https://dl.acm.org/doi/10.1145/3769534.3769615)
+
+Zeyu Chen, Anqi Xie, Lingyun Yu, **Yu Liu**
 </div>
 </div>
 
