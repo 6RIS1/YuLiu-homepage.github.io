@@ -91,7 +91,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
             <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
             <span class="badge-award">🏆 Honorable Mention</span>
           </div>
-          <div class="paper-title"><span class="badge-new">NEW</span> Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
+          <div class="paper-title">Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings</div>
           <div class="paper-authors">Yuanyuan Peng, Yuhan Guo, Yutong Zhou, Suxuan Liu, Jiayu Wang, Jiawen Cai, Yihan Fu, Xiaojiao Chen, <b>Yu Liu</b></div>
           <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
           <div class="paper-actions">
@@ -119,7 +119,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
             <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
             <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
           </div>
-          <div class="paper-title"><span class="badge-new">NEW</span> MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
+          <div class="paper-title">MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance</div>
           <div class="paper-authors">Yihan Liu, Anqi Xie, Shuheng Hu, Yong Yue, <b>Yu Liu</b></div>
           <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2026.</div>
           <div class="paper-actions">

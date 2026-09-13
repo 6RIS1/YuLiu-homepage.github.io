@@ -437,42 +437,37 @@ h1:before, .anchor:before {
             flex: 0 0 280px;
             max-width: 280px;
             height: 105px;
-            border-radius: 6px;
-            overflow: hidden;
-            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
-            border: 1px solid #e2ebe5;
-            background: #fbfdfc;
             display: flex;
             align-items: center;
-            justify-content: center;
-            transition: all 0.25s ease;
+            justify-content: flex-end;
+            background: transparent;
+            border: none;
+            box-shadow: none;
 
             a {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 100%;
-                height: 100%;
-                padding: 4px;
+                max-width: 100%;
+                max-height: 100%;
                 cursor: zoom-in;
+                text-decoration: none;
             }
 
             img {
                 max-width: 100%;
-                max-height: 100%;
+                max-height: 105px;
                 width: auto;
                 height: auto;
                 object-fit: contain;
                 display: block;
-                transition: transform 0.25s ease;
+                border-radius: 4px;
+                transition: transform 0.2s ease, opacity 0.2s ease;
             }
 
-            &:hover {
-                box-shadow: 0 4px 14px rgba(46, 75, 59, 0.15);
-                border-color: #728A7A;
-                img {
-                    transform: scale(1.03);
-                }
+            &:hover img {
+                transform: scale(1.02);
+                opacity: 0.95;
             }
         }
     }
@@ -484,22 +479,6 @@ h1:before, .anchor:before {
         flex-wrap: wrap;
         margin-bottom: 0.35em;
     }
-}
-
-.badge-new {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.72em;
-    font-weight: 800;
-    color: #047857;
-    background-color: #ecfdf5;
-    border: 1px solid #a7f3d0;
-    padding: 1px 6px;
-    border-radius: 4px;
-    margin-right: 6px;
-    vertical-align: middle;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
 }
 
 @media (max-width: 720px) {
@@ -516,15 +495,17 @@ h1:before, .anchor:before {
             flex: 0 0 auto;
             max-width: 100%;
             width: 100%;
-            height: 140px;
+            height: auto;
+            max-height: 150px;
+            justify-content: flex-start;
 
             a {
-                padding: 6px;
+                padding: 0;
             }
 
             img {
                 max-width: 100%;
-                max-height: 100%;
+                max-height: 150px;
                 object-fit: contain;
             }
         }
