@@ -879,10 +879,10 @@ h1:before, .anchor:before {
         }
 
         .widget-card-quote {
-            font-size: 0.8em;
-            font-style: italic;
-            color: #4b5563;
-            line-height: 1.45;
+            font-size: 0.82em;
+            font-style: normal;
+            color: #374151;
+            line-height: 1.5;
             margin: 0 0 10px 0;
             background: #f9fbf9;
             padding: 8px 10px;
@@ -967,102 +967,6 @@ h1:before, .anchor:before {
     .widget-card {
         width: 280px;
         right: -8px;
-    }
-}
-
-/* Student Competitions Mentorship & Callout Card */
-.competition-callout-card {
-    background: #f7faf8;
-    border: 1px solid #c8d8ce;
-    border-radius: 6px;
-    padding: 16px 20px;
-    margin: 1em 0 1.4em 0;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
-
-    .callout-card-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 8px;
-        margin-bottom: 10px;
-    }
-
-    .callout-card-title {
-        font-size: 0.95em;
-        font-weight: 700;
-        color: #1f4233;
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-
-    .callout-badge {
-        font-size: 0.72em;
-        font-weight: 600;
-        color: #1f4233;
-        background: #ecf3ef;
-        border: 1px solid #b6cec1;
-        border-radius: 4px;
-        padding: 2px 8px;
-        letter-spacing: 0.2px;
-    }
-
-    .callout-card-body {
-        font-size: 0.88em;
-        color: #374151;
-        line-height: 1.55;
-        margin-bottom: 8px;
-        strong {
-            color: #111827;
-        }
-    }
-
-    .callout-card-subbody {
-        font-size: 0.84em;
-        color: #4b5563;
-        line-height: 1.5;
-        margin-bottom: 12px;
-        strong {
-            color: #1f4233;
-        }
-        em {
-            color: #3b5745;
-            font-style: normal;
-        }
-    }
-
-    .callout-card-actions {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        flex-wrap: wrap;
-        padding-top: 4px;
-    }
-
-    .competition-contact-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        padding: 6px 14px;
-        font-size: 0.82em;
-        font-weight: 600;
-        color: #ffffff;
-        background-color: #728A7A;
-        border: 1px solid #728A7A;
-        border-radius: 4px;
-        text-decoration: none;
-        cursor: pointer;
-        box-shadow: 0 1px 3px rgba(35, 71, 57, 0.15);
-        transition: all 0.15s ease;
-
-        &:hover {
-            background-color: #55675b;
-            border-color: #55675b;
-            color: #ffffff;
-            text-decoration: none;
-            box-shadow: 0 2px 6px rgba(35, 71, 57, 0.25);
-        }
     }
 }
 

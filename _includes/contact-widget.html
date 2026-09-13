@@ -1,7 +1,7 @@
 <div class="academic-widget-container" id="academicContactWidget">
   <!-- Speech Bubble / Hint -->
   <div class="widget-speech-bubble" id="widgetSpeechBubble" onclick="toggleContactCard(true)">
-    <span class="bubble-text">💡 Interested in my research? Let's chat!</span>
+    <span class="bubble-text" id="bubbleText">💡 Interested in my research? Let's chat!</span>
     <button class="bubble-close" onclick="event.stopPropagation(); dismissBubble();" title="Close hint">×</button>
   </div>
 
@@ -20,17 +20,17 @@
     <div class="widget-card-content">
       <div class="widget-card-header">
         <h4 class="widget-author-name">Dr. Yu Liu</h4>
-        <span class="widget-author-tag">HCI & Vis</span>
+        <span class="widget-author-tag" id="widgetAuthorTag">HCI & Vis</span>
       </div>
-      <p class="widget-card-quote">
+      <p class="widget-card-quote" id="widgetCardQuote">
         “If I haven't replied to your email right away, I'm probably exploring the world or feeding my cat 🐱🌲”
       </p>
       <div class="widget-card-divider"></div>
-      <p class="widget-card-desc">
+      <p class="widget-card-desc" id="widgetCardDesc">
         Interested in any publication, joint research, or student inquiries? Feel free to reach out!
       </p>
       <div class="widget-card-actions">
-        <a class="widget-action-btn btn-primary" href="mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BResearch%20Inquiry%5D%20Regarding%20your%20work&body=Dear%20Dr.%20Liu%2C%0A%0AI%20came%20across%20your%20research%20and%20would%20love%20to%20connect%20regarding%3A%0A-%20...%0A%0ABest%20regards%2C%0A%5BYour%20Name%20%26%20Affiliation%5D" target="_blank">
+        <a class="widget-action-btn btn-primary" id="widgetEmailBtn" href="mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BResearch%20Inquiry%5D%20Regarding%20your%20work&body=Dear%20Dr.%20Liu%2C%0A%0AI%20came%20across%20your%20research%20and%20would%20love%20to%20connect%20regarding%3A%0A-%20...%0A%0ABest%20regards%2C%0A%5BYour%20Name%20%26%20Affiliation%5D" target="_blank">
           ✉️ Send Email
         </a>
         <button class="widget-action-btn btn-secondary" id="copyEmailBtn" onclick="copyAuthorEmail(this)">
@@ -42,6 +42,57 @@
 </div>
 
 <script>
+var currentWidgetMode = 'default';
+var userDismissedCard = false;
+var wasAutoOpenedByComp = false;
+
+var WIDGET_MODES = {
+  default: {
+    tag: 'HCI & Vis',
+    quote: '“If I haven\'t replied to your email right away, I\'m probably exploring the world or feeding my cat 🐱🌲”',
+    desc: 'Interested in any publication, joint research, or student inquiries? Feel free to reach out!',
+    bubble: '💡 Interested in my research? Let\'s chat!',
+    btnText: '✉️ Send Email',
+    copyText: '📋 Copy Email',
+    mailto: 'mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BResearch%20Inquiry%5D%20Regarding%20your%20work&body=Dear%20Dr.%20Liu%2C%0A%0AI%20came%20across%20your%20research%20and%20would%20love%20to%20connect%20regarding%3A%0A-%20...%0A%0ABest%20regards%2C%0A%5BYour%20Name%20%26%20Affiliation%5D'
+  },
+  competition: {
+    tag: '🏆 竞赛指导 / Team Up',
+    quote: '“如果你对这类比赛感兴趣，可以关注一下最新的 PacificVis Storytelling 比赛，或者 ChinaVis 每年的比赛。它们两个的题目一般会在 9 月份或者 5 月份出来，如果你感兴趣想参加，可以联系我。”',
+    desc: 'ChinaVis (themes out ~May) & PacificVis Storytelling (themes out ~Sept). If you would like to team up, feel free to reach out!',
+    bubble: '🏆 想参加可视化竞赛？点我组队 ▾',
+    btnText: '✉️ 组队参赛 (Email)',
+    copyText: '📋 复制邮箱 (Copy)',
+    mailto: 'mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BCompetition%20Team%20Application%5D%20ChinaVis%20%2F%20PacificVis%20Storytelling%20-%20%5BYour%20Name%5D&body=Hi%20Dr.%20Liu%2C%0A%0AI%20am%20interested%20in%20participating%20in%20ChinaVis%20%2F%20PacificVis%20Visual%20Storytelling%20competition%20with%20you.%0A%0AName%3A%20%0AMajor%2FYear%3A%20%0ABackground%2FSkills%20(e.g.%20Vis%2C%20Design%2C%20Coding)%3A%20%0A%0ALooking%20forward%20to%20hearing%20from%20you!'
+  }
+};
+
+function setWidgetMode(mode) {
+  if (currentWidgetMode === mode) return;
+  currentWidgetMode = mode;
+  var data = WIDGET_MODES[mode];
+  if (!data) return;
+
+  var tag = document.getElementById('widgetAuthorTag');
+  var quote = document.getElementById('widgetCardQuote');
+  var desc = document.getElementById('widgetCardDesc');
+  var bubble = document.getElementById('bubbleText');
+  var emailBtn = document.getElementById('widgetEmailBtn');
+  var copyBtn = document.getElementById('copyEmailBtn');
+
+  if (tag) tag.textContent = data.tag;
+  if (quote) quote.textContent = data.quote;
+  if (desc) desc.textContent = data.desc;
+  if (bubble) bubble.textContent = data.bubble;
+  if (emailBtn) {
+    emailBtn.innerHTML = data.btnText;
+    emailBtn.setAttribute('href', data.mailto);
+  }
+  if (copyBtn && !copyBtn.innerHTML.includes('Copied')) {
+    copyBtn.innerHTML = data.copyText;
+  }
+}
+
 function toggleContactCard(forceOpen) {
   var card = document.getElementById('widgetCard');
   var bubble = document.getElementById('widgetSpeechBubble');
@@ -51,8 +102,12 @@ function toggleContactCard(forceOpen) {
   if (shouldOpen) {
     card.style.display = 'block';
     if (bubble) bubble.style.display = 'none';
+    userDismissedCard = false;
+    wasAutoOpenedByComp = false;
   } else {
     card.style.display = 'none';
+    userDismissedCard = true;
+    wasAutoOpenedByComp = false;
   }
 }
 
@@ -78,6 +133,7 @@ document.addEventListener('click', function(e) {
   if (container && card && card.style.display === 'block') {
     if (!container.contains(e.target)) {
       card.style.display = 'none';
+      wasAutoOpenedByComp = false;
     }
   }
 });
@@ -86,28 +142,79 @@ document.addEventListener('click', function(e) {
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') {
     var card = document.getElementById('widgetCard');
-    if (card) card.style.display = 'none';
+    if (card) {
+      card.style.display = 'none';
+      userDismissedCard = true;
+      wasAutoOpenedByComp = false;
+    }
   }
 });
 
-// Scroll trigger: when user scrolls near Publications, show speech bubble if not dismissed
+// Context-aware scroll observer for Student Competitions & Publications
 (function() {
-  var hasShown = sessionStorage.getItem('dismissedContactBubble');
-  if (hasShown) return;
-  var shownThisSession = false;
-  window.addEventListener('scroll', function() {
-    if (shownThisSession) return;
-    var pubSection = document.getElementById('publications');
-    if (!pubSection) return;
-    var rect = pubSection.getBoundingClientRect();
-    if (rect.top <= window.innerHeight * 0.7 && rect.bottom >= 0) {
-      var bubble = document.getElementById('widgetSpeechBubble');
-      var card = document.getElementById('widgetCard');
-      if (bubble && (!card || card.style.display !== 'block')) {
-        bubble.style.display = 'flex';
-        shownThisSession = true;
+  var pubDismissed = sessionStorage.getItem('dismissedContactBubble');
+  var pubShownThisSession = false;
+
+  function checkScroll() {
+    var compStart = document.getElementById('student-competitions');
+    var compEnd = document.getElementById('educations');
+    var card = document.getElementById('widgetCard');
+    var bubble = document.getElementById('widgetSpeechBubble');
+    var container = document.getElementById('academicContactWidget');
+
+    var inComp = false;
+    if (compStart) {
+      var topRect = compStart.getBoundingClientRect();
+      var bottomPos = compEnd ? compEnd.getBoundingClientRect().top : (topRect.top + 400);
+      if (topRect.top <= window.innerHeight * 0.75 && bottomPos >= window.innerHeight * 0.2) {
+        inComp = true;
       }
     }
-  });
+
+    if (inComp) {
+      setWidgetMode('competition');
+      if (!userDismissedCard && (!card || card.style.display !== 'block')) {
+        if (card) card.style.display = 'block';
+        if (bubble) bubble.style.display = 'none';
+        wasAutoOpenedByComp = true;
+      }
+    } else {
+      setWidgetMode('default');
+      var isHovered = false;
+      try {
+        isHovered = container && container.matches(':hover');
+      } catch(e) {}
+
+      if (wasAutoOpenedByComp && !isHovered) {
+        if (card) card.style.display = 'none';
+        wasAutoOpenedByComp = false;
+      }
+
+      // Reset manual dismissal when user scrolls well away from competition section
+      if (compStart) {
+        var r = compStart.getBoundingClientRect();
+        if (r.top > window.innerHeight * 1.5 || r.bottom < -200) {
+          userDismissedCard = false;
+        }
+      }
+
+      // Default publications bubble
+      if (!pubDismissed && !pubShownThisSession) {
+        var pubSection = document.getElementById('publications');
+        if (pubSection) {
+          var pRect = pubSection.getBoundingClientRect();
+          if (pRect.top <= window.innerHeight * 0.7 && pRect.bottom >= 0) {
+            if (bubble && (!card || card.style.display !== 'block')) {
+              bubble.style.display = 'flex';
+              pubShownThisSession = true;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  window.addEventListener('scroll', checkScroll, { passive: true });
+  setTimeout(checkScroll, 500);
 })();
 </script>

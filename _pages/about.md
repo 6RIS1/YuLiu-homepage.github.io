@@ -521,27 +521,6 @@ function resetFilter() {
 <span class='anchor' id='student-competitions'></span>
 <span class='anchor' id='-honors-and-awards'></span>
 # <span class="heading-icon-badge">🏆</span> Student Competitions
-
-<div class="competition-callout-card">
-  <div class="callout-card-header">
-    <span class="callout-card-title"><span class="subheading-icon-badge">🎯</span> Mentorship & Call for Student Teams</span>
-    <span class="callout-badge">ChinaVis & PacificVis</span>
-  </div>
-  <p class="callout-card-body">
-    I actively mentor undergraduate and postgraduate student teams for annual premier visualization competitions, particularly the <strong>ChinaVis Data Challenge Contest</strong> and the <strong>IEEE PacificVis Visual Storytelling Contest</strong>. Over the years, our student teams have consistently received national-level honors (1st, 2nd, and 3rd Prizes).
-  </p>
-  <p class="callout-card-subbody">
-    If you are passionate about data visualization, HCI, UI/UX design, or creative visual storytelling, <strong>feel free to reach out to me once the annual competition themes are announced</strong> (typically in March–April). Let's brainstorm ideas, craft interactive systems, and compete together! <em>(欢迎对可视化、交互系统、设计或叙事感兴趣的同学在赛题公布后发邮件与我联系，共同组队参赛！)</em>
-  </p>
-  <div class="callout-card-actions">
-    <a class="competition-contact-btn" href="mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BCompetition%20Team%20Application%5D%20ChinaVis%20%2F%20PacificVis%20-%20%5BYour%20Name%5D&body=Dear%20Dr.%20Liu%2C%0A%0AI%20am%20interested%20in%20joining%20your%20competition%20team%20for%20ChinaVis%20%2F%20PacificVis.%0A%0A-%20Name%3A%0A-%20Major%20%26%20Year%3A%0A-%20Skills%20%2F%20Interests%20(e.g.%2C%20Coding%2C%20Visualization%2C%20UI%2FUX%2C%20Storytelling)%3A%0A-%20Track%20or%20Ideas%20of%20Interest%3A%0A%0ABest%20regards%2C">
-      ✉️ Contact Dr. Liu to Form a Team (邮件联系组队)
-    </a>
-  </div>
-</div>
-
-<div class="pub-subheading" style="font-size:0.95em; margin-top:1.2em; margin-bottom:0.6em;"><span class="subheading-icon-badge">🎖️</span> Past Track Record (历年战绩)</div>
-
 - *2026.06* ChinaVis Data Challenge Contest, Third Prize.
 - *2024.06* ChinaVis Data Challenge Contest, Second Prize.
 - *2023.06* ChinaVis Data Challenge Contest, First Prize.
