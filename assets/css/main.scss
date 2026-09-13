@@ -532,3 +532,291 @@ h1:before, .anchor:before {
     }
 }
 
+/* Academic Floating Contact Widget */
+.academic-widget-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.widget-avatar-btn {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    padding: 0;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 0 4px 16px rgba(46, 75, 59, 0.22);
+    outline: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px) scale(1.05);
+        box-shadow: 0 6px 20px rgba(46, 75, 59, 0.3);
+    }
+
+    .widget-avatar-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 72% 22%;
+        display: block;
+    }
+
+    .widget-status-dot {
+        position: absolute;
+        bottom: 1px;
+        right: 1px;
+        width: 13px;
+        height: 13px;
+        background-color: #10b981;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+        animation: pulseStatus 2s infinite;
+    }
+}
+
+@keyframes pulseStatus {
+    0% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    }
+}
+
+.widget-speech-bubble {
+    display: none;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    background: #ffffff;
+    color: #1f2937;
+    font-size: 0.8em;
+    font-weight: 600;
+    border: 1px solid #c8d8ce;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    position: relative;
+    animation: fadeInBubble 0.25s ease-out;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -6px;
+        right: 22px;
+        width: 10px;
+        height: 10px;
+        background: #ffffff;
+        border-right: 1px solid #c8d8ce;
+        border-bottom: 1px solid #c8d8ce;
+        transform: rotate(45deg);
+    }
+
+    .bubble-close {
+        background: none;
+        border: none;
+        color: #9ca3af;
+        cursor: pointer;
+        font-size: 15px;
+        padding: 0 2px;
+        line-height: 1;
+        &:hover {
+            color: #374151;
+        }
+    }
+}
+
+@keyframes fadeInBubble {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.widget-card {
+    position: absolute;
+    bottom: 68px;
+    right: 0;
+    width: 310px;
+    background: #ffffff;
+    border: 1px solid #dce4df;
+    border-radius: 8px;
+    box-shadow: 0 12px 36px rgba(46, 75, 59, 0.18);
+    overflow: hidden;
+    animation: popCard 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+
+    .widget-card-banner {
+        height: 125px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background: #39523f;
+
+        .widget-banner-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 32%;
+            display: block;
+        }
+
+        .widget-card-close {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.45);
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            line-height: 1;
+            transition: background 0.15s ease;
+            &:hover {
+                background: rgba(0, 0, 0, 0.7);
+            }
+        }
+    }
+
+    .widget-card-content {
+        padding: 14px 16px 16px 16px;
+
+        .widget-card-header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+
+        .widget-author-name {
+            margin: 0;
+            font-size: 1.05em;
+            font-weight: 700;
+            color: #1f2937;
+        }
+
+        .widget-author-tag {
+            font-size: 0.72em;
+            font-weight: 600;
+            color: #728A7A;
+            background: #f0f4f1;
+            padding: 1px 6px;
+            border-radius: 4px;
+        }
+
+        .widget-card-quote {
+            font-size: 0.8em;
+            font-style: italic;
+            color: #4b5563;
+            line-height: 1.45;
+            margin: 0 0 10px 0;
+            background: #f9fbf9;
+            padding: 8px 10px;
+            border-left: 2.5px solid #728A7A;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .widget-card-divider {
+            height: 1px;
+            background: #edf1ee;
+            margin: 10px 0;
+        }
+
+        .widget-card-desc {
+            font-size: 0.78em;
+            color: #6b7280;
+            line-height: 1.4;
+            margin: 0 0 12px 0;
+        }
+
+        .widget-card-actions {
+            display: flex;
+            gap: 8px;
+
+            .widget-action-btn {
+                flex: 1;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 6px 10px;
+                font-size: 0.78em;
+                font-weight: 600;
+                border-radius: 4px;
+                text-decoration: none;
+                cursor: pointer;
+                transition: all 0.15s ease;
+                outline: none;
+                border: 1px solid transparent;
+
+                &.btn-primary {
+                    background-color: #728A7A;
+                    color: #ffffff;
+                    border-color: #728A7A;
+                    &:hover {
+                        background-color: #55675b;
+                        border-color: #55675b;
+                        color: #ffffff;
+                        text-decoration: none;
+                    }
+                }
+
+                &.btn-secondary {
+                    background-color: #f0f4f1;
+                    color: #44594c;
+                    border-color: #c1d0c7;
+                    &:hover {
+                        background-color: #e2ebe5;
+                        border-color: #a8bdb0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes popCard {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@media (max-width: 480px) {
+    .academic-widget-container {
+        bottom: 16px;
+        right: 16px;
+    }
+    .widget-card {
+        width: 280px;
+        right: -8px;
+    }
+}
+
+

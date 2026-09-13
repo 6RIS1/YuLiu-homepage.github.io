@@ -1,0 +1,113 @@
+<div class="academic-widget-container" id="academicContactWidget">
+  <!-- Speech Bubble / Hint -->
+  <div class="widget-speech-bubble" id="widgetSpeechBubble" onclick="toggleContactCard(true)">
+    <span class="bubble-text">💡 Interested in my research? Let's chat!</span>
+    <button class="bubble-close" onclick="event.stopPropagation(); dismissBubble();" title="Close hint">×</button>
+  </div>
+
+  <!-- Floating Avatar Button -->
+  <button class="widget-avatar-btn" id="widgetAvatarBtn" onclick="toggleContactCard()" aria-label="Open contact card">
+    <img src="{{ site.baseurl }}/images/avatar_with_cat.jpg" alt="Yu Liu Avatar" class="widget-avatar-img">
+    <span class="widget-status-dot" title="Open to collaborations"></span>
+  </button>
+
+  <!-- Expanded Contact Card -->
+  <div class="widget-card" id="widgetCard" style="display:none;">
+    <div class="widget-card-banner">
+      <img src="{{ site.baseurl }}/images/avatar_with_cat.jpg" alt="Yu Liu & Cat" class="widget-banner-img">
+      <button class="widget-card-close" onclick="toggleContactCard(false)" title="Close card">✕</button>
+    </div>
+    <div class="widget-card-content">
+      <div class="widget-card-header">
+        <h4 class="widget-author-name">Dr. Yu Liu</h4>
+        <span class="widget-author-tag">HCI & Vis</span>
+      </div>
+      <p class="widget-card-quote">
+        “If I haven't replied to your email right away, I'm probably exploring the world or feeding my cat 🐱🌲”
+      </p>
+      <div class="widget-card-divider"></div>
+      <p class="widget-card-desc">
+        Interested in any publication, joint research, or student inquiries? Feel free to reach out!
+      </p>
+      <div class="widget-card-actions">
+        <a class="widget-action-btn btn-primary" href="mailto:Yu.Liu02@xjtlu.edu.cn?subject=%5BResearch%20Inquiry%5D%20Regarding%20your%20work&body=Dear%20Dr.%20Liu%2C%0A%0AI%20came%20across%20your%20research%20and%20would%20love%20to%20connect%20regarding%3A%0A-%20...%0A%0ABest%20regards%2C%0A%5BYour%20Name%20%26%20Affiliation%5D" target="_blank">
+          ✉️ Send Email
+        </a>
+        <button class="widget-action-btn btn-secondary" id="copyEmailBtn" onclick="copyAuthorEmail(this)">
+          📋 Copy Email
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function toggleContactCard(forceOpen) {
+  var card = document.getElementById('widgetCard');
+  var bubble = document.getElementById('widgetSpeechBubble');
+  if (!card) return;
+  var isOpen = card.style.display === 'block';
+  var shouldOpen = typeof forceOpen === 'boolean' ? forceOpen : !isOpen;
+  if (shouldOpen) {
+    card.style.display = 'block';
+    if (bubble) bubble.style.display = 'none';
+  } else {
+    card.style.display = 'none';
+  }
+}
+
+function dismissBubble() {
+  var bubble = document.getElementById('widgetSpeechBubble');
+  if (bubble) bubble.style.display = 'none';
+  sessionStorage.setItem('dismissedContactBubble', '1');
+}
+
+function copyAuthorEmail(btn) {
+  var email = 'Yu.Liu02@xjtlu.edu.cn';
+  navigator.clipboard.writeText(email).then(function() {
+    var orig = btn.innerHTML;
+    btn.innerHTML = '✓ Copied!';
+    setTimeout(function() { btn.innerHTML = orig; }, 2000);
+  });
+}
+
+// Close on outside click
+document.addEventListener('click', function(e) {
+  var container = document.getElementById('academicContactWidget');
+  var card = document.getElementById('widgetCard');
+  if (container && card && card.style.display === 'block') {
+    if (!container.contains(e.target)) {
+      card.style.display = 'none';
+    }
+  }
+});
+
+// Close on ESC key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    var card = document.getElementById('widgetCard');
+    if (card) card.style.display = 'none';
+  }
+});
+
+// Scroll trigger: when user scrolls near Publications, show speech bubble if not dismissed
+(function() {
+  var hasShown = sessionStorage.getItem('dismissedContactBubble');
+  if (hasShown) return;
+  var shownThisSession = false;
+  window.addEventListener('scroll', function() {
+    if (shownThisSession) return;
+    var pubSection = document.getElementById('publications');
+    if (!pubSection) return;
+    var rect = pubSection.getBoundingClientRect();
+    if (rect.top <= window.innerHeight * 0.7 && rect.bottom >= 0) {
+      var bubble = document.getElementById('widgetSpeechBubble');
+      var card = document.getElementById('widgetCard');
+      if (bubble && (!card || card.style.display !== 'block')) {
+        bubble.style.display = 'flex';
+        shownThisSession = true;
+      }
+    }
+  });
+})();
+</script>
