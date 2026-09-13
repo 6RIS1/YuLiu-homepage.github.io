@@ -65,6 +65,14 @@
     .paper-box-text {
         width: 100%;
         order: 1;
+
+        .paper-row-tags {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 0.45em;
+        }
     }
 
     @include breakpoint($medium) {
