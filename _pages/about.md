@@ -215,7 +215,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   author={Liu, Yu and Chen, Ruiqi and Ma, Teng},
   booktitle={2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)},
   year={2026},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/CSCWD68734.2026.11582077}
 }</code></pre>
             </details>
           </div>
@@ -283,7 +284,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   author={Xia, Zhouxuan and Liao, Fengyuan and Du, Jinyuan and Liu, Yu},
   booktitle={2025 IEEE Visualization and Visual Analytics (VIS)},
   year={2025},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/vis60296.2025.00081}
 }</code></pre>
             </details>
           </div>
@@ -448,8 +450,10 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   title={Jinling Fenghua: Unfolding Cultural History of the Jinling Context via Visual Storytelling},
   author={Xie, Anqi and Xie, Yejuan and Liu, Yu and Yu, Lingyun and Yao, Lijie and Ji, Chengtao},
   booktitle={2025 28th International Conference on Computer Supported Cooperative Work in Design (CSCWD)},
+  pages={2366--2371},
   year={2025},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/CSCWD64889.2025.11033436}
 }</code></pre>
           </details>
         </div>
@@ -472,7 +476,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   author={Qin, Wenya and Chen, Ruiqi and Liu, Yihan and Liu, Yu},
   booktitle={2025 IEEE Smart World Congress (SWC)},
   year={2025},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/swc65939.2025.00170}
 }</code></pre>
             </details>
           </div>
@@ -496,7 +501,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
         </div>
         <div class="paper-title">Experimental Analysis of Freehand Multi-object Selection Techniques in Virtual Reality Head-Mounted Displays</div>
-        <div class="paper-authors">Rongkai Shi, Yawen Wei, Xiaoxuan Hu, <b>Yu Liu</b>, Yong Yue, Lingyun Yu, Hai-Ning Liang</div>
+        <div class="paper-authors">Rongkai Shi, Yushi Wei, Xuning Hu, <b>Yu Liu</b>, Yong Yue, Lingyun Yu, Hai-Ning Liang</div>
         <div class="paper-venue"><em>Proceedings of the ACM on Human-Computer Interaction (PACMHCI)</em>, ISS, 2024.</div>
         <div class="paper-actions">
           <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3698129" target="_blank">Full Text</a>
@@ -504,7 +509,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
             <summary class="paper-btn">BibTeX</summary>
             <pre><code>@article{shi2024experimental,
   title={Experimental Analysis of Freehand Multi-object Selection Techniques in Virtual Reality Head-Mounted Displays},
-  author={Shi, Rongkai and Wei, Yawen and Hu, Xiaoxuan and Liu, Yu and Yue, Yong and Yu, Lingyun and Liang, Hai-Ning},
+  author={Shi, Rongkai and Wei, Yushi and Hu, Xuning and Liu, Yu and Yue, Yong and Yu, Lingyun and Liang, Hai-Ning},
   journal={Proceedings of the ACM on Human-Computer Interaction},
   volume={8},
   number={ISS},
@@ -517,30 +522,6 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
-      <div class="paper-row" data-tags="smartwatch sports">
-        <div class="paper-row-tags">
-          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
-          <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
-        </div>
-        <div class="paper-title">A Survey on Activity Visualization for Smartwatches</div>
-        <div class="paper-authors">Zhouxuan Xia, <b>Yu Liu</b>, Fabiola Polidoro</div>
-        <div class="paper-venue"><em>The 16th IEEE Pacific Visualization Symposium (PacificVis)</em>, 2024.</div>
-        <div class="paper-actions">
-          <a class="paper-btn" href="https://ieeexplore.ieee.org/abstract/document/10543666" target="_blank">Full Text</a>
-          <details class="paper-bibtex">
-            <summary class="paper-btn">BibTeX</summary>
-            <pre><code>@inproceedings{xia2024survey,
-  title={A Survey on Activity Visualization for Smartwatches},
-  author={Xia, Zhouxuan and Liu, Yu and Polidoro, Fabiola},
-  booktitle={2024 IEEE 16th Pacific Visualization Symposium (PacificVis)},
-  pages={1--10},
-  year={2024},
-  publisher={IEEE}
-}</code></pre>
-          </details>
-        </div>
-      </div>
-
       <div class="paper-row has-teaser" data-tags="smartwatch multi-device">
         <div class="paper-row-main">
           <div class="paper-row-tags">
@@ -548,7 +529,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
             <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
           </div>
           <div class="paper-title">Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration</div>
-          <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, <b>Yu Liu</b></div>
+          <div class="paper-authors">Qiuyao Cheng, Xuanyao Tian, Fengyuan Liao, Tan Chen, Xinyao Chen, Zixuan Wang, Yuntong Dong, <b>Yu Liu</b></div>
           <div class="paper-venue"><em>ACM International Conference on Mobile Human-Computer Interaction (MobileHCI)</em>, 2024.</div>
           <div class="paper-actions">
             <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3640471.3680451" target="_blank">Full Text</a>
@@ -556,7 +537,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
               <summary class="paper-btn">BibTeX</summary>
               <pre><code>@inproceedings{cheng2024enhancing,
   title={Enhancing Mobile Interaction: Practical Insights from Smartphone and Smartwatch Integration},
-  author={Cheng, Qiuyao and Tian, Xuanyao and Liao, Fengyuan and Chen, Tan and Chen, Xinyao and Wang, Zixuan and Liu, Yu},
+  author={Cheng, Qiuyao and Tian, Xuanyao and Liao, Fengyuan and Chen, Tan and Chen, Xinyao and Wang, Zixuan and Dong, Yuntong and Liu, Yu},
   booktitle={Proceedings of the 26th International Conference on Mobile Human-Computer Interaction (MobileHCI '24)},
   year={2024},
   publisher={ACM},
@@ -576,7 +557,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
             <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
           </div>
           <div class="paper-title">CHORDination: Evaluating Visual Design Choices in Chord Diagrams for Network Data</div>
-          <div class="paper-authors">Kexin Wang, Shuqi He, Wei Wang, Jiazhou Yu, <b>Yu Liu</b>, Lingyun Yu</div>
+          <div class="paper-authors">Kai Wang, Shuqi He, Wenlu Wang, Jinbei Yu, <b>Yu Liu</b>, Lingyun Yu</div>
           <div class="paper-venue"><em>ACM International Symposium on Visual Information Communication and Interaction (VINCI)</em>, 2024.</div>
           <div class="paper-actions">
             <a class="paper-btn" href="https://dl.acm.org/doi/10.1145/3678698.3678707" target="_blank">Full Text</a>
@@ -584,7 +565,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
               <summary class="paper-btn">BibTeX</summary>
               <pre><code>@inproceedings{wang2024chordination,
   title={CHORDination: Evaluating Visual Design Choices in Chord Diagrams for Network Data},
-  author={Wang, Kexin and He, Shuqi and Wang, Wei and Yu, Jiazhou and Liu, Yu and Yu, Lingyun},
+  author={Wang, Kai and He, Shuqi and Wang, Wenlu and Yu, Jinbei and Liu, Yu and Yu, Lingyun},
   booktitle={Proceedings of the 17th International Symposium on Visual Information Communication and Interaction (VINCI '24)},
   year={2024},
   publisher={ACM},
@@ -608,7 +589,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           <div class="paper-authors">Changyuanlang Teng, Zhiwei Shi, Lingyun Yu, <b>Yu Liu</b></div>
           <div class="paper-venue"><em>International Workshop on Big Spatial Data and Visualization (BigVis)</em>, 2024.</div>
           <div class="paper-actions">
-            <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/cfp.html" target="_blank">Full Text</a>
+            <a class="paper-btn" href="https://bigvis.imsi.athenarc.gr/bigvis2024/papers/BigVis2024_09.pdf" target="_blank">Full Text</a>
             <details class="paper-bibtex">
               <summary class="paper-btn">BibTeX</summary>
               <pre><code>@inproceedings{teng2024enhancing,
@@ -727,17 +708,17 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
         <div class="paper-title">TangibleChannel: An Innovative Data Physicalization System for Visual Channel Education</div>
         <div class="paper-authors">Siqi Xie, <b>Yu Liu</b>, Lingyun Yu</div>
-        <div class="paper-venue"><em>IEEE Visualization and Visual Analytics (VIS)</em>, 2023.</div>
+        <div class="paper-venue"><em>IEEE Visualization and Visual Analytics (VIS Posters)</em>, 2023.</div>
         <div class="paper-actions">
-          <a class="paper-btn" href="https://ieeexplore.ieee.org/document/10322194/" target="_blank">Full Text</a>
+          <a class="paper-btn" href="https://arxiv.org/abs/2410.18810" target="_blank">Full Text</a>
           <details class="paper-bibtex">
             <summary class="paper-btn">BibTeX</summary>
             <pre><code>@inproceedings{xie2023tangiblechannel,
   title={TangibleChannel: An Innovative Data Physicalization System for Visual Channel Education},
   author={Xie, Siqi and Liu, Yu and Yu, Lingyun},
-  booktitle={2023 IEEE Visualization and Visual Analytics (VIS)},
+  booktitle={2023 IEEE Visualization and Visual Analytics (VIS Posters)},
   year={2023},
-  publisher={IEEE}
+  doi={10.48550/arXiv.2410.18810}
 }</code></pre>
           </details>
         </div>
@@ -749,19 +730,20 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           <span class="tag-theme" onclick="toggleFilter('cultural', '🏛️ Cultural Heritage')">🏛️ Cultural Heritage</span>
         </div>
         <div class="paper-title">TimeQuestAR: Unfolding Cultural Narratives via Situated Visualizations</div>
-        <div class="paper-authors">Nan Xu, <b>Yu Liu</b>, Zhaoxin Zhang, Lingyun Yu</div>
+        <div class="paper-authors">Ningning Xu, <b>Yu Liu</b>, Zhichao Zhang, Lingyun Yu</div>
         <div class="paper-venue"><em>2023 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)</em>, 2023.</div>
         <div class="paper-actions">
-          <a class="paper-btn" href="https://ieeexplore.ieee.org/document/10316410/" target="_blank">Full Text</a>
+          <a class="paper-btn" href="https://doi.org/10.1109/ISMAR-Adjunct60411.2023.00026" target="_blank">Full Text</a>
           <details class="paper-bibtex">
             <summary class="paper-btn">BibTeX</summary>
             <pre><code>@inproceedings{xu2023timequestar,
   title={TimeQuestAR: Unfolding Cultural Narratives via Situated Visualizations},
-  author={Xu, Nan and Liu, Yu and Zhang, Zhaoxin and Yu, Lingyun},
+  author={Xu, Ningning and Liu, Yu and Zhang, Zhichao and Yu, Lingyun},
   booktitle={2023 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)},
-  pages={1--6},
+  pages={86--91},
   year={2023},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/ISMAR-Adjunct60411.2023.00026}
 }</code></pre>
           </details>
         </div>
@@ -773,19 +755,43 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
         </div>
         <div class="paper-title">A Study of Zooming, Interactive Lenses and Overview+Detail Techniques in Collaborative Map-Based Tasks</div>
-        <div class="paper-authors"><b>Yu Liu</b>, Zhaoxin Zhang, Yuxin Pan, Yue Li, Hai-Ning Liang, Paul Craig, Lingyun Yu</div>
+        <div class="paper-authors"><b>Yu Liu</b>, Zhichao Zhang, Yushan Pan, Yue Li, Hai-Ning Liang, Paul Craig, Lingyun Yu</div>
         <div class="paper-venue"><em>2023 IEEE 16th Pacific Visualization Symposium (PacificVis)</em>, 2023.</div>
         <div class="paper-actions">
-          <a class="paper-btn" href="https://ieeexplore.ieee.org/document/10134444/" target="_blank">Full Text</a>
+          <a class="paper-btn" href="https://doi.org/10.1109/PacificVis56936.2023.00009" target="_blank">Full Text</a>
           <details class="paper-bibtex">
             <summary class="paper-btn">BibTeX</summary>
             <pre><code>@inproceedings{liu2023study,
   title={A Study of Zooming, Interactive Lenses and Overview+Detail Techniques in Collaborative Map-Based Tasks},
-  author={Liu, Yu and Zhang, Zhaoxin and Pan, Yuxin and Li, Yue and Liang, Hai-Ning and Craig, Paul and Yu, Lingyun},
+  author={Liu, Yu and Zhang, Zhichao and Pan, Yushan and Li, Yue and Liang, Hai-Ning and Craig, Paul and Yu, Lingyun},
   booktitle={2023 IEEE 16th Pacific Visualization Symposium (PacificVis)},
-  pages={1--10},
+  pages={11--20},
   year={2023},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/PacificVis56936.2023.00009}
+}</code></pre>
+          </details>
+        </div>
+      </div>
+
+      <div class="paper-row" data-tags="smartwatch sports">
+        <div class="paper-row-tags">
+          <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
+          <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
+        </div>
+        <div class="paper-title">A Study on Activity Visualization for Smart Watches</div>
+        <div class="paper-authors">Zhouxuan Xia, <b>Yu Liu</b>, Fabiola Polidoro</div>
+        <div class="paper-venue"><em>The 16th IEEE Pacific Visualization Symposium (PacificVis Posters)</em>, 2023.</div>
+        <div class="paper-actions">
+          <a class="paper-btn" href="https://arxiv.org/abs/2407.02012" target="_blank">Full Text</a>
+          <details class="paper-bibtex">
+            <summary class="paper-btn">BibTeX</summary>
+            <pre><code>@inproceedings{xia2023study,
+  title={A Study on Activity Visualization for Smart Watches},
+  author={Xia, Zhouxuan and Liu, Yu and Polidoro, Fabiola},
+  booktitle={2023 IEEE 16th Pacific Visualization Symposium (PacificVis Posters)},
+  year={2023},
+  doi={10.48550/arXiv.2407.02012}
 }</code></pre>
           </details>
         </div>
@@ -830,18 +836,18 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
           <span class="tag-device" onclick="toggleFilter('multi-device', '🖥️ Multi-Device & Display')">🖥️ Multi-Device & Display</span>
         </div>
         <div class="paper-title">DARC: A Visual Analytics System for Multivariate Applicant Data Aggregation, Reasoning and Comparison</div>
-        <div class="paper-authors">Yihan Hou, <b>Yu Liu</b>, Hao Wang, Zhaoxin Zhang, Yue Li, Hai-Ning Liang, Lingyun Yu</div>
+        <div class="paper-authors">Yihan Hou, <b>Yu Liu</b>, He Wang, Zhichao Zhang, Yue Li, Hai-Ning Liang, Lingyun Yu</div>
         <div class="paper-venue"><em>Pacific Graphics (PG Short Papers)</em>, 2022.</div>
         <div class="paper-actions">
-          <a class="paper-btn" href="https://doi.org/10.2312/pg.20221239" target="_blank">Full Text</a>
+          <a class="paper-btn" href="https://doi.org/10.2312/pg.20221248" target="_blank">Full Text</a>
           <details class="paper-bibtex">
             <summary class="paper-btn">BibTeX</summary>
             <pre><code>@inproceedings{hou2022darc,
   title={DARC: A Visual Analytics System for Multivariate Applicant Data Aggregation, Reasoning and Comparison},
-  author={Hou, Yihan and Liu, Yu and Wang, Hao and Zhang, Zhaoxin and Li, Yue and Liang, Hai-Ning and Yu, Lingyun},
+  author={Hou, Yihan and Liu, Yu and Wang, He and Zhang, Zhichao and Li, Yue and Liang, Hai-Ning and Yu, Lingyun},
   booktitle={Pacific Graphics Short Papers},
   year={2022},
-  doi={10.2312/pg.20221239}
+  doi={10.2312/pg.20221248}
 }</code></pre>
           </details>
         </div>
@@ -864,7 +870,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   booktitle={2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)},
   pages={1--5},
   year={2022},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/ISMAR-Adjunct57072.2022.00026}
 }</code></pre>
           </details>
         </div>
@@ -908,7 +915,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   booktitle={2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)},
   pages={1--6},
   year={2021},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/CSCWD49262.2021.9437845}
 }</code></pre>
           </details>
         </div>
@@ -931,7 +939,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   booktitle={2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)},
   pages={1--6},
   year={2021},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/CSCWD49262.2021.9437656}
 }</code></pre>
           </details>
         </div>
@@ -964,7 +973,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   booktitle={2019 IEEE Pacific Visualization Symposium (PacificVis)},
   pages={1--5},
   year={2019},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/PacificVis.2019.00039}
 }</code></pre>
           </details>
         </div>
@@ -988,7 +998,8 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   booktitle={2019 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)},
   pages={1--6},
   year={2019},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/PERCOMW.2019.8730811}
 }</code></pre>
           </details>
         </div>
