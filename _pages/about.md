@@ -140,6 +140,28 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
         </div>
       </div>
 
+      <div class="paper-row has-teaser" data-tags="">
+        <div class="paper-row-main">
+          <div class="paper-title">LivingSketches: Co-creation Platform for Children’s Visual Storytelling</div>
+          <div class="paper-authors">Mei Wang, <b>Yu Liu</b>, Lijie Yao, Lingyun Yu</div>
+          <div class="paper-venue"><em>The 13th China Visualization and Visual Analytics Conference (ChinaVis)</em>, 2026.</div>
+          <div class="paper-actions">
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{wang2026livingsketches,
+  title={LivingSketches: Co-creation Platform for Children’s Visual Storytelling},
+  author={Wang, Mei and Liu, Yu and Yao, Lijie and Yu, Lingyun},
+  booktitle={The 13th China Visualization and Visual Analytics Conference (ChinaVis 2026)},
+  year={2026}
+}</code></pre>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/livingsketches.png" class="image-popup" title="Click to enlarge"><img src="images/livingsketches.png" alt="Teaser"></a>
+        </div>
+      </div>
+
       <div class="paper-row has-teaser" data-tags="smartwatch sports">
         <div class="paper-row-main">
           <div class="paper-row-tags">
