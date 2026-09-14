@@ -23,11 +23,12 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
 <span class='anchor' id='-news'></span>
 # <span class="heading-icon-badge">📰</span> News
 - *2026.08*: &nbsp; Two papers were accepted to **ACM MobileHCI 2026**! Notably, *"Exploring the Effects of Narrative Virtual Reality in Traditional Chinese Scroll Paintings"* received the **Honorable Mention** award. The second paper is *"MoveMate: Supporting Video-Guided Workouts through Motion Visual Analysis and Multi-Device Guidance"*.
-- *2025.12*: &nbsp; Two papers were accepted to **ACM VINCI 2025**! Notably, *"Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies"* received the **Honorable Mention** award. The second paper is *"From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West"*.
+- *2026.07*: &nbsp; Our paper *"Tangible Carbon Blocks: Data Physicalization for Everyday Carbon Emissions"* received the **Best Paper Honorable Mention** award at **ChinaVis 2026**!
 
 <details class="news-archive">
-  <summary class="news-toggle-btn"><span>View More News (5)</span> <span class="toggle-arrow">▾</span></summary>
+  <summary class="news-toggle-btn"><span>View More News (6)</span> <span class="toggle-arrow">▾</span></summary>
   <ul class="news-archive-list">
+    <li><em>2025.12</em>: &nbsp; Two papers were accepted to <strong>ACM VINCI 2025</strong>! Notably, <em>"Text-Color Hybrid Labeling for Multiclass Map Visualization: A Comparative Evaluation of Four Annotation Strategies"</em> received the <strong>Honorable Mention</strong> award. The second paper is <em>"From Myth to Interface: An AI-Augmented Interactive Visual System for Exploring Artifact Interactions in Journey to the West"</em>.</li>
     <li><em>2025.06</em>: &nbsp; Our project <em>"ARthroMap (画游姑苏)"</em> received the <strong>Third Prize</strong> in the <strong>2025 "Huihu Youth Innovation" Suzhou Dushu Lake University Student Cultural and Creative Competition</strong>, along with an entrepreneurial seed fund of 50,000 RMB. I received the title of <strong>Excellent Instructor</strong>.</li>
     <li><em>2025.05</em>: &nbsp; I received the <strong>Student-Voted Best Teacher Award</strong> for the academic year 2023-2024! Thanks to all for your wonderful support!</li>
     <li><em>2024.07</em>: &nbsp; Our paper <em>"MapCraft: Dissecting and Designing Custom Geo-Infographics"</em> received the <strong>Honorable Mention</strong> award at <strong>ChinaVis 2024</strong>.</li>
@@ -84,6 +85,32 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
   <!-- 2026 Year Section -->
   <div class="timeline-year-section" data-year="2026">
     <div class="timeline-content-col">
+      <div class="paper-row has-teaser" data-tags="physicalization">
+        <div class="paper-row-main">
+          <div class="paper-row-tags">
+            <span class="tag-device" onclick="toggleFilter('physicalization', '🧱 Data Physicalization')">🧱 Data Physicalization</span>
+            <span class="badge-award">🏆 Honorable Mention</span>
+          </div>
+          <div class="paper-title">Tangible Carbon Blocks: Data Physicalization for Everyday Carbon Emissions</div>
+          <div class="paper-authors">Jingyu Wang, Jiahan Zhang, <b>Yu Liu</b>, Lingyun Yu, Lijie Yao</div>
+          <div class="paper-venue"><em>The 13th China Visualization and Visual Analytics Conference (ChinaVis)</em>, 2026.</div>
+          <div class="paper-actions">
+            <details class="paper-bibtex">
+              <summary class="paper-btn">BibTeX</summary>
+              <pre><code>@inproceedings{wang2026tangible,
+  title={Tangible Carbon Blocks: Data Physicalization for Everyday Carbon Emissions},
+  author={Wang, Jingyu and Zhang, Jiahan and Liu, Yu and Yu, Lingyun and Yao, Lijie},
+  booktitle={The 13th China Visualization and Visual Analytics Conference (ChinaVis 2026)},
+  year={2026}
+}</code></pre>
+            </details>
+          </div>
+        </div>
+        <div class="paper-row-teaser">
+          <a href="images/blocks_overview.jpg" class="image-popup" title="Click to enlarge"><img src="images/blocks_overview.jpg" alt="Teaser"></a>
+        </div>
+      </div>
+
       <div class="paper-row has-teaser" data-tags="immersive cultural">
         <div class="paper-row-main">
           <div class="paper-row-tags">
