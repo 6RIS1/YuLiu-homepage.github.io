@@ -23,8 +23,8 @@ Hello, I am **Dr. Yu Liu (刘钰)**, an Assistant Professor in the Academy of Ar
 - **Cross-Device & Mobile Visualization**: Novel interactive modalities across smartwatches, mobile devices, and large displays, as well as data physicalization.
 
 <div class="notice--info" markdown="1">
-**📢 Prospective Students & RAs:**  
-I am actively looking for self-motivated **PhD students, Master students, and Undergraduate Research Assistants (RAs)** to join our research group. We are currently working on:
+**📢 Prospective Students:**  
+We warmly welcome self-motivated **Master and Undergraduate students** interested in our research areas to join our research group. We are currently working on:
 1. **Immersive experiences and multimodal interaction for traditional cultural heritage** (e.g., ancient murals, scroll paintings, and cultural artifacts).
 2. **XR-enhanced and multi-device workout/fitness experiences** (e.g., motion analysis, virtual companions, and affective guidance).
 
