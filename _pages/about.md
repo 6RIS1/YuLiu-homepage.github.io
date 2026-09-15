@@ -1239,7 +1239,7 @@ function resetFilter() {
 # <span class="heading-icon-badge">🌟</span> Mentoring & Students
 
 ### PhD Students
-- **Yihan Liu** (*2023.12 – Present*, PhD Candidate, co-supervised)
+- **Yihan Liu** (*2023.12 – Present*, PhD Candidate, Primary Supervisor)
 
 ### Student Competition Awards (Advisor)
 - *2026.06*: ChinaVis 2026 Data Challenge Contest, **Third Prize**
@@ -1285,23 +1285,8 @@ function resetFilter() {
 <span class='anchor' id='services'></span>
 <span class='anchor' id='invited-talks'></span>
 <span class='anchor' id='-invited-talks'></span>
-# <span class="heading-icon-badge">🤝</span> Services & Talks
+# <span class="heading-icon-badge">🤝</span> Services & Activities
 
-### Professional Memberships & Accreditation
-- **Fellow of the Higher Education Academy (FHEA)**
-- **Committee Member**, CSIG Technical Committee on Visualization and Visual Analytics (CSIG-VIS 专委会委员)
-- **Member**, IEEE, ACM, CCF, IET
-
-### Program Committee (PC Member)
-- **ChinaVis 2026** (Paper Track)
-- **ACM VINCI 2026** (Art Track)
-- **IEEE VIS 2026** (Poster Track)
-- **IEEE VIS 2025** (Poster Track)
-- **ACM VINCI 2025** (Culture Track)
-
-### Invited Talks
-- *2023.05*, Key Speaker at CSIG-VIS Outreach Event, Suzhou University of Science and Technology, Suzhou, China.
-- *2023.04*, Key Speaker at the 6th China-Japan-Korea Visualization Forum, Seoul, South Korea.
-
-### Academic Services
-- **Journal & Conference Reviewer**: ACM CHI, ACM CSCW, ACM MobileHCI, ACM ISS, IEEE VIS, IEEE VR, IEEE ISMAR, IEEE PacificVis, ChinaVis, Visual Informatics, IJHCI, etc.
+- **Committees & Memberships**: Program Committee (PC) Member for **IEEE VIS** (Poster 2025, 2026), **ChinaVis** (Paper 2026), and **ACM VINCI** (Culture '25, Art '26). Committee Member of **CSIG-VIS** (专委会委员). Fellow of the Higher Education Academy (**FHEA**). Member of IEEE, ACM, CCF.
+- **Invited Talks**: Key speaker at CSIG-VIS Outreach Event (Suzhou, 2023) and the 6th China-Japan-Korea Visualization Forum (Seoul, 2023).
+- **Journal & Conference Reviewer**: ACM CHI, CSCW, MobileHCI, ISS; IEEE VIS, VR, ISMAR, PacificVis; ChinaVis; Visual Informatics, IJHCI, etc.
