@@ -1235,7 +1235,13 @@ function resetFilter() {
 <span class='anchor' id='student-competitions'></span>
 <span class='anchor' id='-student-competitions'></span>
 <span class='anchor' id='mentoring'></span>
-# <span class="heading-icon-badge">🌟</span> Student Competitions & Mentoring
+<span class='anchor' id='-mentoring'></span>
+# <span class="heading-icon-badge">🌟</span> Mentoring & Students
+
+### PhD Students
+- **Yihan Liu** (*2023.12 – Present*, PhD Candidate, co-supervised)
+
+### Student Competition Awards (Advisor)
 - *2026.06*: ChinaVis 2026 Data Challenge Contest, **Third Prize**
 - *2025.06*: 2025 "Huihu Youth Innovation" Suzhou Dushu Lake Student Cultural and Creative Competition, **Third Prize** (*ARthroMap / 画游姑苏*, 50,000 RMB Seed Fund)
 - *2024.06*: ChinaVis 2024 Data Challenge Contest, **Second Prize** (*Totem Tales / 图腾说*)
@@ -1262,6 +1268,7 @@ function resetFilter() {
 - *2018.02 - 2022.06*, Ph.D. in Computer Science, University of Liverpool (UoL). 
 - *2016.09 - 2017.12*, MSc. in Design for Informatics, University of Edinburgh (UoE).
 - *2012.09 - 2016.06*, BSc. in Computer Science and Software Engineering, Taiyuan University of Technology (TYUT).
+  - *2014.09 - 2015.01*, Academic Exchange, National Chung Cheng University (CCU).
 
 <span class='anchor' id='teaching'></span>
 <span class='anchor' id='-teaching'></span>
@@ -1280,8 +1287,18 @@ function resetFilter() {
 <span class='anchor' id='-invited-talks'></span>
 # <span class="heading-icon-badge">🤝</span> Services & Talks
 
+### Professional Memberships & Accreditation
+- **Fellow of the Higher Education Academy (FHEA)**
+- **Committee Member**, CSIG Technical Committee on Visualization and Visual Analytics (CSIG-VIS 专委会委员)
+- **Member**, IEEE, ACM, CCF, IET
+
+### Program Committee (PC Member)
+- **IEEE VIS 2025** (Poster Track)
+- **ACM VINCI 2025** (Culture Track)
+
 ### Invited Talks
-- *2023.04*, 2023 China-Japan-South Korea Visualization Forum, Seoul, Korea.
+- *2023.05*, Key Speaker at CSIG-VIS Outreach Event, Suzhou University of Science and Technology, Suzhou, China.
+- *2023.04*, Key Speaker at the 6th China-Japan-Korea Visualization Forum, Seoul, South Korea.
 
 ### Academic Services
-- **Reviewer**: IEEE VIS, ACM MobileHCI, ACM CSCW, IJHCI, ACM ISS, IEEE VR, IEEE ISMAR, PacificVis, ChinaVis, ACM VINCI, etc.
+- **Journal & Conference Reviewer**: ACM CHI, ACM CSCW, ACM MobileHCI, ACM ISS, IEEE VIS, IEEE VR, IEEE ISMAR, IEEE PacificVis, ChinaVis, Visual Informatics, IJHCI, etc.
