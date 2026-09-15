@@ -1289,4 +1289,4 @@ function resetFilter() {
 
 - **Committees & Memberships**: Program Committee (PC) Member for **IEEE VIS** (Poster 2025, 2026), **ChinaVis** (Paper 2026), and **ACM VINCI** (Culture '25, Art '26). Committee Member of **CSIG-VIS** (专委会委员). Fellow of the Higher Education Academy (**FHEA**). Member of IEEE, ACM, CCF.
 - **Invited Talks**: Key speaker at CSIG-VIS Outreach Event (Suzhou, 2023) and the 6th China-Japan-Korea Visualization Forum (Seoul, 2023).
-- **Journal & Conference Reviewer**: ACM CHI, CSCW, MobileHCI, ISS; IEEE VIS, VR, ISMAR, PacificVis; ChinaVis; Visual Informatics, IJHCI, etc.
+- **Journal & Conference Reviewer**: IEEE TVCG, IEEE VIS, IEEE VR, IEEE ISMAR, IEEE PacificVis; ACM CHI, CSCW, MobileHCI, ISS; ChinaVis; Visual Informatics, IJHCI, etc.
