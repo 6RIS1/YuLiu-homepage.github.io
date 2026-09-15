@@ -17,18 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am **Dr. Yu Liu (刘钰)**, an Assistant Professor in the Academy of Artificial Intelligence and Advanced Technology at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02) (XJTLU). My research lies at the intersection of **Human-Computer Interaction (HCI)** and **Visualization**, with a special focus on:
-- **Digital Cultural Heritage**: Exploring narrative visualization, multimodal interaction, and immersive experiences (VR/AR) for traditional Chinese cultural heritage, such as ancient murals, traditional handscroll paintings, and opera.
-- **Immersive Sports & Fitness**: Exploring novel interactive technologies and systems to better support sports, fitness, and workout experiences in immersive environments.
-- **Cross-Device & Mobile Visualization**: Novel interactive modalities across smartwatches, mobile devices, and large displays, as well as data physicalization.
+Hello, I am **Dr. Yu Liu (刘钰)**, an Assistant Professor in the Academy of Artificial Intelligence and Advanced Technology at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02) (XJTLU). My research lies at the intersection of **Human-Computer Interaction (HCI)** and **Information Visualization**, with broad interests in mobile and cross-device interaction, immersive XR technologies, narrative visualization, and data physicalization.
 
 <div class="notice--info" markdown="1">
 **📢 Prospective Students:**  
-We warmly welcome self-motivated **Master and Undergraduate students** interested in our research areas to join our research group. We are currently working on:
-1. **Immersive experiences and multimodal interaction for traditional cultural heritage** (e.g., ancient murals, scroll paintings, and cultural artifacts).
-2. **Interactive systems to support sports, fitness, and workout experiences in immersive environments.**
+We warmly welcome self-motivated **Master and Undergraduate students** to join our research group. Our ongoing projects focus on:
+- **Immersive Cultural Heritage**: Exploring interactive and immersive experiences to better appreciate traditional Chinese cultural heritage (e.g., ancient murals and scroll paintings).
+- **Immersive Sports & Exercise**: Designing novel interactive technologies and environments to better support sports, fitness, and workout experiences.
 
-If you have a background or strong interest in *Computer Science, HCI, Interaction Design, Digital Media, or Unity/XR development*, please feel free to drop me an email with your CV and portfolio!
+If you are interested in *HCI, Visualization, Interaction Design, or Unity/XR development*, please feel free to drop me an email with your CV and portfolio!
 </div>
 
 <span class='anchor' id='news'></span>
