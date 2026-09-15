@@ -1266,8 +1266,8 @@ function resetFilter() {
 <span class='anchor' id='teaching'></span>
 <span class='anchor' id='-teaching'></span>
 # <span class="heading-icon-badge">👨‍🏫</span> Teaching
-- CPT001 Professional Skills in Computer Science
-- CPT003 Introduction to Database
+- PSP001: Foundations and Professional Practice in Computer Science
+- ISA104: AI Application Design
 
 <span class='anchor' id='service'></span>
 <span class='anchor' id='-service'></span>
