@@ -17,7 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am Dr. Yu Liu (刘钰), an Assistant Professor at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02). My research interests lie primarily in Human-Computer Interaction (HCI) and Visualization. More specifically, my work focuses on mobile device interaction and visualization, multi-device interaction and visualization, narrative visualization for digital cultural heritage, and data physicalization.
+Hello, I am **Dr. Yu Liu (刘钰)**, an Assistant Professor in the Department of Computing at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02) (XJTLU). My research lies at the intersection of **Human-Computer Interaction (HCI)** and **Visualization**, with a special focus on:
+- **Digital Cultural Heritage**: Exploring narrative visualization, multimodal interaction, and immersive experiences (VR/AR) for traditional Chinese cultural heritage, such as ancient murals, traditional handscroll paintings, and opera.
+- **Immersive Sports & Workout Interaction**: Enhancing at-home and video-guided exercise experiences through motion visual analysis, interactive virtual companions, and multi-device feedback.
+- **Cross-Device & Mobile Visualization**: Novel interactive modalities across smartwatches, mobile devices, and large displays, as well as data physicalization.
+
+<div class="notice--info" markdown="1">
+**📢 Prospective Students & RAs:**  
+I am actively looking for self-motivated **PhD students, Master students, and Undergraduate Research Assistants (RAs)** to join our research group. We are currently working on:
+1. **Immersive experiences and multimodal interaction for traditional cultural heritage** (e.g., ancient murals, scroll paintings, and cultural artifacts).
+2. **XR-enhanced and multi-device workout/fitness experiences** (e.g., motion analysis, virtual companions, and affective guidance).
+
+If you have a background or strong interest in *Computer Science, HCI, Interaction Design, Digital Media, or Unity/XR development*, please feel free to drop me an email with your CV and portfolio!
+</div>
 
 <span class='anchor' id='news'></span>
 <span class='anchor' id='-news'></span>
