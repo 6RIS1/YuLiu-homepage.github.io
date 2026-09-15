@@ -1266,10 +1266,10 @@ function resetFilter() {
 <span class='anchor' id='teaching'></span>
 <span class='anchor' id='-teaching'></span>
 # <span class="heading-icon-badge">👨‍🏫</span> Teaching
-- **2025 – Present**
+- **2026 – Present**
   - *Semester 1 (Autumn)*: **ISA104** AI Application Design
   - *Semester 2 (Spring)*: **PSP001** Foundations and Professional Practice in Computer Science
-- **2022 – 2025**
+- **2022 Autumn – 2026 Spring**
   - *Semester 1 (Autumn)*: **CPT103** Introduction to Databases
   - *Semester 2 (Spring)*: **CPT001** Professional Skills in Computer Science
 
