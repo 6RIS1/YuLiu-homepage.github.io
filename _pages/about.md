@@ -19,14 +19,14 @@ redirect_from:
 
 Hello, I am **Dr. Yu Liu (刘钰)**, an Assistant Professor in the Academy of Artificial Intelligence and Advanced Technology at [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02) (XJTLU). My research lies at the intersection of **Human-Computer Interaction (HCI)** and **Visualization**, with a special focus on:
 - **Digital Cultural Heritage**: Exploring narrative visualization, multimodal interaction, and immersive experiences (VR/AR) for traditional Chinese cultural heritage, such as ancient murals, traditional handscroll paintings, and opera.
-- **Immersive Sports & Workout Interaction**: Enhancing sports, fitness, and workout experiences through motion visual analysis, interactive virtual companions, and multi-device guidance.
+- **Immersive Sports & Fitness**: Exploring novel interactive technologies and systems to better support sports, fitness, and workout experiences in immersive environments.
 - **Cross-Device & Mobile Visualization**: Novel interactive modalities across smartwatches, mobile devices, and large displays, as well as data physicalization.
 
 <div class="notice--info" markdown="1">
 **📢 Prospective Students:**  
 We warmly welcome self-motivated **Master and Undergraduate students** interested in our research areas to join our research group. We are currently working on:
 1. **Immersive experiences and multimodal interaction for traditional cultural heritage** (e.g., ancient murals, scroll paintings, and cultural artifacts).
-2. **XR-enhanced and multi-device workout/fitness experiences** (e.g., motion analysis, virtual companions, and affective guidance).
+2. **Interactive systems to support sports, fitness, and workout experiences in immersive environments.**
 
 If you have a background or strong interest in *Computer Science, HCI, Interaction Design, Digital Media, or Unity/XR development*, please feel free to drop me an email with your CV and portfolio!
 </div>
