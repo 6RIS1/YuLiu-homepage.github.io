@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yu Liu's Homepage"
+title                    : "Yu Liu (刘钰)'s Homepage"
 description              : "Welcome and thanks for your visiting!"
 repository               : "6ris1/YuLiu-homepage.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Dr. Yu Liu"
+  name             : "Dr. Yu Liu (刘钰)"
   avatar           : "images/yLIU.jpg"
   bio              : "Visualization Researcher"
   location         : "Suzhou, China"
