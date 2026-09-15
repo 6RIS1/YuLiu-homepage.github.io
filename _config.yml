@@ -21,11 +21,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Dr.Yu Liu"
+  name             : "Dr. Yu Liu"
   avatar           : "images/yLIU.jpg"
   bio              : "Visualization Researcher"
   location         : "Suzhou, China"
-  employer         :
+  employer         : "Xi'an Jiaotong-Liverpool University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=K_oqjRAAAAAJ&hl=en"
   email            : "Yu.Liu02@xjtlu.edu.cn"
@@ -37,14 +37,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "6ris1"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  dblp             : "https://dblp.org/pid/00/77526.html"
   orcid            : "https://orcid.org/0000-0003-0226-1311"
   pinterest        :
   soundcloud       :

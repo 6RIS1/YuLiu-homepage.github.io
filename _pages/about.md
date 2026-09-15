@@ -521,6 +521,7 @@ Hello, I am an Assistant Professor at [Xi'an Jiaotong-Liverpool University](http
       <div class="paper-row" data-tags="immersive">
         <div class="paper-row-tags">
           <span class="tag-device" onclick="toggleFilter('immersive', '🥽 Immersive XR')">🥽 Immersive XR</span>
+          <span class="badge-award">🏆 Honorable Mention</span>
         </div>
         <div class="paper-title">Experimental Analysis of Freehand Multi-object Selection Techniques in Virtual Reality Head-Mounted Displays</div>
         <div class="paper-authors">Rongkai Shi, Yushi Wei, Xuning Hu, <b>Yu Liu</b>, Yong Yue, Lingyun Yu, Hai-Ning Liang</div>
@@ -1218,45 +1219,65 @@ function resetFilter() {
 }
 </script>
 
+<span class='anchor' id='honors-and-awards'></span>
+<span class='anchor' id='-honors-and-awards'></span>
+<span class='anchor' id='awards'></span>
+# <span class="heading-icon-badge">🏆</span> Honors & Awards
+- *2026.08*: **Honorable Mention**, ACM MobileHCI 2026
+- *2026.07*: **Best Paper Honorable Mention**, ChinaVis 2026
+- *2025.12*: **Honorable Mention**, ACM VINCI 2025
+- *2025.06*: **Excellent Instructor**, 2025 "Huihu Youth Innovation" Suzhou Dushu Lake Student Cultural and Creative Competition
+- *2025.05*: **Student-Voted Best Teacher Award** (AY 2023-2024), XJTLU
+- *2024.11*: **Honorable Mention**, ACM ISS 2024
+- *2024.07*: **Honorable Mention**, ChinaVis 2024
+- *2023.09*: **Best Short Paper**, ACM VINCI 2023
+
+<span class='anchor' id='student-competitions'></span>
+<span class='anchor' id='-student-competitions'></span>
+<span class='anchor' id='mentoring'></span>
+# <span class="heading-icon-badge">🌟</span> Student Competitions & Mentoring
+- *2026.06*: ChinaVis 2026 Data Challenge Contest, **Third Prize**
+- *2025.06*: 2025 "Huihu Youth Innovation" Suzhou Dushu Lake Student Cultural and Creative Competition, **Third Prize** (*ARthroMap / 画游姑苏*, 50,000 RMB Seed Fund)
+- *2024.06*: ChinaVis 2024 Data Challenge Contest, **Second Prize** (*Totem Tales / 图腾说*)
+- *2023.06*: ChinaVis 2023 Data Challenge Contest, **First Prize**
+- *2022.06*: ChinaVis 2022 Data Challenge Contest, **Second Prize**
+- *2021.06*: ChinaVis 2021 Data Challenge Contest, **Merit Prize**
+
+<span class='anchor' id='experience'></span>
+<span class='anchor' id='-experience'></span>
+<span class='anchor' id='work'></span>
+<span class='anchor' id='-work'></span>
+<span class='anchor' id='work-experience'></span>
+<span class='anchor' id='experience-and-education'></span>
+<span class='anchor' id='education'></span>
+<span class='anchor' id='-education'></span>
+<span class='anchor' id='educations'></span>
+# <span class="heading-icon-badge">💼</span> Experience & Education
+
+### Work Experience
+- *2022.08 - Present*, Assistant Professor, [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02) (XJTLU), Suzhou, China.
+- *2021.12 - 2022.06*, Visualization Designer, [Bytedance](https://www.bytedance.com/en/), Beijing, China.
+
+### Education
+- *2018.02 - 2022.06*, Ph.D. in Computer Science, University of Liverpool (UoL). 
+- *2016.09 - 2017.12*, MSc. in Design for Informatics, University of Edinburgh (UoE).
+- *2012.09 - 2016.06*, BSc. in Computer Science and Software Engineering, Taiyuan University of Technology (TYUT).
+
 <span class='anchor' id='teaching'></span>
 <span class='anchor' id='-teaching'></span>
 # <span class="heading-icon-badge">👨‍🏫</span> Teaching
 - CPT001 Professional Skills in Computer Science
 - CPT003 Introduction to Database
 
-
-<span class='anchor' id='student-competitions'></span>
-<span class='anchor' id='-honors-and-awards'></span>
-# <span class="heading-icon-badge">🏆</span> Student Competitions
-- *2026.06* ChinaVis Data Challenge Contest, Third Prize.
-- *2024.06* ChinaVis Data Challenge Contest, Second Prize.
-- *2023.06* ChinaVis Data Challenge Contest, First Prize.
-- *2022.06* ChinaVis Data Challenge Contest, Second Prize.
-- *2021.06* ChinaVis Data Challenge Contest, Merit Prize. 
-
-
-
-<span class='anchor' id='educations'></span>
-<span class='anchor' id='-educations'></span>
-# <span class="heading-icon-badge">🎓</span> Educations
-- *2018.02 - 2022.06*, Ph.D. Computer Science, University of Liverpool (UoL). 
-- *2016.09 - 2017.12*, MSc. Design for Informatics, University of Edinburgh (UoE).
-- *2012.09 - 2016.06*, BSc. Computer Science and Software Engineering. Taiyuan University of Technology (TYUT).
-
-<span class='anchor' id='invited-talks'></span>
-<span class='anchor' id='-invited-talks'></span>
-# <span class="heading-icon-badge">🎤</span> Invited Talks
-- *2023.04*, 2023 China-Japan-South Korea Visualization Forum, Seoul, Korea.
-
 <span class='anchor' id='service'></span>
 <span class='anchor' id='-service'></span>
-# <span class="heading-icon-badge">🤝</span> Service
-Reviewer of IEEE VIS, ACM MobileHCI, CSCW, IJHCI, ISS, IEEE VR, ISMAR, PacificVis, ChinaVis, VINCI etc.
+<span class='anchor' id='services'></span>
+<span class='anchor' id='invited-talks'></span>
+<span class='anchor' id='-invited-talks'></span>
+# <span class="heading-icon-badge">🤝</span> Services & Talks
 
-<span class='anchor' id='work'></span>
-<span class='anchor' id='-work'></span>
-<span class='anchor' id='work-experience'></span>
-<span class='anchor' id='internships'></span>
-# <span class="heading-icon-badge">💼</span> Work Experience
-- *2022.08 - Present*, Assistant Professor, [Xi'an Jiaotong-Liverpool University](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02) (XJTLU), Suzhou, China.
-- *2021.12 - 2022.06*, Visualization Designer, [Bytedance](https://www.bytedance.com/en/), Beijing, China.
+### Invited Talks
+- *2023.04*, 2023 China-Japan-South Korea Visualization Forum, Seoul, Korea.
+
+### Academic Services
+- **Reviewer**: IEEE VIS, ACM MobileHCI, ACM CSCW, IJHCI, ACM ISS, IEEE VR, IEEE ISMAR, PacificVis, ChinaVis, ACM VINCI, etc.
