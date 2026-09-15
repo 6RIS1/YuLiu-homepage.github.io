@@ -1293,6 +1293,9 @@ function resetFilter() {
 - **Member**, IEEE, ACM, CCF, IET
 
 ### Program Committee (PC Member)
+- **ChinaVis 2026** (Paper Track)
+- **ACM VINCI 2026** (Art Track)
+- **IEEE VIS 2026** (Poster Track)
 - **IEEE VIS 2025** (Poster Track)
 - **ACM VINCI 2025** (Culture Track)
 
