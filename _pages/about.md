@@ -1252,6 +1252,17 @@ function resetFilter() {
 ### PhD Students
 - **Yihan Liu** (*2023.12 – Present*, PhD Candidate, Primary Supervisor)
 
+### Undergraduate Research Projects (XJTLU SURF)
+- **2025**: *Multimodal Interaction with AI-Enhanced Digital Scroll Paintings*  
+  ↳ *Outcome: Led to paper accepted at **ACM MobileHCI 2026** (🏆 **Honorable Mention Award**)*
+- **2025**: *Affective Mapping in Virtual Companions on At-Home Workout Experiences*  
+  ↳ *Outcome: Led to paper submitted to **ACM ISS** (Major Revision)*
+- **2024**: *Multi-Device Enhanced At-Home Workout System*  
+  ↳ *Outcome: Led to paper accepted at **ACM MobileHCI 2026***
+- **2024**: *Revitalizing Chinese Opera (Xiqu) with Technology*
+- **2023**: *Exploring the Role of Smartwatches in Multi-Device Visualization: Developing a Design Space and Cross-Device Visualization App*  
+  ↳ *Outcome: Led to paper published at **ACM MobileHCI 2024***
+
 ### Student Competition Awards (Advisor)
 - *2026.06*: ChinaVis 2026 Data Challenge Contest, **Third Prize**
 - *2025.06*: 2025 "Huihu Youth Innovation" Suzhou Dushu Lake Student Cultural and Creative Competition, **Third Prize** (*ARthroMap / 画游姑苏*, 50,000 RMB Seed Fund)
