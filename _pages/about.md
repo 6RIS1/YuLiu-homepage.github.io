@@ -271,6 +271,7 @@ If you are interested in *HCI, Visualization, Interaction Design, or Unity/XR de
           <div class="paper-row-tags">
             <span class="tag-device" onclick="toggleFilter('smartwatch', '⌚ Smartwatch & Mobile')">⌚ Smartwatch & Mobile</span>
             <span class="tag-theme" onclick="toggleFilter('sports', '🏃 Sports & Fitness')">🏃 Sports & Fitness</span>
+            <span class="badge-award">🏆 Wiley China Excellent Author Award</span>
           </div>
           <div class="paper-title">Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches</div>
           <div class="paper-authors"><b>Yu Liu</b>, Zhouxuan Xia, Jinyuan Du</div>
@@ -1234,6 +1235,7 @@ function resetFilter() {
 # <span class="heading-icon-badge">🏆</span> Honors & Awards
 - *2026.08*: **Honorable Mention**, ACM MobileHCI 2026
 - *2026.07*: **Best Paper Honorable Mention**, ChinaVis 2026
+- *2026.03*: **Wiley China Excellent Author Award** (July – December 2025)
 - *2025.12*: **Honorable Mention**, ACM VINCI 2025
 - *2025.06*: **Excellent Instructor**, 2025 "Huihu Youth Innovation" Suzhou Dushu Lake Student Cultural and Creative Competition
 - *2025.05*: **Student-Voted Best Teacher Award** (AY 2023-2024), XJTLU
