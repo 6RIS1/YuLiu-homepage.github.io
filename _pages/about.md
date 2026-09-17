@@ -1253,6 +1253,10 @@ function resetFilter() {
 - **Yihan Liu** (*2023.12 – Present*, PhD Candidate, Primary Supervisor)
 
 ### Undergraduate Research Projects (XJTLU SURF)
+- **2026**: *Sports Danmaku in Immersive Environments* (SURF-2026-0078)  
+  ↳ *Outcome: Led to paper submitted to **ACM CHI 2027** (Under Review)*
+- **2026**: *Generative Visualization for Reading* (SURF-2026-0221)  
+  ↳ *Outcome: Led to paper submitted to **ACM CHI 2027** (Under Review)*
 - **2025**: *Multimodal Interaction with AI-Enhanced Digital Scroll Paintings*  
   ↳ *Outcome: Led to paper accepted at **ACM MobileHCI 2026** (🏆 **Honorable Mention Award**)*
 - **2025**: *Affective Mapping in Virtual Companions on At-Home Workout Experiences*  
